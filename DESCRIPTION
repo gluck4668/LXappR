@@ -1,0 +1,10 @@
+Package: LXappR
+Type: Package
+Title: LXappR
+Version: 0.1
+Author: Dr.Lin
+Maintainer: Dr.LIN <gluck4668@sina.com>
+Description: LXappR can be used for nmr analysis.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
