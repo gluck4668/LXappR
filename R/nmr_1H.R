@@ -16,7 +16,7 @@ if(!dir.exists(dir_save))
   dir.create(dir_save)
 
 # 参考库
-if(file.exists(lib_file))
+if(!is.na(lib_file))
   lib_nmr_hmdb <- read.xlsx(lib_file) else
     data("lib_nmr_hmdb")
 
@@ -30,16 +30,21 @@ x=1
 
 foreach(x=c(1:nrow(test_result)),.errorhandling="pass") %do% {
 
+  print( paste0("Number ",x, " of ", nrow(test_result), " samples is being processed...")  )
+  message ( paste0("Number ",x, " of ", nrow(test_result), " samples is being processed...")  )
+
   test_id <- test_result[x,] %>% as.character() %>% .[1]
   test_x <- test_result[x,] %>% as.character() %>% .[-1] %>% as.numeric()
+  test_x <- test_x[!is.na(test_x)]
 
 #-----参考库里的代谢物与检测结果进行比对-------
-
 lib_y_tab <- data.frame()
 
 y=1
 
 foreach(y=c(1:nrow(lib)),.errorhandling="pass") %do% {
+
+  print( paste0("Number ",y, " of ", nrow(lib), " metabolite libraries was processed...")  )
 
 #---每个代谢物的所有化学位移
 lib_y <- lib[y,] %>% .[,-1] %>% as.numeric() %>% .[!is.na(.)]
@@ -111,8 +116,6 @@ lib_y_tab <- rbind(lib_y_tab,lib_yy_tab) else
 
 }
 
-print( paste0("Number ",y, " of ", nrow(lib), " was processed...")  )
-
 } # foreach y end
 
 df <- lib_y_tab
@@ -130,10 +133,15 @@ for(i in 1:nrow(df)){
 file_all_save <- paste0(dir_save,"/",test_id,"_sample_all.xlsx")
 write.xlsx(df,file_all_save)
 
+# 删除所有值都是NA的列
 df_sub <- subset(df,identified==TRUE)
+df_sub <- df_sub[, colSums(is.na(df_sub)) < nrow(df_sub)]
+
 file_identified <- paste0(dir_save,"/",test_id,"_sample_identified.xlsx")
 if(nrow(df_sub)>0)
    write.xlsx(df_sub,file_identified)
+
+message ( paste0("Number ",x, " of ", nrow(test_result), " samples was done.")  )
 
 } # foreach x end
 
