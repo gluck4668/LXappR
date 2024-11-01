@@ -8,9 +8,9 @@ rm(list=ls())
 
 devtools::load_all()
 
-test_file <- "D:/Desktop/LXappR/dataset/nmr/test.xlsx"
+test_file <- "D:/Desktop/LXappR 2024-11-01/dataset/nmr/test.xlsx"
 
-lib_file <- "D:/Desktop/LXappR/dataset/nmr/lib01.xlsx"
+lib_file <- "D:/Desktop/LXappR 2024-11-01/dataset/nmr/lib.xlsx"
 
 se=0.1
 
