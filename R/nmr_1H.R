@@ -141,10 +141,25 @@ file_identified <- paste0(dir_save,"/",test_id,"_sample_identified.xlsx")
 if(nrow(df_sub)>0)
    write.xlsx(df_sub,file_identified)
 
+#--只显示检测数据---
+test_fun <- function (x){
+  x %>% str_extract(.,"(?=\\().*") %>%
+        str_remove_all(.,"[()]") }
+
+df_test <- df_sub
+
+n_sub <- ncol(df_test)-1
+
+i=1
+for(i in 1:nrow(df_test)){
+df_test[i,c(2:n_sub)] <- test_fun(df_test[i,c(2:n_sub)])}
+
 message ( paste0("Number ",x, " of ", nrow(test_result), " samples was done.")  )
 
 } # foreach x end
 
+
+print(paste0("The identification result can be found in the folder of '",dir_save,"'"))
 
 }
 
