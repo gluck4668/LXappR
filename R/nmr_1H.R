@@ -118,7 +118,8 @@ lib_y_tab <- rbind(lib_y_tab,lib_yy_tab) else
 df <- lib_y_tab
 
 rownames(df) <- c(1:nrow(df))
-colnames(df) <- c("sample_id", paste0("shift",c(2:ncol(df)))  )
+nn <- ncol(df)-1
+colnames(df) <- c("sample_id", paste0("shift",c(1:nn))  )
 df$identified <- NA
 
 for(i in 1:nrow(df)){
