@@ -7,9 +7,6 @@ nmr_1H <- function(test_file=test_file,lib_file=lib_file,se=se){
   library(data.table)
   library(foreach)
 
-#---设置 UTF-8-----
-Sys.setlocale("LC_CTYPE", "Chinese")
-
 #---数据基本信息------------------
 dir_save= paste0("nmr_identificatin_",Sys.Date())
 if(!dir.exists(dir_save))
