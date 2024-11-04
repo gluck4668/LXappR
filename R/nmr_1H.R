@@ -129,13 +129,13 @@ for(i in 1:nrow(df)){
 }
 
 file_all_save <- paste0(dir_save,"/",test_id,"_sample_all.xlsx")
-write.xlsx(df,file_all_save)
+# write.xlsx(df,file_all_save)
 
 # 删除所有值都是NA的列
 df_sub <- subset(df,identified==TRUE)
 df_sub <- df_sub[, colSums(is.na(df_sub)) < nrow(df_sub)]
 
-file_identified <- paste0(dir_save,"/",test_id,"_sample_identified.xlsx")
+file_identified <- paste0(dir_save,"/",test_id,"_identified.xlsx")
 if(nrow(df_sub)>0)
    write.xlsx(df_sub,file_identified)
 
