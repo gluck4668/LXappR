@@ -14,7 +14,11 @@ if(!dir.exists(dir_save))
 
 # 参考库
 if(!is.na(lib_file))
-  lib_nmr_hmdb <- read.xlsx(lib_file) else
+{file_ext <- tools::file_ext(lib_file)
+if(grepl("rds",file_ext,ignore.case = T))
+  lib_nmr_hmdb <- readRDS(lib_file) else
+    lib_nmr_hmdb <- eval(str2expression(paste0("read.",file_ext,"('",lib_file,"')")))
+} else
     data("lib_nmr_hmdb")
 
 lib <- lib_nmr_hmdb

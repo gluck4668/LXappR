@@ -8,9 +8,9 @@ rm(list=ls())
 
 devtools::load_all()
 
-test_file <- "D:/Desktop/LXappR 2024-11-04/dataset/nmr/test.xlsx"
+test_file <- "dataset/nmr/test.xlsx"
 
-lib_file <- "D:/Desktop/LXappR 2024-11-04/dataset/nmr/lib.xlsx"
+lib_file <- "dataset/nmr/nmr_400M.xlsx"
 
 # lib_file <- NA
 
@@ -18,3 +18,4 @@ se=0.1
 
 
 nmr_1H (test_file=test_file,lib_file=lib_file,se=se)
+
