@@ -1,0 +1,1291 @@
+pathway_name,pathway_source,num_overlapping_genes,overlapping_genes,num_all_pathway_genes,P_genes,Q_genes,num_overlapping_metabolites,overlapping_metabolites,num_all_pathway_metabolites,P_metabolites,Q_metabolites,P_joint,Q_joint
+Metabolism,Reactome,52,HEXA;GSTM3;GSTM4;ATP5MC2;PKLR;IDO2;DPYS;FASN;UPB1;NUDT7;PON1;SLC10A1;BPHL;COMT;PYGL;ASPG;SLCO2B1;CYP8B1;INMT;INPP5D;CSAD;FDX1;UGT2A3;CYP27A1;AOX1;ACSM1;AKR1D1;AACS;ACSL1;TM7SF2;MVK;GBE1;ACSM5;HAAO;CYP7B1;HACL1;APOA2;KHK;GCK;ALDH1L1;ACADSB;LBR;ACSS2;CTPS1;GNMT;ME1;HNMT;SLC2A2;ALDH7A1;SLC27A5;CA3;CA5A,1952 (1954),2.02e-22,9.46e-19,9,HMDB0000036;HMDB0010404;HMDB0006752;HMDB0001860;HMDB0010711;HMDB0000128;HMDB0000273;HMDB0013461;HMDB0002183,863 (1411),0.231,1,2.45e-21,2.82e-18
+Metabolism of steroids,Reactome,11,TM7SF2;FDX1;CYP7B1;CYP8B1;SLC27A5;FASN;MVK;CYP27A1;LBR;SLC10A1;AKR1D1,124 (124),4.1e-10,9.58e-07,1,HMDB0000036,113 (142),0.607,1,5.74e-09,3.31e-06
+Metabolism of lipids,Reactome,19,AACS;ACSL1;GSTM4;MVK;HEXA;PON1;CYP7B1;HACL1;CYP8B1;SLC27A5;FASN;INPP5D;FDX1;NUDT7;CYP27A1;SLC10A1;TM7SF2;LBR;AKR1D1,645 (646),2.2e-08,2.13e-05,6,HMDB0000036;HMDB0010404;HMDB0006752;HMDB0010711;HMDB0013461;HMDB0002183,352 (626),0.0532,1,2.53e-08,9.7e-06
+Biological oxidations,Reactome,12,COMT;GSTM3;GSTM4;CYP7B1;ACSM5;CYP8B1;ACSS2;FDX1;UGT2A3;CYP27A1;ACSM1;BPHL,219 (219),1.58e-08,2.13e-05,1,HMDB0001860,231 (320),0.858,1,2.59e-07,3.68e-05
+Bile acid biosynthesis,EHMN,7,CYP7B1;CYP8B1;ALDH7A1;SLC27A5;CYP27A1;SLC10A1;AKR1D1,53 (53),4.53e-08,2.13e-05,1,HMDB0000036,47 (55),0.318,1,2.75e-07,3.68e-05
+Primary bile acid biosynthesis - Homo sapiens (human),KEGG,5,CYP27A1;AKR1D1;CYP7B1;SLC27A5;CYP8B1,17 (17),5.9e-08,2.13e-05,1,HMDB0000036,40 (47),0.278,1,3.1e-07,3.68e-05
+Bile Acid Biosynthesis,SMPDB,5,CYP27A1;CYP8B1;CYP7B1;SLC27A5;AKR1D1,17 (17),5.9e-08,2.13e-05,1,HMDB0000036,58 (64),0.377,1,4.15e-07,3.68e-05
+27-Hydroxylase Deficiency,SMPDB,5,CYP27A1;CYP8B1;CYP7B1;SLC27A5;AKR1D1,17 (17),5.9e-08,2.13e-05,1,HMDB0000036,58 (64),0.377,1,4.15e-07,3.68e-05
+Congenital Bile Acid Synthesis Defect Type II,SMPDB,5,CYP27A1;CYP8B1;CYP7B1;SLC27A5;AKR1D1,17 (17),5.9e-08,2.13e-05,1,HMDB0000036,58 (64),0.377,1,4.15e-07,3.68e-05
+Cerebrotendinous Xanthomatosis (CTX),SMPDB,5,CYP27A1;CYP8B1;CYP7B1;SLC27A5;AKR1D1,17 (17),5.9e-08,2.13e-05,1,HMDB0000036,58 (64),0.377,1,4.15e-07,3.68e-05
+Zellweger Syndrome,SMPDB,5,CYP27A1;CYP8B1;CYP7B1;SLC27A5;AKR1D1,17 (17),5.9e-08,2.13e-05,1,HMDB0000036,58 (64),0.377,1,4.15e-07,3.68e-05
+Familial Hypercholanemia (FHCA),SMPDB,5,CYP27A1;CYP8B1;CYP7B1;SLC27A5;AKR1D1,17 (17),5.9e-08,2.13e-05,1,HMDB0000036,58 (64),0.377,1,4.15e-07,3.68e-05
+Congenital Bile Acid Synthesis Defect Type III,SMPDB,5,CYP27A1;CYP8B1;CYP7B1;SLC27A5;AKR1D1,17 (17),5.9e-08,2.13e-05,1,HMDB0000036,58 (64),0.377,1,4.15e-07,3.68e-05
+Synthesis of bile acids and bile salts via 7alpha-hydroxycholesterol,Reactome,5,SLC27A5;CYP27A1;CYP7B1;AKR1D1;CYP8B1,20 (20),1.46e-07,4.87e-05,1,HMDB0000036,43 (49),0.295,1,7.73e-07,6.36e-05
+Metapathway biotransformation Phase I and II,Wikipathways,10,COMT;GSTM3;GSTM4;HNMT;CYP7B1;CYP8B1;INMT;UGT2A3;CYP27A1;AKR1D1,186 (186),3.23e-07,9.45e-05,0,,0 (0),1,1,3.23e-07,9.45e-05
+Bile acid and bile salt metabolism,Reactome,6,CYP7B1;CYP8B1;SLC27A5;CYP27A1;SLC10A1;AKR1D1,43 (43),3.12e-07,9.45e-05,1,HMDB0000036,59 (79),0.382,1,2.02e-06,0.000155
+Synthesis of bile acids and bile salts,Reactome,5,SLC27A5;CYP27A1;CYP7B1;AKR1D1;CYP8B1,30 (30),1.27e-06,0.000313,1,HMDB0000036,55 (75),0.362,1,7.18e-06,0.000497
+Cholesterol metabolism (includes both Bloch and Kandutsch-Russell pathways),Wikipathways,6,ACSL1;TM7SF2;FASN;MVK;CYP27A1;LBR,46 (46),4.71e-07,0.00013,0,,4 (4),1,1,7.34e-06,0.000497
+Synthesis of bile acids and bile salts via 27-hydroxycholesterol,Reactome,4,CYP27A1;CYP7B1;AKR1D1;CYP8B1,11 (11),5.23e-07,0.000136,0,,14 (16),1,1,8.09e-06,0.000518
+bile acid biosynthesis_ neutral pathway,HumanCyc,4,SLC27A5;CYP27A1;AKR1D1;CYP8B1,15 (15),2.12e-06,0.000451,1,HMDB0000036,38 (44),0.266,1,8.68e-06,0.000526
+Farnesoid X receptor pathway,Wikipathways,4,SLC10A1;CYP8B1;SLC27A5;SLCO2B1,19 (19),5.9e-06,0.000854,0,,0 (1),1,1,5.9e-06,0.000854
+Nuclear Receptors Meta-Pathway,Wikipathways,11,GSTM3;EGFR;FASN;ME1;SLCO2B1;CYP8B1;APOA2;SLC2A2;SLC27A5;GSTM4;SLC10A1,317 (317),6.02e-06,0.000854,0,,0 (0),1,1,6.02e-06,0.000854
+Synthesis of bile acids and bile salts via 24-hydroxycholesterol,Reactome,4,SLC27A5;CYP27A1;AKR1D1;CYP8B1,14 (14),1.56e-06,0.000366,0,,20 (29),1,1,2.25e-05,0.00129
+Oxysterols derived from cholesterol,Wikipathways,4,CYP27A1;CYP8B1;SLC27A5;AKR1D1,15 (15),2.12e-06,0.000451,0,,5 (10),1,1,2.98e-05,0.00164
+Pyruvate metabolism,INOH,5,LDHD;PKLR;ALDH7A1;ACSS2;ME1,34 (34),2.43e-06,0.000495,0,,30 (31),1,1,3.39e-05,0.00178
+Sialuria or French Type Sialuria,SMPDB,4,NPL;HEXA;AMDHD2;GFPT1,17 (17),3.66e-06,0.000591,0,,31 (32),1,1,4.95e-05,0.00204
+Sialuria or French Type Sialuria,SMPDB,4,NPL;HEXA;AMDHD2;GFPT1,17 (17),3.66e-06,0.000591,0,,31 (32),1,1,4.95e-05,0.00204
+Amino Sugar Metabolism,SMPDB,4,NPL;HEXA;AMDHD2;GFPT1,17 (17),3.66e-06,0.000591,0,,31 (32),1,1,4.95e-05,0.00204
+G(M2)-Gangliosidosis: Variant B_ Tay-sachs disease,SMPDB,4,NPL;HEXA;AMDHD2;GFPT1,17 (17),3.66e-06,0.000591,0,,31 (32),1,1,4.95e-05,0.00204
+Tay-Sachs Disease,SMPDB,4,NPL;HEXA;AMDHD2;GFPT1,17 (17),3.66e-06,0.000591,0,,31 (32),1,1,4.95e-05,0.00204
+Salla Disease/Infantile Sialic Acid Storage Disease,SMPDB,4,NPL;HEXA;AMDHD2;GFPT1,17 (17),3.66e-06,0.000591,0,,31 (32),1,1,4.95e-05,0.00204
+Endogenous sterols,Reactome,4,CYP27A1;CYP7B1;FDX1;CYP8B1,18 (18),4.68e-06,0.000731,0,,31 (40),1,1,6.22e-05,0.00247
+PPAR signaling pathway,Wikipathways,6,ACSL1;ME1;CYP8B1;APOA2;SLC27A5;CYP27A1,68 (68),4.92e-06,0.000742,0,,1 (7),1,1,6.5e-05,0.0025
+Butanoate metabolism - Homo sapiens (human),KEGG,4,AACS;ABAT;ACSM5;ACSM1,28 (28),2.98e-05,0.00279,1,HMDB0001290,28 (42),0.203,1,7.9e-05,0.00293
+Tryptophan metabolism - Homo sapiens (human),KEGG,5,INMT;HAAO;IDO2;AOX1;ALDH7A1,42 (42),7.14e-06,0.000984,0,,59 (83),1,1,9.18e-05,0.00331
+PPAR signaling pathway - Homo sapiens (human),KEGG,6,ACSL1;ME1;CYP8B1;APOA2;SLC27A5;CYP27A1,74 (76),8.07e-06,0.00108,0,,5 (5),1,1,0.000103,0.00357
+beta-Alanine metabolism - Homo sapiens (human),KEGG,4,ABAT;ALDH7A1;UPB1;DPYS,30 (30),3.95e-05,0.00363,1,HMDB0006805,29 (32),0.21,1,0.000105,0.00357
+Pyruvate Dehydrogenase Complex Deficiency,SMPDB,4,PKLR;ME1;ACSS2;LDHD,22 (22),1.1e-05,0.00125,0,,43 (46),1,1,0.000136,0.00393
+Primary hyperoxaluria II_ PH2,SMPDB,4,PKLR;ME1;ACSS2;LDHD,22 (22),1.1e-05,0.00125,0,,43 (46),1,1,0.000136,0.00393
+Pyruvate kinase deficiency,SMPDB,4,PKLR;ME1;ACSS2;LDHD,22 (22),1.1e-05,0.00125,0,,43 (46),1,1,0.000136,0.00393
+Leigh Syndrome,SMPDB,4,PKLR;ME1;ACSS2;LDHD,22 (22),1.1e-05,0.00125,0,,43 (46),1,1,0.000136,0.00393
+Pyruvate Metabolism,SMPDB,4,PKLR;ME1;ACSS2;LDHD,22 (22),1.1e-05,0.00125,0,,43 (46),1,1,0.000136,0.00393
+Pyruvate Decarboxylase E1 Component Deficiency (PDHE1 Deficiency),SMPDB,4,PKLR;ME1;ACSS2;LDHD,22 (22),1.1e-05,0.00125,0,,43 (46),1,1,0.000136,0.00393
+Pyruvate metabolism - Homo sapiens (human),KEGG,5,LDHD;ME1;ALDH7A1;ACSS2;PKLR,47 (47),1.26e-05,0.0014,0,,26 (32),1,1,0.000154,0.00434
+Valine_ leucine and isoleucine degradation - Homo sapiens (human),KEGG,5,AOX1;ABAT;ACADSB;ALDH7A1;AACS,48 (48),1.39e-05,0.00148,0,,34 (42),1,1,0.00017,0.00455
+Amino sugar and nucleotide sugar metabolism - Homo sapiens (human),KEGG,5,NPL;HEXA;AMDHD2;GCK;GFPT1,48 (48),1.39e-05,0.00148,0,,49 (108),1,1,0.00017,0.00455
+Methylation Pathways,Wikipathways,3,COMT;INMT;HNMT,9 (9),2.14e-05,0.00205,0,,5 (5),1,1,0.000252,0.00604
+Carnosinuria_ carnosinemia,SMPDB,3,ABAT;UPB1;DPYS,9 (9),2.14e-05,0.00205,0,,34 (34),1,1,0.000252,0.00604
+Ureidopropionase deficiency,SMPDB,3,ABAT;UPB1;DPYS,9 (9),2.14e-05,0.00205,0,,34 (34),1,1,0.000252,0.00604
+GABA-Transaminase Deficiency,SMPDB,3,ABAT;UPB1;DPYS,9 (9),2.14e-05,0.00205,0,,34 (34),1,1,0.000252,0.00604
+Beta-Alanine Metabolism,SMPDB,3,ABAT;UPB1;DPYS,9 (9),2.14e-05,0.00205,0,,34 (34),1,1,0.000252,0.00604
+Phase I - Functionalization of compounds,Reactome,6,CYP7B1;CYP8B1;BPHL;FDX1;CYP27A1;ACSS2,101 (101),4.8e-05,0.00432,1,HMDB0001860,143 (191),0.695,1,0.000377,0.00887
+Phase II - Conjugation of compounds,Reactome,6,COMT;GSTM3;GSTM4;ACSM5;UGT2A3;ACSM1,111 (111),8.15e-05,0.00693,1,HMDB0001860,115 (149),0.613,1,0.000545,0.0126
+Pathways in clear cell renal cell carcinoma,Wikipathways,5,LDHD;PKLR;FASN;EGFR;ME1,86 (86),0.000234,0.0153,0,,0 (1),1,1,0.000234,0.0153
+Valproic acid pathway,Wikipathways,3,ABAT;ACADSB;ACSM1,13 (13),7.16e-05,0.00621,0,,14 (14),1,1,0.000755,0.0167
+eicosapentaenoate biosynthesis,HumanCyc,3,ACSL1;ACSM5;ACSM1,13 (13),7.16e-05,0.00621,0,,13 (17),1,1,0.000755,0.0167
+&gamma;-linolenate biosynthesis,HumanCyc,3,ACSL1;ACSM5;ACSM1,14 (14),9.07e-05,0.00758,0,,9 (9),1,1,0.000935,0.0203
+Pyrimidine nucleotides nucleosides metabolism,INOH,4,ABAT;CTPS1;UPB1;DPYS,51 (51),0.000325,0.0208,1,HMDB0000273,53 (56),0.351,1,0.00115,0.0245
+uracil degradation,HumanCyc,2,UPB1;DPYS,3 (3),0.000124,0.01,0,,10 (10),1,1,0.00124,0.0255
+thymine degradation,HumanCyc,2,UPB1;DPYS,3 (3),0.000124,0.01,0,,10 (10),1,1,0.00124,0.0255
+Tryptophan metabolism,Wikipathways,4,CYP7B1;HAAO;AOX1;INMT,42 (42),0.000152,0.0121,0,,30 (38),1,1,0.00149,0.0282
+Pyrimidine Metabolism,SMPDB,3,DPYS;UPB1;CTPS1,23 (23),0.000423,0.0244,1,HMDB0000273,56 (57),0.367,1,0.00152,0.0282
+UMP Synthase Deiciency (Orotic Aciduria),SMPDB,3,DPYS;UPB1;CTPS1,23 (23),0.000423,0.0244,1,HMDB0000273,56 (57),0.367,1,0.00152,0.0282
+MNGIE (Mitochondrial Neurogastrointestinal Encephalopathy),SMPDB,3,DPYS;UPB1;CTPS1,23 (23),0.000423,0.0244,1,HMDB0000273,56 (57),0.367,1,0.00152,0.0282
+Beta Ureidopropionase Deficiency,SMPDB,3,DPYS;UPB1;CTPS1,23 (23),0.000423,0.0244,1,HMDB0000273,56 (57),0.367,1,0.00152,0.0282
+Dihydropyrimidinase Deficiency,SMPDB,3,DPYS;UPB1;CTPS1,23 (23),0.000423,0.0244,1,HMDB0000273,56 (57),0.367,1,0.00152,0.0282
+Drug metabolism - other enzymes - Homo sapiens (human),KEGG,5,GSTM3;GSTM4;UPB1;UGT2A3;DPYS,80 (80),0.000166,0.0126,0,,39 (52),1,1,0.00162,0.0287
+Nitrogen metabolism - Homo sapiens (human),KEGG,3,CA3;CA5A;CA8,17 (17),0.000167,0.0126,0,,16 (19),1,1,0.00162,0.0287
+Butanoate metabolism,INOH,3,AACS;ACSM1;ACSS2,17 (17),0.000167,0.0126,0,,21 (23),1,1,0.00162,0.0287
+Glycogen synthetase deficiency,SMPDB,3,GBE1;PYGL;GCK,18 (18),0.0002,0.0134,0,,29 (29),1,1,0.0019,0.03
+Glycogenosis_ Type III. Cori disease_ Debrancher glycogenosis,SMPDB,3,GBE1;PYGL;GCK,18 (18),0.0002,0.0134,0,,29 (29),1,1,0.0019,0.03
+Mucopolysaccharidosis VI. Sly syndrome,SMPDB,3,GBE1;PYGL;GCK,18 (18),0.0002,0.0134,0,,29 (29),1,1,0.0019,0.03
+Sucrase-isomaltase deficiency,SMPDB,3,GBE1;PYGL;GCK,18 (18),0.0002,0.0134,0,,29 (29),1,1,0.0019,0.03
+Glycogenosis_ Type IV. Amylopectinosis_ Anderson disease,SMPDB,3,GBE1;PYGL;GCK,18 (18),0.0002,0.0134,0,,29 (29),1,1,0.0019,0.03
+Glycogenosis_ Type VI. Hers disease,SMPDB,3,GBE1;PYGL;GCK,18 (18),0.0002,0.0134,0,,29 (29),1,1,0.0019,0.03
+Starch and Sucrose Metabolism,SMPDB,3,GBE1;PYGL;GCK,18 (18),0.0002,0.0134,0,,29 (29),1,1,0.0019,0.03
+Glycolysis Gluconeogenesis,INOH,4,LDHD;PKLR;GCK;ME1,45 (46),0.0002,0.0134,0,,32 (34),1,1,0.0019,0.03
+Activation of gene expression by SREBF (SREBP),Reactome,3,FASN;TM7SF2;MVK,26 (26),0.000612,0.0319,0,,0 (0),1,1,0.000612,0.0319
+Maturity onset diabetes of the young - Homo sapiens (human),KEGG,3,PKLR;SLC2A2;GCK,26 (26),0.000612,0.0319,0,,0 (0),1,1,0.000612,0.0319
+Tryptophan Metabolism,SMPDB,3,INMT;HAAO;AOX1,19 (19),0.000236,0.0153,0,,58 (60),1,1,0.00221,0.0343
+Cytochrome P450 - arranged by substrate type,Reactome,4,CYP27A1;CYP7B1;FDX1;CYP8B1,57 (57),0.000499,0.0285,1,HMDB0001860,87 (120),0.511,1,0.00236,0.0363
+Metabolism of amino acids and derivatives,Reactome,9,GNMT;ACADSB;HNMT;ASPG;HAAO;IDO2;INMT;CSAD;ALDH7A1,339 (339),0.000339,0.0214,1,HMDB0000128,222 (286),0.847,1,0.00263,0.0398
+Fatty Acid Biosynthesis,Wikipathways,3,FASN;ACSL1;ACSS2,22 (22),0.00037,0.0231,0,,4 (14),1,1,0.00329,0.0492
+Sphingolipid metabolism - Homo sapiens (human),KEGG,0,,49 (49),1,1,3,HMDB0010711;HMDB0006752;HMDB0013461,19 (25),0.000401,1,0.00354,0.0522
+fatty acid &alpha;-oxidation,HumanCyc,2,ACSL1;HACL1,5 (5),0.000409,0.0244,0,,19 (20),1,1,0.0036,0.0525
+Fatty acid metabolism,Reactome,6,PON1;HACL1;CYP8B1;FASN;NUDT7;ACSL1,176 (177),0.000975,0.0397,2,HMDB0010404;HMDB0002183,182 (257),0.436,1,0.00373,0.0537
+superpathway of cholesterol biosynthesis,HumanCyc,3,LBR;TM7SF2;MVK,25 (25),0.000544,0.0296,0,,40 (62),1,1,0.00464,0.0636
+Cholesterol biosynthesis,Reactome,3,LBR;TM7SF2;MVK,25 (25),0.000544,0.0296,0,,40 (46),1,1,0.00464,0.0636
+Alanine Aspartate Asparagine metabolism,INOH,3,PKLR;ABAT;UPB1,25 (25),0.000544,0.0296,0,,39 (45),1,1,0.00464,0.0636
+Disulfiram Action Pathway,SMPDB,3,COMT;HAAO;ACSS2,25 (25),0.000544,0.0296,0,,72 (77),1,1,0.00464,0.0636
+pyrimidine ribonucleosides degradation,HumanCyc,2,UPB1;DPYS,6 (6),0.000611,0.0319,0,,14 (14),1,1,0.00514,0.0688
+zymosterol biosynthesis,HumanCyc,2,LBR;TM7SF2,6 (6),0.000611,0.0319,0,,16 (22),1,1,0.00514,0.0688
+Steroid hormone biosynthesis - Homo sapiens (human),KEGG,4,COMT;CYP7B1;AKR1D1;UGT2A3,61 (61),0.000646,0.0332,0,,87 (99),1,1,0.00539,0.0714
+Insulin resistance - Homo sapiens (human),KEGG,5,GFPT1;SLC2A2;PYGL;SLC27A5;OGT,108 (108),0.00067,0.0341,0,,12 (20),1,1,0.00557,0.0729
+Pyrimidine catabolism,Reactome,2,UPB1;DPYS,12 (12),0.00262,0.0937,1,HMDB0000273,37 (39),0.26,1,0.00565,0.0732
+Peroxisome - Homo sapiens (human),KEGG,4,ACSL1;HACL1;MVK;NUDT7,82 (82),0.00195,0.0738,0,,0 (0),1,1,0.00195,0.0738
+Recycling of bile acids and salts,Reactome,2,SLC10A1;SLC27A5,16 (16),0.00469,0.137,1,HMDB0000036,20 (20),0.15,1,0.0058,0.0742
+tryptophan degradation to 2-amino-3-carboxymuconate semialdehyde,HumanCyc,2,HAAO;IDO2,7 (7),0.000852,0.0385,0,,12 (13),1,1,0.00688,0.0756
+Tryptophan degradation,INOH,4,INMT;HAAO;AOX1;ALDH7A1,66 (66),0.000871,0.0385,0,,56 (62),1,1,0.00701,0.0756
+Phosphatidylinositol Phosphate Metabolism,SMPDB,2,INPP5D;EGFR,23 (23),0.0096,0.201,1,HMDB0009888,12 (12),0.0926,1,0.00713,0.0756
+Joubert syndrome,SMPDB,2,INPP5D;EGFR,23 (23),0.0096,0.201,1,HMDB0009888,12 (12),0.0926,1,0.00713,0.0756
+Glycolysis / Gluconeogenesis - Homo sapiens (human),KEGG,4,PKLR;GCK;ACSS2;ALDH7A1,67 (67),0.000922,0.0385,0,,25 (31),1,1,0.00736,0.0756
+3-Methylglutaconic Aciduria Type I,SMPDB,3,AOX1;ABAT;ACADSB,30 (30),0.000939,0.0385,0,,54 (58),1,1,0.00748,0.0756
+Ascorbate and aldarate metabolism - Homo sapiens (human),KEGG,3,RGN;ALDH7A1;UGT2A3,30 (30),0.000939,0.0385,0,,28 (57),1,1,0.00748,0.0756
+Fructose Mannose metabolism,INOH,3,GFPT1;KHK;GCK,30 (30),0.000939,0.0385,0,,28 (33),1,1,0.00748,0.0756
+Valine_ Leucine and Isoleucine Degradation,SMPDB,3,AOX1;ABAT;ACADSB,30 (30),0.000939,0.0385,0,,54 (58),1,1,0.00748,0.0756
+2-Methyl-3-Hydroxybutryl CoA Dehydrogenase Deficiency,SMPDB,3,AOX1;ABAT;ACADSB,30 (30),0.000939,0.0385,0,,54 (58),1,1,0.00748,0.0756
+Isovaleric Aciduria,SMPDB,3,AOX1;ABAT;ACADSB,30 (30),0.000939,0.0385,0,,54 (58),1,1,0.00748,0.0756
+3-Methylcrotonyl Coa Carboxylase Deficiency Type I,SMPDB,3,AOX1;ABAT;ACADSB,30 (30),0.000939,0.0385,0,,54 (58),1,1,0.00748,0.0756
+Propionic Acidemia,SMPDB,3,AOX1;ABAT;ACADSB,30 (30),0.000939,0.0385,0,,54 (58),1,1,0.00748,0.0756
+Maple Syrup Urine Disease,SMPDB,3,AOX1;ABAT;ACADSB,30 (30),0.000939,0.0385,0,,54 (58),1,1,0.00748,0.0756
+3-Hydroxy-3-Methylglutaryl-CoA Lyase Deficiency,SMPDB,3,AOX1;ABAT;ACADSB,30 (30),0.000939,0.0385,0,,54 (58),1,1,0.00748,0.0756
+Isobutyryl-coa dehydrogenase deficiency,SMPDB,3,AOX1;ABAT;ACADSB,30 (30),0.000939,0.0385,0,,54 (58),1,1,0.00748,0.0756
+3-hydroxyisobutyric aciduria,SMPDB,3,AOX1;ABAT;ACADSB,30 (30),0.000939,0.0385,0,,54 (58),1,1,0.00748,0.0756
+3-hydroxyisobutyric acid dehydrogenase deficiency,SMPDB,3,AOX1;ABAT;ACADSB,30 (30),0.000939,0.0385,0,,54 (58),1,1,0.00748,0.0756
+Isovaleric acidemia,SMPDB,3,AOX1;ABAT;ACADSB,30 (30),0.000939,0.0385,0,,54 (58),1,1,0.00748,0.0756
+Methylmalonate Semialdehyde Dehydrogenase Deficiency,SMPDB,3,AOX1;ABAT;ACADSB,30 (30),0.000939,0.0385,0,,54 (58),1,1,0.00748,0.0756
+Methylmalonic Aciduria,SMPDB,3,AOX1;ABAT;ACADSB,30 (30),0.000939,0.0385,0,,54 (58),1,1,0.00748,0.0756
+3-Methylglutaconic Aciduria Type IV,SMPDB,3,AOX1;ABAT;ACADSB,30 (30),0.000939,0.0385,0,,54 (58),1,1,0.00748,0.0756
+3-Methylglutaconic Aciduria Type III,SMPDB,3,AOX1;ABAT;ACADSB,30 (30),0.000939,0.0385,0,,54 (58),1,1,0.00748,0.0756
+Beta-Ketothiolase Deficiency,SMPDB,3,AOX1;ABAT;ACADSB,30 (30),0.000939,0.0385,0,,54 (58),1,1,0.00748,0.0756
+Regulation of cholesterol biosynthesis by SREBP (SREBF),Reactome,3,FASN;TM7SF2;MVK,31 (31),0.00103,0.0417,0,,1 (1),1,1,0.00814,0.0816
+Diltiazem Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,2,HMDB0009888;HMDB0014487,11 (11),0.00325,1,0.00835,0.0829
+Drug metabolism - cytochrome P450 - Homo sapiens (human),KEGG,4,AOX1;GSTM3;GSTM4;UGT2A3,70 (72),0.00109,0.0435,0,,83 (88),1,1,0.0085,0.0837
+Synthesis of UDP-N-acetyl-glucosamine,Reactome,2,GFPT1;AMDHD2,8 (8),0.00113,0.0449,0,,18 (21),1,1,0.00881,0.086
+One-carbon metabolism and related pathways,Wikipathways,3,GNMT;GPX7;CSAD,52 (52),0.00461,0.137,1,HMDB0000036,37 (42),0.26,1,0.00926,0.0897
+tryptophan degradation,HumanCyc,2,HAAO;IDO2,9 (9),0.00145,0.0556,0,,21 (22),1,1,0.0109,0.102
+Conjugation of carboxylic acids,Reactome,2,ACSM5;ACSM1,9 (9),0.00145,0.0556,0,,12 (16),1,1,0.0109,0.102
+Amino Acid conjugation,Reactome,2,ACSM5;ACSM1,9 (9),0.00145,0.0556,0,,12 (16),1,1,0.0109,0.102
+Metabolism of ingested SeMet_ Sec_ MeSec into H2Se,Reactome,2,GNMT;HNMT,9 (9),0.00145,0.0556,0,,30 (33),1,1,0.0109,0.102
+FOXA2 and FOXA3 transcription factor networks,PID,3,PKLR;SLC2A2;GCK,45 (45),0.00306,0.103,0,,0 (0),1,1,0.00306,0.103
+7-oxo-C and 7beta-HC pathways,Wikipathways,2,CYP27A1;SLC27A5,13 (13),0.00309,0.103,0,,0 (0),1,1,0.00309,0.103
+Starch and sucrose metabolism - Homo sapiens (human),KEGG,3,GBE1;PYGL;GCK,36 (36),0.00161,0.0611,0,,16 (37),1,1,0.0119,0.111
+Splicing factor NOVA regulated synaptic proteins,Wikipathways,1,EPB41L1,42 (42),0.239,1,1,HMDB0009888,1 (1),0.00805,1,0.014,0.129
+Pyrimidine metabolism - Homo sapiens (human),KEGG,3,CTPS1;UPB1;DPYS,57 (57),0.00597,0.161,1,HMDB0000273,49 (65),0.329,1,0.0142,0.13
+Valproic Acid Metabolism Pathway,SMPDB,2,ACADSB;ACSM1,11 (11),0.0022,0.0822,0,,29 (30),1,1,0.0156,0.142
+Cholesterol metabolism - Homo sapiens (human),KEGG,2,APOA2;CYP27A1,50 (50),0.0416,0.567,1,HMDB0000036,7 (10),0.055,1,0.0162,0.146
+Omega-9 FA synthesis,Wikipathways,2,FASN;ACSL1,12 (12),0.00262,0.0937,0,,1 (1),1,1,0.0182,0.158
+Reversible hydration of carbon dioxide,Reactome,2,CA3;CA5A,12 (12),0.00262,0.0937,0,,4 (5),1,1,0.0182,0.158
+NAD <i>de novo</i> biosynthesis,HumanCyc,2,HAAO;IDO2,12 (12),0.00262,0.0937,0,,23 (24),1,1,0.0182,0.158
+Trehalose Degradation,SMPDB,2,SLC2A2;GCK,12 (12),0.00262,0.0937,0,,10 (10),1,1,0.0182,0.158
+Oxidation of Branched Chain Fatty Acids,SMPDB,2,ACSL1;HACL1,12 (12),0.00262,0.0937,0,,23 (25),1,1,0.0182,0.158
+Metabolism of Spingolipids in ER and Golgi apparatus,Wikipathways,0,,12 (12),1,1,2,HMDB0010711;HMDB0006752,10 (21),0.00267,1,0.0185,0.159
+Fatty acid degradation - Homo sapiens (human),KEGG,3,ACADSB;ACSL1;ALDH7A1,43 (43),0.00269,0.0952,0,,40 (50),1,1,0.0186,0.159
+Glycolysis and Gluconeogenesis,Wikipathways,3,PKLR;SLC2A2;GCK,45 (45),0.00306,0.103,0,,14 (18),1,1,0.0208,0.167
+cholesterol biosynthesis III (via desmosterol),HumanCyc,2,LBR;TM7SF2,13 (13),0.00309,0.103,0,,24 (32),1,1,0.0209,0.167
+L-kynurenine degradation,HumanCyc,2,HAAO;IDO2,13 (13),0.00309,0.103,0,,29 (30),1,1,0.0209,0.167
+cholesterol biosynthesis I,HumanCyc,2,LBR;TM7SF2,13 (13),0.00309,0.103,0,,24 (32),1,1,0.0209,0.167
+cholesterol biosynthesis II (via 24_25-dihydrolanosterol),HumanCyc,2,LBR;TM7SF2,13 (13),0.00309,0.103,0,,19 (32),1,1,0.0209,0.167
+sarcosine oncometabolite pathway ,SMPDB,2,GNMT;ALDH7A1,13 (13),0.00309,0.103,0,,25 (26),1,1,0.0209,0.167
+Fabry disease,SMPDB,0,,22 (22),1,1,3,HMDB0010711;HMDB0013461;HMDB0006752,38 (40),0.00316,1,0.0214,0.167
+Sphingolipid Metabolism,SMPDB,0,,22 (22),1,1,3,HMDB0010711;HMDB0013461;HMDB0006752,38 (40),0.00316,1,0.0214,0.167
+Gaucher Disease,SMPDB,0,,22 (22),1,1,3,HMDB0010711;HMDB0013461;HMDB0006752,38 (40),0.00316,1,0.0214,0.167
+Globoid Cell Leukodystrophy,SMPDB,0,,22 (22),1,1,3,HMDB0010711;HMDB0013461;HMDB0006752,38 (40),0.00316,1,0.0214,0.167
+Metachromatic Leukodystrophy (MLD),SMPDB,0,,22 (22),1,1,3,HMDB0010711;HMDB0013461;HMDB0006752,38 (40),0.00316,1,0.0214,0.167
+Krabbe disease,SMPDB,0,,22 (22),1,1,3,HMDB0010711;HMDB0013461;HMDB0006752,38 (40),0.00316,1,0.0214,0.167
+Panitumumab Action Pathway,SMPDB,1,EGFR,1 (1),0.00648,0.167,0,,0 (0),1,1,0.00648,0.167
+Cetuximab Action Pathway,SMPDB,1,EGFR,1 (1),0.00648,0.167,0,,0 (0),1,1,0.00648,0.167
+Trastuzumab Action Pathway,SMPDB,1,EGFR,1 (1),0.00648,0.167,0,,0 (0),1,1,0.00648,0.167
+Gefitinib Action Pathway,SMPDB,1,EGFR,1 (1),0.00648,0.167,0,,0 (1),1,1,0.00648,0.167
+Type II diabetes mellitus - Homo sapiens (human),KEGG,3,PKLR;SLC2A2;GCK,46 (46),0.00326,0.108,0,,4 (6),1,1,0.0219,0.171
+Cerebral organic acidurias_ including diseases,Wikipathways,1,ALDH7A1,3 (3),0.0193,0.329,1,HMDB0001290,23 (27),0.17,1,0.0221,0.171
+Tryptophan catabolism,Reactome,2,HAAO;IDO2,14 (14),0.00359,0.11,0,,31 (34),1,1,0.0238,0.171
+Very-long-chain acyl coa dehydrogenase deficiency (VLCAD),SMPDB,2,ACADSB;ACSL1,14 (14),0.00359,0.11,0,,43 (43),1,1,0.0238,0.171
+Medium chain acyl-coa dehydrogenase deficiency (MCAD),SMPDB,2,ACADSB;ACSL1,14 (14),0.00359,0.11,0,,43 (43),1,1,0.0238,0.171
+Long chain acyl-CoA dehydrogenase deficiency (LCAD),SMPDB,2,ACADSB;ACSL1,14 (14),0.00359,0.11,0,,43 (43),1,1,0.0238,0.171
+Trifunctional protein deficiency,SMPDB,2,ACADSB;ACSL1,14 (14),0.00359,0.11,0,,43 (43),1,1,0.0238,0.171
+Carnitine palmitoyl transferase deficiency (II),SMPDB,2,ACADSB;ACSL1,14 (14),0.00359,0.11,0,,43 (43),1,1,0.0238,0.171
+Short Chain Acyl CoA Dehydrogenase Deficiency (SCAD Deficiency),SMPDB,2,ACADSB;ACSL1,14 (14),0.00359,0.11,0,,43 (43),1,1,0.0238,0.171
+Fatty acid Metabolism,SMPDB,2,ACADSB;ACSL1,14 (14),0.00359,0.11,0,,43 (43),1,1,0.0238,0.171
+Glutaric Aciduria Type I,SMPDB,2,ACADSB;ACSL1,14 (14),0.00359,0.11,0,,43 (43),1,1,0.0238,0.171
+Ethylmalonic Encephalopathy,SMPDB,2,ACADSB;ACSL1,14 (14),0.00359,0.11,0,,43 (43),1,1,0.0238,0.171
+Carnitine palmitoyl transferase deficiency (I),SMPDB,2,ACADSB;ACSL1,14 (14),0.00359,0.11,0,,43 (43),1,1,0.0238,0.171
+Glycosphingolipid metabolism,EHMN,0,,69 (69),1,1,3,HMDB0010711;HMDB0006752;HMDB0013461,40 (52),0.00366,1,0.0242,0.173
+Sphingolipid metabolism,Reactome,1,HEXA,87 (87),0.433,1,3,HMDB0010711;HMDB0013461;HMDB0006752,54 (65),0.00856,1,0.0244,0.174
+Valine_ leucine and isoleucine degradation,EHMN,3,ABAT;ACADSB;ALDH7A1,49 (49),0.0039,0.119,0,,52 (62),1,1,0.0255,0.18
+Senescence and Autophagy in Cancer,Wikipathways,1,GSN,106 (106),0.499,1,1,HMDB0009888,1 (1),0.00805,1,0.0262,0.184
+Glycolysis,SMPDB,2,PKLR;SLC2A2,15 (15),0.00412,0.124,0,,21 (24),1,1,0.0268,0.185
+Glycogenosis_ Type VII. Tarui disease,SMPDB,2,PKLR;SLC2A2,15 (15),0.00412,0.124,0,,21 (24),1,1,0.0268,0.185
+Fanconi-bickel syndrome,SMPDB,2,PKLR;SLC2A2,15 (15),0.00412,0.124,0,,21 (24),1,1,0.0268,0.185
+Pyrimidine metabolism,Wikipathways,3,DPYS;UPB1;CTPS1,84 (84),0.0172,0.314,1,HMDB0000273,35 (40),0.248,1,0.0274,0.188
+Extracellular vesicles in the crosstalk of cardiac cells,Wikipathways,2,EGFR;SORBS2,22 (22),0.0088,0.193,0,,0 (0),1,1,0.0088,0.193
+Sphingolipid pathway,Wikipathways,0,,28 (28),1,1,2,HMDB0010711;HMDB0006752,13 (14),0.00456,1,0.0291,0.199
+Bile secretion - Homo sapiens (human),KEGG,3,SLC10A1;SLC27A5;UGT2A3,90 (90),0.0206,0.345,2,HMDB0000036;HMDB0014487,112 (161),0.227,1,0.0297,0.2
+FOXA2 pathway,Wikipathways,2,FASN;SLC27A5,16 (16),0.00469,0.137,0,,1 (1),1,1,0.0298,0.2
+Phytanic acid peroxisomal oxidation,EHMN,2,ACSL1;HACL1,16 (16),0.00469,0.137,0,,21 (22),1,1,0.0298,0.2
+nicotine degradation IV,HumanCyc,2,INMT;AOX1,17 (17),0.00529,0.154,0,,16 (28),1,1,0.033,0.22
+Propanoate metabolism - Homo sapiens (human),KEGG,2,ABAT;ACSS2,34 (34),0.0203,0.342,1,HMDB0006805,38 (48),0.266,1,0.0336,0.223
+Metabolism of water-soluble vitamins and cofactors,Reactome,4,ALDH1L1;FASN;AOX1;CYP8B1,111 (111),0.00581,0.161,0,,91 (125),1,1,0.0357,0.227
+Propanoate metabolism,EHMN,2,ACADSB;ALDH7A1,18 (18),0.00593,0.161,0,,29 (33),1,1,0.0363,0.227
+Tyrosine Metabolism,SMPDB,2,COMT;HAAO,18 (18),0.00593,0.161,0,,62 (67),1,1,0.0363,0.227
+Fatty acid biosynthesis - Homo sapiens (human),KEGG,2,FASN;ACSL1,18 (18),0.00593,0.161,0,,10 (58),1,1,0.0363,0.227
+Tyrosinemia_ transient_ of the newborn,SMPDB,2,COMT;HAAO,18 (18),0.00593,0.161,0,,62 (67),1,1,0.0363,0.227
+Dopamine beta-hydroxylase deficiency,SMPDB,2,COMT;HAAO,18 (18),0.00593,0.161,0,,62 (67),1,1,0.0363,0.227
+Alkaptonuria,SMPDB,2,COMT;HAAO,18 (18),0.00593,0.161,0,,62 (67),1,1,0.0363,0.227
+Monoamine oxidase-a deficiency (MAO-A),SMPDB,2,COMT;HAAO,18 (18),0.00593,0.161,0,,62 (67),1,1,0.0363,0.227
+Hawkinsinuria,SMPDB,2,COMT;HAAO,18 (18),0.00593,0.161,0,,62 (67),1,1,0.0363,0.227
+Tyrosinemia Type I,SMPDB,2,COMT;HAAO,18 (18),0.00593,0.161,0,,62 (67),1,1,0.0363,0.227
+Glutathione metabolism - Homo sapiens (human),KEGG,3,GPX7;GSTM3;GSTM4,57 (57),0.00597,0.161,0,,21 (38),1,1,0.0365,0.227
+Sphingolipid signaling pathway - Homo sapiens (human),KEGG,0,,119 (119),1,1,2,HMDB0006752;HMDB0013461,15 (15),0.00608,1,0.0371,0.23
+Metabolism of vitamins and cofactors,Reactome,5,APOA2;ALDH1L1;FASN;AOX1;CYP8B1,180 (180),0.00623,0.167,0,,136 (188),1,1,0.0379,0.233
+Glycosphingolipid metabolism,Reactome,1,HEXA,46 (46),0.259,1,2,HMDB0010711;HMDB0013461,31 (38),0.0249,1,0.039,0.236
+L-dopa degradation,HumanCyc,1,COMT,1 (1),0.00648,0.167,0,,13 (13),1,1,0.0391,0.236
+Methylation of MeSeH for excretion,Reactome,1,INMT,1 (1),0.00648,0.167,0,,5 (6),1,1,0.0391,0.236
+methylglyoxal degradation VI,HumanCyc,1,LDHD,1 (1),0.00648,0.167,0,,9 (9),1,1,0.0391,0.236
+MTHFR deficiency,Wikipathways,1,COMT,10 (10),0.0629,0.701,1,HMDB0013461,14 (21),0.107,1,0.0405,0.243
+PPAR-alpha pathway,Wikipathways,2,APOA2;CYP8B1,26 (26),0.0122,0.247,0,,0 (1),1,1,0.0122,0.247
+Metabolism of xenobiotics by cytochrome P450 - Homo sapiens (human),KEGG,3,GSTM3;GSTM4;UGT2A3,76 (78),0.0131,0.25,1,HMDB0060326,95 (121),0.542,1,0.0423,0.253
+Steroid biosynthesis - Homo sapiens (human),KEGG,2,LBR;TM7SF2,20 (20),0.0073,0.187,0,,40 (58),1,1,0.0432,0.255
+Aminosugars metabolism,INOH,2,GFPT1;GCK,20 (20),0.0073,0.187,0,,30 (32),1,1,0.0432,0.255
+Transport of organic anions,Reactome,1,SLCO2B1,12 (12),0.075,0.755,1,HMDB0000036,13 (15),0.0999,1,0.0442,0.255
+Oxidation by Cytochrome P450,Wikipathways,3,CYP27A1;CYP7B1;CYP8B1,62 (62),0.00754,0.192,0,,8 (8),1,1,0.0444,0.255
+Synthesis of substrates in N-glycan biosythesis,Reactome,3,NPL;GFPT1;AMDHD2,63 (63),0.00788,0.193,0,,56 (69),1,1,0.046,0.255
+fatty acid activation,HumanCyc,1,ACSL1,8 (8),0.0507,0.616,1,HMDB0002183,21 (38),0.157,1,0.0463,0.255
+Glycine_ serine and threonine metabolism - Homo sapiens (human),KEGG,2,GNMT;ALDH7A1,40 (40),0.0276,0.426,1,HMDB0000128,42 (50),0.29,1,0.0466,0.255
+Mono-unsaturated fatty acid beta-oxidation,EHMN,2,ACSL1;ACADSB,21 (21),0.00804,0.193,0,,12 (12),1,1,0.0468,0.255
+Pantothenate and CoA biosynthesis - Homo sapiens (human),KEGG,2,UPB1;DPYS,21 (21),0.00804,0.193,0,,24 (30),1,1,0.0468,0.255
+PI3K-AKT-mTOR signaling pathway and therapeutic opportunities,Wikipathways,0,,30 (30),1,1,1,HMDB0009888,1 (1),0.00805,1,0.0468,0.255
+Histidine metabolism - Homo sapiens (human),KEGG,2,HNMT;ALDH7A1,22 (22),0.0088,0.193,0,,36 (47),1,1,0.0505,0.255
+glutathione-mediated detoxification,HumanCyc,2,GSTM3;GSTM4,22 (22),0.0088,0.193,0,,14 (14),1,1,0.0505,0.255
+Simvastatin Action Pathway,SMPDB,2,TM7SF2;MVK,22 (22),0.0088,0.193,0,,43 (47),1,1,0.0505,0.255
+Pravastatin Action Pathway,SMPDB,2,TM7SF2;MVK,22 (22),0.0088,0.193,0,,44 (47),1,1,0.0505,0.255
+Atorvastatin Action Pathway,SMPDB,2,TM7SF2;MVK,22 (22),0.0088,0.193,0,,44 (47),1,1,0.0505,0.255
+Hyper-IgD syndrome,SMPDB,2,TM7SF2;MVK,22 (22),0.0088,0.193,0,,43 (46),1,1,0.0505,0.255
+Cholesteryl ester storage disease,SMPDB,2,TM7SF2;MVK,22 (22),0.0088,0.193,0,,43 (46),1,1,0.0505,0.255
+Lysosomal Acid Lipase Deficiency (Wolman Disease),SMPDB,2,TM7SF2;MVK,22 (22),0.0088,0.193,0,,43 (46),1,1,0.0505,0.255
+Alendronate Action Pathway,SMPDB,2,TM7SF2;MVK,22 (22),0.0088,0.193,0,,44 (47),1,1,0.0505,0.255
+Rosuvastatin Action Pathway,SMPDB,2,TM7SF2;MVK,22 (22),0.0088,0.193,0,,43 (47),1,1,0.0505,0.255
+Lovastatin Action Pathway,SMPDB,2,TM7SF2;MVK,22 (22),0.0088,0.193,0,,44 (47),1,1,0.0505,0.255
+Mevalonic aciduria,SMPDB,2,TM7SF2;MVK,22 (22),0.0088,0.193,0,,43 (46),1,1,0.0505,0.255
+Wolman disease,SMPDB,2,TM7SF2;MVK,22 (22),0.0088,0.193,0,,43 (46),1,1,0.0505,0.255
+Risedronate Action Pathway,SMPDB,2,TM7SF2;MVK,22 (22),0.0088,0.193,0,,44 (47),1,1,0.0505,0.255
+Cerivastatin Action Pathway,SMPDB,2,TM7SF2;MVK,22 (22),0.0088,0.193,0,,43 (47),1,1,0.0505,0.255
+Pamidronate Action Pathway,SMPDB,2,TM7SF2;MVK,22 (22),0.0088,0.193,0,,44 (47),1,1,0.0505,0.255
+Fluvastatin Action Pathway,SMPDB,2,TM7SF2;MVK,22 (22),0.0088,0.193,0,,44 (47),1,1,0.0505,0.255
+Smith-Lemli-Opitz Syndrome (SLOS),SMPDB,2,TM7SF2;MVK,22 (22),0.0088,0.193,0,,43 (46),1,1,0.0505,0.255
+Chondrodysplasia Punctata II_ X Linked Dominant (CDPX2),SMPDB,2,TM7SF2;MVK,22 (22),0.0088,0.193,0,,43 (46),1,1,0.0505,0.255
+CHILD Syndrome,SMPDB,2,TM7SF2;MVK,22 (22),0.0088,0.193,0,,43 (46),1,1,0.0505,0.255
+Desmosterolosis,SMPDB,2,TM7SF2;MVK,22 (22),0.0088,0.193,0,,43 (46),1,1,0.0505,0.255
+Hypercholesterolemia,SMPDB,2,TM7SF2;MVK,22 (22),0.0088,0.193,0,,43 (46),1,1,0.0505,0.255
+Steroid Biosynthesis,SMPDB,2,TM7SF2;MVK,22 (22),0.0088,0.193,0,,43 (46),1,1,0.0505,0.255
+Zoledronate Action Pathway,SMPDB,2,TM7SF2;MVK,22 (22),0.0088,0.193,0,,43 (47),1,1,0.0505,0.255
+Ibandronate Action Pathway,SMPDB,2,TM7SF2;MVK,22 (22),0.0088,0.193,0,,43 (46),1,1,0.0505,0.255
+NRF2 pathway,Wikipathways,4,SLC2A2;GSTM3;GSTM4;ME1,143 (143),0.0139,0.262,0,,0 (1),1,1,0.0139,0.262
+Taurine and hypotaurine metabolism - Homo sapiens (human),KEGG,1,CSAD,11 (11),0.069,0.729,1,HMDB0000036,18 (22),0.136,1,0.0531,0.262
+Butanoate metabolism,EHMN,2,ALDH7A1;ACSM1,23 (23),0.0096,0.201,0,,34 (36),1,1,0.0542,0.262
+RHO GTPases activate PAKs,Reactome,2,PPP1R12A;MYLK,23 (23),0.0096,0.201,0,,6 (6),1,1,0.0542,0.262
+2-Hydroxyglutric Aciduria (D And L Form),SMPDB,2,GFPT1;ABAT,23 (23),0.0096,0.201,0,,47 (49),1,1,0.0542,0.262
+Homocarnosinosis,SMPDB,2,GFPT1;ABAT,23 (23),0.0096,0.201,0,,47 (49),1,1,0.0542,0.262
+Hyperinsulinism-Hyperammonemia Syndrome,SMPDB,2,GFPT1;ABAT,23 (23),0.0096,0.201,0,,47 (49),1,1,0.0542,0.262
+Succinic semialdehyde dehydrogenase deficiency,SMPDB,2,GFPT1;ABAT,23 (23),0.0096,0.201,0,,47 (49),1,1,0.0542,0.262
+4-Hydroxybutyric Aciduria/Succinic Semialdehyde Dehydrogenase Deficiency,SMPDB,2,GFPT1;ABAT,23 (23),0.0096,0.201,0,,47 (49),1,1,0.0542,0.262
+Glutamate Metabolism,SMPDB,2,GFPT1;ABAT,23 (23),0.0096,0.201,0,,47 (49),1,1,0.0542,0.262
+Histidine degradation,INOH,2,HNMT;ALDH7A1,23 (23),0.0096,0.201,0,,26 (28),1,1,0.0542,0.262
+Metabolism of carbohydrates,Reactome,6,PKLR;HEXA;GBE1;PYGL;KHK;GCK,284 (285),0.0102,0.213,0,,90 (157),1,1,0.0572,0.276
+glycolysis,HumanCyc,2,PKLR;GCK,24 (25),0.0104,0.215,0,,17 (20),1,1,0.058,0.277
+Glycogen metabolism,Reactome,2,GBE1;PYGL,24 (24),0.0104,0.215,0,,14 (16),1,1,0.058,0.277
+Central carbon metabolism in cancer - Homo sapiens (human),KEGG,3,SLC2A2;EGFR;GCK,70 (70),0.0105,0.216,0,,35 (37),1,1,0.0584,0.278
+Nucleobase catabolism,Reactome,2,UPB1;DPYS,36 (36),0.0226,0.375,1,HMDB0000273,78 (99),0.473,1,0.0593,0.281
+Propanoate metabolism,INOH,2,ALDH7A1;ACSS2,25 (25),0.0113,0.231,0,,24 (26),1,1,0.0619,0.292
+Insulin signaling pathway - Homo sapiens (human),KEGG,4,PKLR;FASN;PYGL;GCK,137 (137),0.012,0.244,0,,2 (4),1,1,0.0651,0.306
+Plasma lipoprotein remodeling,Reactome,1,APOA2,26 (26),0.156,1,1,HMDB0010404,10 (16),0.0777,1,0.0655,0.307
+protein <i>O</i>-[<i>N</i>-acetyl]-glucosylation,HumanCyc,1,OGT,2 (2),0.0129,0.248,0,,4 (5),1,1,0.0691,0.307
+histamine degradation,HumanCyc,1,HNMT,2 (2),0.0129,0.248,0,,13 (13),1,1,0.0691,0.307
+4-aminobutyrate degradation,HumanCyc,1,ABAT,2 (2),0.0129,0.248,0,,9 (9),1,1,0.0691,0.307
+Enzymatic degradation of Dopamine by monoamine oxidase,Reactome,1,COMT,2 (2),0.0129,0.248,0,,9 (10),1,1,0.0691,0.307
+Conjugation of phenylacetate with glutamine,Reactome,1,ACSM1,2 (2),0.0129,0.248,0,,7 (9),1,1,0.0691,0.307
+Degradation of GABA,Reactome,1,ABAT,2 (2),0.0129,0.248,0,,8 (10),1,1,0.0691,0.307
+&beta;-alanine degradation,HumanCyc,1,ABAT,2 (2),0.0129,0.248,0,,11 (11),1,1,0.0691,0.307
+fatty acid elongation -- saturated,HumanCyc,1,FASN,2 (2),0.0129,0.248,0,,5 (5),1,1,0.0691,0.307
+Sterols are 12-hydroxylated by CYP8B1,Reactome,1,CYP8B1,2 (2),0.0129,0.248,0,,9 (12),1,1,0.0691,0.307
+choline degradation,HumanCyc,1,ALDH7A1,2 (2),0.0129,0.248,0,,7 (7),1,1,0.0691,0.307
+Biosynthesis of maresin conjugates in tissue regeneration (MCTR),Reactome,1,GSTM4,2 (2),0.0129,0.248,0,,4 (9),1,1,0.0691,0.307
+Biosynthesis of DHA-derived sulfido conjugates,Reactome,1,GSTM4,2 (2),0.0129,0.248,0,,7 (22),1,1,0.0691,0.307
+Fatty Acid Biosynthesis,SMPDB,1,FASN,2 (2),0.0129,0.248,0,,31 (33),1,1,0.0691,0.307
+Glutamate Glutamine metabolism,INOH,2,ABAT;ALDH7A1,27 (27),0.0131,0.25,0,,28 (34),1,1,0.0699,0.31
+Biosynthesis of the N-glycan precursor (dolichol lipid-linked oligosaccharide_ LLO) and transfer to a nascent protein,Reactome,3,NPL;GFPT1;AMDHD2,77 (77),0.0136,0.258,0,,59 (82),1,1,0.072,0.318
+alpha-linolenic acid (ALA) metabolism,Reactome,1,ACSL1,13 (13),0.081,0.765,1,HMDB0002183,23 (32),0.17,1,0.0729,0.32
+Biosynthesis of DHA-derived SPMs,Reactome,1,GSTM4,17 (17),0.105,0.894,1,HMDB0002183,18 (75),0.136,1,0.0746,0.326
+Drug Induction of Bile Acid Pathway,Wikipathways,1,SLC10A1,17 (17),0.105,0.894,1,HMDB0000036,18 (28),0.136,1,0.0746,0.326
+rho cell motility signaling pathway,BioCarta,2,GSN;MYLK,32 (32),0.0181,0.329,0,,0 (0),1,1,0.0181,0.329
+Gastric Cancer Network 2,Wikipathways,2,LBR;EGFR,32 (32),0.0181,0.329,0,,0 (0),1,1,0.0181,0.329
+Lipid Metabolism Pathway,Wikipathways,2,FASN;ACSS2,29 (29),0.015,0.283,0,,8 (14),1,1,0.0781,0.34
+Heroin metabolism,Wikipathways,0,,3 (3),1,1,1,HMDB0041812,2 (3),0.016,1,0.0823,0.352
+ceramide signaling pathway,BioCarta,0,,33 (33),1,1,1,HMDB0013461,2 (2),0.016,1,0.0823,0.352
+Peroxisomal lipid metabolism,Reactome,2,HACL1;NUDT7,30 (30),0.016,0.299,0,,38 (61),1,1,0.0823,0.352
+mcalpain and friends in cell motility,BioCarta,2,EGFR;MYLK,30 (30),0.016,0.299,0,,3 (3),1,1,0.0823,0.352
+Phenytoin (Antiarrhythmic) Action Pathway,SMPDB,2,COMT;MYLK,82 (82),0.0988,0.86,1,HMDB0009888,22 (22),0.163,1,0.0828,0.353
+Chemical carcinogenesis - Homo sapiens (human),KEGG,3,GSTM3;GSTM4;UGT2A3,83 (83),0.0166,0.308,0,,57 (99),1,1,0.0847,0.359
+Regulation of Actin Cytoskeleton,Wikipathways,4,PPP1R12A;EGFR;MYLK;GSN,151 (151),0.0166,0.308,0,,4 (5),1,1,0.0847,0.359
+erk and pi-3 kinase are necessary for collagen binding in corneal epithelia,BioCarta,2,GSN;MYLK,31 (31),0.0171,0.313,0,,1 (1),1,1,0.0865,0.364
+Folate metabolism,INOH,2,ALDH1L1;PKLR,31 (31),0.0171,0.313,0,,43 (46),1,1,0.0865,0.364
+alpha-linolenic (omega3) and linoleic (omega6) acid metabolism,Reactome,1,ACSL1,13 (13),0.081,0.765,1,HMDB0002183,31 (42),0.223,1,0.0905,0.373
+Metabolism of nucleotides,Reactome,3,CTPS1;UPB1;DPYS,102 (102),0.0285,0.438,1,HMDB0000273,125 (154),0.645,1,0.0917,0.373
+Arginine Proline metabolism,INOH,2,ABAT;ALDH7A1,55 (55),0.0493,0.616,1,HMDB0000128,58 (68),0.377,1,0.0928,0.373
+Androgen and estrogen biosynthesis and metabolism,EHMN,3,SLC10A1;SLCO2B1;AKR1D1,87 (87),0.0188,0.329,0,,53 (62),1,1,0.0936,0.373
+Phospholipid Biosynthesis,SMPDB,0,,28 (28),1,1,2,HMDB0009888;HMDB0010404,27 (27),0.0192,1,0.095,0.373
+Endothelin Pathways,Wikipathways,1,MYLK,33 (33),0.193,1,1,HMDB0009888,13 (13),0.0999,1,0.0955,0.373
+acetate conversion to acetyl-CoA,HumanCyc,1,ACSS2,3 (3),0.0193,0.329,0,,6 (6),1,1,0.0955,0.373
+UTP and CTP dephosphorylation I,HumanCyc,1,CTPS1,3 (3),0.0193,0.329,0,,15 (15),1,1,0.0955,0.373
+Signaling by MST1,Reactome,1,HPN,3 (3),0.0193,0.329,0,,3 (3),1,1,0.0955,0.373
+fatty acid &alpha;-oxidation III,HumanCyc,1,HACL1,3 (3),0.0193,0.329,0,,18 (23),1,1,0.0955,0.373
+Enzymatic degradation of dopamine by COMT,Reactome,1,COMT,3 (3),0.0193,0.329,0,,10 (10),1,1,0.0955,0.373
+Vitamins B6 activation to pyridoxal phosphate,Reactome,1,AOX1,3 (3),0.0193,0.329,0,,16 (18),1,1,0.0955,0.373
+Intestinal hexose absorption,Reactome,1,SLC2A2,3 (3),0.0193,0.329,0,,3 (5),1,1,0.0955,0.373
+Uptake and function of diphtheria toxin,Reactome,1,CD9,3 (3),0.0193,0.329,0,,2 (2),1,1,0.0955,0.373
+taurine biosynthesis,HumanCyc,1,CSAD,3 (3),0.0193,0.329,0,,11 (11),1,1,0.0955,0.373
+<i>N</i>-acetylglucosamine degradation I,HumanCyc,1,AMDHD2,3 (3),0.0193,0.329,0,,3 (5),1,1,0.0955,0.373
+Phenylacetate Metabolism,SMPDB,1,ACSM1,3 (3),0.0193,0.329,0,,9 (9),1,1,0.0955,0.373
+Electron transport from NADPH to Ferredoxin,Reactome,1,FDX1,3 (3),0.0193,0.329,0,,5 (7),1,1,0.0955,0.373
+Erlotinib Action Pathway,SMPDB,1,EGFR,3 (3),0.0193,0.329,0,,4 (5),1,1,0.0955,0.373
+Pyruvaldehyde Degradation,SMPDB,1,LDHD,3 (3),0.0193,0.329,0,,9 (9),1,1,0.0955,0.373
+methylglyoxal degradation I,HumanCyc,1,LDHD,3 (3),0.0193,0.329,0,,10 (11),1,1,0.0955,0.373
+Transport of vitamins_ nucleosides_ and related molecules,Reactome,1,SLCO2B1,44 (44),0.249,1,2,HMDB0000036;HMDB0000273,59 (63),0.0802,1,0.0981,0.382
+Fluoropyrimidine Activity,Wikipathways,2,UPB1;DPYS,34 (34),0.0203,0.342,0,,11 (16),1,1,0.0996,0.385
+Fatty acid beta-oxidation,Wikipathways,2,ACSL1;ACSS2,34 (34),0.0203,0.342,0,,32 (34),1,1,0.0996,0.385
+Histidine metabolism,EHMN,2,ABAT;ALDH7A1,35 (35),0.0215,0.359,0,,43 (45),1,1,0.104,0.399
+Glycogen Synthesis and Degradation,Wikipathways,2,GBE1;PYGL,36 (36),0.0226,0.375,0,,5 (6),1,1,0.108,0.399
+Tyrosine metabolism - Homo sapiens (human),KEGG,2,COMT;AOX1,36 (36),0.0226,0.375,0,,58 (78),1,1,0.108,0.399
+Fatty acyl-CoA biosynthesis,Reactome,2,FASN;ACSL1,37 (37),0.0238,0.389,0,,29 (42),1,1,0.113,0.399
+Squalene and cholesterol biosynthesis,EHMN,2,TM7SF2;MVK,37 (37),0.0238,0.389,0,,38 (42),1,1,0.113,0.399
+Alanine_ aspartate and glutamate metabolism - Homo sapiens (human),KEGG,2,GFPT1;ABAT,37 (37),0.0238,0.389,0,,25 (28),1,1,0.113,0.399
+Glutathione conjugation,Reactome,2,GSTM3;GSTM4,37 (37),0.0238,0.389,0,,25 (31),1,1,0.113,0.399
+T-Cell antigen Receptor (TCR) pathway during Staphylococcus aureus infection,Wikipathways,0,,63 (63),1,1,1,HMDB0009888,3 (3),0.024,1,0.113,0.399
+resolvin D biosynthesis,HumanCyc,0,,2 (2),1,1,1,HMDB0002183,3 (5),0.024,1,0.113,0.399
+aspirin triggered resolvin D biosynthesis,HumanCyc,0,,2 (2),1,1,1,HMDB0002183,3 (7),0.024,1,0.113,0.399
+Sphingolipid de novo biosynthesis,Reactome,0,,41 (41),1,1,2,HMDB0013461;HMDB0006752,31 (35),0.0249,1,0.117,0.399
+Arbutamine Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,10 (11),0.0777,1,0.119,0.399
+Alprenolol Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,10 (11),0.0777,1,0.119,0.399
+Muscle/Heart Contraction,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,10 (10),0.0777,1,0.119,0.399
+Felodipine Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,10 (11),0.0777,1,0.119,0.399
+Vitamin B6-dependent and responsive disorders,Wikipathways,1,ALDH7A1,4 (4),0.0257,0.398,0,,12 (19),1,1,0.12,0.399
+Amino acid conjugation of benzoic acid,Wikipathways,1,ACSS2,4 (4),0.0257,0.398,0,,9 (11),1,1,0.12,0.399
+Polyol Pathway,Wikipathways,1,KHK,4 (4),0.0257,0.398,0,,7 (8),1,1,0.12,0.399
+PLCG1 events in ERBB2 signaling,Reactome,1,EGFR,4 (4),0.0257,0.398,0,,2 (2),1,1,0.12,0.399
+MET Receptor Activation,Reactome,1,HPN,4 (4),0.0257,0.398,0,,3 (3),1,1,0.12,0.399
+lysine degradation I (saccharopine pathway),HumanCyc,1,ALDH7A1,4 (4),0.0257,0.398,0,,16 (16),1,1,0.12,0.399
+Dopamine clearance from the synaptic cleft,Reactome,1,COMT,4 (4),0.0257,0.398,0,,12 (13),1,1,0.12,0.399
+fatty acid biosynthesis initiation,HumanCyc,1,FASN,4 (4),0.0257,0.398,0,,7 (9),1,1,0.12,0.399
+UTP and CTP dephosphorylation II,HumanCyc,1,CTPS1,4 (4),0.0257,0.398,0,,11 (11),1,1,0.12,0.399
+trehalose degradation,HumanCyc,1,GCK,4 (4),0.0257,0.398,0,,8 (8),1,1,0.12,0.399
+Vitamin B6 metabolism,INOH,1,AOX1,4 (4),0.0257,0.398,0,,17 (17),1,1,0.12,0.399
+Mitochondrial ABC transporters,Reactome,1,ABCB10,4 (4),0.0257,0.398,0,,5 (6),1,1,0.12,0.399
+Intestinal absorption,Reactome,1,SLC2A2,4 (4),0.0257,0.398,0,,4 (8),1,1,0.12,0.399
+Lipoic acid metabolism - Homo sapiens (human),KEGG,1,ACSM1,4 (4),0.0257,0.398,0,,5 (13),1,1,0.12,0.399
+<i>N</i>-acetylglucosamine degradation II,HumanCyc,1,AMDHD2,4 (4),0.0257,0.398,0,,7 (9),1,1,0.12,0.399
+ABC-family proteins mediated transport,Reactome,1,ABCB10,58 (58),0.315,1,1,HMDB0013461,11 (20),0.0852,1,0.124,0.399
+Transport of small molecules,Reactome,4,ABCB10;APOA2;SLC2A2;SLCO2B1,641 (641),0.601,1,4,HMDB0000036;HMDB0010404;HMDB0000273;HMDB0013461,172 (219),0.0451,1,0.125,0.399
+Amiodarone Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Disopyramide Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Procainamide (Antiarrhythmic) Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Bopindolol Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Timolol Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Carteolol Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Bevantolol Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Practolol Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Dobutamine Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Isoprenaline Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Levobunolol Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Metipranolol Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Mexiletine Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Quinidine Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Sotalol Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Epinephrine Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Betaxolol Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Atenolol Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Acebutolol Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Propranolol Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Pindolol Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Penbutolol Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Oxprenolol Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Metoprolol Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Esmolol Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Bisoprolol Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Bupranolol Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Nebivolol Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Amlodipine Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Verapamil Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Nitrendipine Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Nisoldipine Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Nimodipine Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Ibutilide Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Tocainide Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Flecainide Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Isradipine Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Nifedipine Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Nadolol Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,11 (11),0.0852,1,0.128,0.399
+Carvedilol Action Pathway,SMPDB,1,MYLK,62 (62),0.332,1,1,HMDB0009888,11 (11),0.0852,1,0.129,0.401
+Labetalol Action Pathway,SMPDB,1,MYLK,62 (62),0.332,1,1,HMDB0009888,11 (11),0.0852,1,0.129,0.401
+Biosynthesis of specialized proresolving mediators (SPMs),Reactome,1,GSTM4,19 (19),0.116,0.958,1,HMDB0002183,35 (143),0.248,1,0.131,0.405
+Arachidonic acid metabolism,Reactome,2,PON1;CYP8B1,60 (60),0.0576,0.666,1,HMDB0010404,89 (114),0.519,1,0.135,0.416
+chrebp regulation by carbohydrates and camp,BioCarta,2,PKLR;ACSM1,42 (42),0.0302,0.463,0,,8 (12),1,1,0.136,0.419
+Fosphenytoin (Antiarrhythmic) Action Pathway,SMPDB,1,MYLK,61 (61),0.328,1,1,HMDB0009888,12 (12),0.0926,1,0.136,0.419
+superpathway of tryptophan utilization,HumanCyc,2,HAAO;IDO2,43 (43),0.0315,0.474,0,,59 (70),1,1,0.141,0.422
+T-Cell Receptor and Co-stimulatory Signaling,Wikipathways,0,,30 (30),1,1,1,HMDB0009888,4 (4),0.0318,1,0.142,0.422
+Heroin Metabolism Pathway,SMPDB,0,,4 (4),1,1,1,HMDB0041812,4 (5),0.0318,1,0.142,0.422
+TCA Cycle Nutrient Utilization and Invasiveness of Ovarian Cancer,Wikipathways,1,EGFR,5 (5),0.032,0.474,0,,4 (4),1,1,0.142,0.422
+Degradation pathway of sphingolipids_ including diseases,Wikipathways,1,HEXA,5 (5),0.032,0.474,0,,9 (13),1,1,0.142,0.422
+Keratan sulfate degradation,Reactome,1,HEXA,5 (5),0.032,0.474,0,,3 (10),1,1,0.142,0.422
+UDP-<i>N</i>-acetyl-D-glucosamine biosynthesis II,HumanCyc,1,GFPT1,5 (5),0.032,0.474,0,,9 (11),1,1,0.142,0.422
+Fructose catabolism,Reactome,1,KHK,5 (5),0.032,0.474,0,,11 (15),1,1,0.142,0.422
+asparagine degradation,HumanCyc,1,ASPG,5 (5),0.032,0.474,0,,10 (10),1,1,0.142,0.422
+Neomycin_ kanamycin and gentamicin biosynthesis - Homo sapiens (human),KEGG,1,GCK,5 (5),0.032,0.474,0,,8 (81),1,1,0.142,0.422
+Hypophosphatasia,SMPDB,1,AOX1,5 (5),0.032,0.474,0,,19 (20),1,1,0.142,0.422
+Vitamin B6 Metabolism,SMPDB,1,AOX1,5 (5),0.032,0.474,0,,19 (20),1,1,0.142,0.422
+Taurine and Hypotaurine Metabolism,SMPDB,1,CSAD,5 (5),0.032,0.474,0,,11 (12),1,1,0.142,0.422
+Glucagon signaling pathway - Homo sapiens (human),KEGG,3,SLC2A2;PYGL;GCK,107 (107),0.0322,0.475,0,,21 (26),1,1,0.143,0.423
+Plasma lipoprotein assembly_ remodeling_ and clearance,Reactome,1,APOA2,60 (60),0.323,1,1,HMDB0010404,13 (21),0.0999,1,0.143,0.423
+a6b1 and a6b4 Integrin signaling,PID,2,CD9;EGFR,45 (45),0.0343,0.503,0,,3 (3),1,1,0.15,0.441
+Warburg Effect,SMPDB,2,PKLR;SLC2A2,45 (45),0.0343,0.503,0,,52 (58),1,1,0.15,0.441
+Digestion and absorption,Reactome,1,SLC2A2,26 (26),0.156,1,1,HMDB0000036,33 (45),0.235,1,0.158,0.455
+Choline metabolism in cancer - Homo sapiens (human),KEGG,1,EGFR,98 (98),0.472,1,1,HMDB0010404,10 (11),0.0777,1,0.158,0.455
+superpathway of conversion of glucose to acetyl CoA and entry into the TCA cycle,HumanCyc,2,PKLR;GCK,47 (48),0.0371,0.526,0,,33 (36),1,1,0.159,0.455
+Fluoroacetic acid toxicity,Wikipathways,1,ACSS2,6 (6),0.0382,0.526,0,,2 (6),1,1,0.163,0.455
+ethanol degradation IV,HumanCyc,1,ACSS2,6 (6),0.0382,0.526,0,,13 (13),1,1,0.163,0.455
+Pre-NOTCH Processing in the Endoplasmic Reticulum,Reactome,1,POFUT1,6 (6),0.0382,0.526,0,,4 (4),1,1,0.163,0.455
+Choline catabolism,Reactome,1,ALDH7A1,6 (6),0.0382,0.526,0,,13 (15),1,1,0.163,0.455
+Alpha-oxidation of phytanate,Reactome,1,HACL1,6 (6),0.0382,0.526,0,,23 (27),1,1,0.163,0.455
+GDP-glucose biosynthesis II,HumanCyc,1,GCK,6 (6),0.0382,0.526,0,,10 (11),1,1,0.163,0.455
+Conjugation of benzoate with glycine,Reactome,1,ACSM1,6 (6),0.0382,0.526,0,,7 (8),1,1,0.163,0.455
+Vitamin B6 metabolism - Homo sapiens (human),KEGG,1,AOX1,6 (6),0.0382,0.526,0,,19 (29),1,1,0.163,0.455
+lysine degradation II (pipecolate pathway),HumanCyc,1,ALDH7A1,6 (6),0.0382,0.526,0,,21 (21),1,1,0.163,0.455
+Nateglinide Action Pathway,SMPDB,1,SLC2A2,6 (6),0.0382,0.526,0,,4 (5),1,1,0.163,0.455
+Glibenclamide Action Pathway,SMPDB,1,SLC2A2,6 (6),0.0382,0.526,0,,4 (5),1,1,0.163,0.455
+Gliclazide Action Pathway,SMPDB,1,SLC2A2,6 (6),0.0382,0.526,0,,3 (5),1,1,0.163,0.455
+PTK6 promotes HIF1A stabilization,Reactome,1,EGFR,6 (6),0.0382,0.526,0,,2 (2),1,1,0.163,0.455
+Pancreas Function,SMPDB,1,SLC2A2,6 (6),0.0382,0.526,0,,3 (4),1,1,0.163,0.455
+Repaglinide Action Pathway,SMPDB,1,SLC2A2,6 (6),0.0382,0.526,0,,4 (5),1,1,0.163,0.455
+Refsum Disease,SMPDB,1,HACL1,6 (6),0.0382,0.526,0,,22 (24),1,1,0.163,0.455
+Phytanic Acid Peroxisomal Oxidation,SMPDB,1,HACL1,6 (6),0.0382,0.526,0,,22 (24),1,1,0.163,0.455
+Nicotine Metabolism,Wikipathways,1,AOX1,6 (6),0.0382,0.526,0,,10 (10),1,1,0.163,0.455
+Focal Adhesion,Wikipathways,4,COL5A2;PPP1R12A;EGFR;MYLK,198 (198),0.0396,0.543,0,,1 (2),1,1,0.167,0.465
+Ceramide signalling,Reactome,0,,3 (3),1,1,1,HMDB0013461,5 (5),0.0396,1,0.168,0.465
+Necroptosis - Homo sapiens (human),KEGG,1,PYGL,159 (159),0.646,1,1,HMDB0013461,8 (10),0.0627,1,0.17,0.472
+Methionine Cysteine metabolism,INOH,1,CSAD,24 (24),0.144,1,1,HMDB0000036,41 (45),0.284,1,0.172,0.475
+Sensory processing of sound by outer hair cells of the cochlea,Reactome,2,EPB41L1;GSN,50 (50),0.0416,0.567,0,,6 (7),1,1,0.174,0.479
+Aminosugars metabolism,EHMN,2,HEXA;SLC2A2,51 (51),0.0431,0.586,0,,37 (43),1,1,0.179,0.491
+Cholesterol Biosynthesis with Skeletal Dysplasias,Wikipathways,1,LBR,7 (7),0.0445,0.588,0,,12 (14),1,1,0.183,0.491
+oxidative ethanol degradation III,HumanCyc,1,ACSS2,7 (7),0.0445,0.588,0,,15 (15),1,1,0.183,0.491
+CS/DS degradation,Reactome,1,HEXA,7 (7),0.0445,0.588,0,,4 (15),1,1,0.183,0.491
+Fructose metabolism,Reactome,1,KHK,7 (7),0.0445,0.588,0,,16 (20),1,1,0.183,0.491
+superpathway of choline degradation to L-serine,HumanCyc,1,ALDH7A1,7 (7),0.0445,0.588,0,,16 (16),1,1,0.183,0.491
+chondroitin sulfate degradation (metazoa),HumanCyc,1,HEXA,7 (7),0.0445,0.588,0,,70 (131),1,1,0.183,0.491
+Suppression of apoptosis,Reactome,1,RNF213,7 (7),0.0445,0.588,0,,2 (2),1,1,0.183,0.491
+dermatan sulfate degradation (metazoa),HumanCyc,1,HEXA,7 (7),0.0445,0.588,0,,70 (131),1,1,0.183,0.491
+Ethanol Degradation,SMPDB,1,ACSS2,7 (7),0.0445,0.588,0,,18 (18),1,1,0.183,0.491
+dopamine degradation,HumanCyc,1,COMT,7 (7),0.0445,0.588,0,,17 (17),1,1,0.183,0.491
+mechanism of gene regulation by peroxisome proliferators via ppara,BioCarta,2,APOA2;ME1,52 (52),0.0446,0.588,0,,1 (9),1,1,0.183,0.491
+Pentose and glucuronate interconversions - Homo sapiens (human),KEGG,1,UGT2A3,34 (34),0.198,1,1,HMDB0039721,32 (58),0.229,1,0.186,0.497
+Mitochondrial biogenesis,Reactome,2,ATP5MC2;ACSS2,53 (53),0.0462,0.607,0,,7 (8),1,1,0.188,0.5
+3q29 copy number variation syndrome,Wikipathways,0,,86 (86),1,1,1,HMDB0000036,6 (17),0.0474,1,0.192,0.5
+Neurodegeneration with brain iron accumulation (NBIA) subtypes pathway,Wikipathways,0,,44 (44),1,1,1,HMDB0013461,6 (23),0.0474,1,0.192,0.5
+mRNA decay by 5_ to 3_ exoribonuclease,Reactome,0,,15 (15),1,1,1,HMDB0001107,6 (7),0.0474,1,0.192,0.5
+Glycosylphosphatidylinositol (GPI)-anchor biosynthesis - Homo sapiens (human),KEGG,0,,26 (26),1,1,1,HMDB0011668,6 (16),0.0474,1,0.192,0.5
+Acyl chain remodelling of PC,Reactome,0,,27 (27),1,1,1,HMDB0010404,6 (13),0.0474,1,0.192,0.5
+Acyl chain remodeling of CL,Reactome,0,,6 (6),1,1,1,HMDB0010404,6 (12),0.0474,1,0.192,0.5
+Hydrolysis of LPC,Reactome,0,,11 (11),1,1,1,HMDB0010404,6 (9),0.0474,1,0.192,0.5
+phospholipids as signalling intermediaries,BioCarta,0,,33 (33),1,1,1,HMDB0013461,6 (7),0.0474,1,0.192,0.5
+Biosynthesis of maresin-like SPMs,Reactome,0,,6 (6),1,1,1,HMDB0002183,6 (17),0.0474,1,0.192,0.5
+Insulin Signalling,SMPDB,0,,17 (17),1,1,1,HMDB0009888,6 (7),0.0474,1,0.192,0.5
+Selenoamino acid metabolism,Reactome,3,GNMT;INMT;HNMT,128 (128),0.0503,0.616,0,,48 (63),1,1,0.201,0.5
+NAD Biosynthesis II (from tryptophan),Wikipathways,1,HAAO,8 (8),0.0507,0.616,0,,24 (24),1,1,0.202,0.5
+palmitate biosynthesis,HumanCyc,1,FASN,8 (9),0.0507,0.616,0,,9 (10),1,1,0.202,0.5
+Histidine catabolism,Reactome,1,HNMT,8 (8),0.0507,0.616,0,,22 (22),1,1,0.202,0.5
+Linoleic acid (LA) metabolism,Reactome,1,ACSL1,8 (8),0.0507,0.616,0,,19 (24),1,1,0.202,0.5
+GABA shunt,HumanCyc,1,ABAT,8 (8),0.0507,0.616,0,,13 (13),1,1,0.202,0.5
+Lectin pathway of complement activation,Reactome,1,MBL2,8 (8),0.0507,0.616,0,,3 (9),1,1,0.202,0.5
+Synthesis of Ketone Bodies,Reactome,1,AACS,8 (8),0.0507,0.616,0,,14 (14),1,1,0.202,0.5
+glycogen biosynthesis,HumanCyc,1,GBE1,8 (8),0.0507,0.616,0,,5 (7),1,1,0.202,0.5
+Conjugation of salicylate with glycine,Reactome,1,ACSM5,8 (8),0.0507,0.616,0,,7 (8),1,1,0.202,0.5
+sucrose degradation,HumanCyc,1,KHK,8 (8),0.0507,0.616,0,,10 (12),1,1,0.202,0.5
+cbl mediated ligand-induced downregulation of egf receptors pathway,BioCarta,1,EGFR,8 (8),0.0507,0.616,0,,1 (2),1,1,0.202,0.5
+ethanol degradation II,HumanCyc,1,ACSS2,8 (8),0.0507,0.616,0,,12 (12),1,1,0.202,0.5
+Galactosemia III,SMPDB,1,GCK,8 (8),0.0507,0.616,0,,19 (20),1,1,0.202,0.5
+Galactosemia II (GALK),SMPDB,1,GCK,8 (8),0.0507,0.616,0,,19 (20),1,1,0.202,0.5
+Intracellular Signalling Through Prostacyclin Receptor and Prostacyclin,SMPDB,1,MYLK,8 (8),0.0507,0.616,0,,9 (9),1,1,0.202,0.5
+Citalopram Metabolism Pathway,SMPDB,1,AOX1,8 (8),0.0507,0.616,0,,17 (18),1,1,0.202,0.5
+Glucose-Alanine Cycle,SMPDB,1,SLC2A2,8 (8),0.0507,0.616,0,,10 (11),1,1,0.202,0.5
+Betaine Metabolism,SMPDB,1,ALDH7A1,8 (8),0.0507,0.616,0,,20 (22),1,1,0.202,0.5
+Nucleotide Sugars Metabolism,SMPDB,1,GCK,8 (8),0.0507,0.616,0,,19 (20),1,1,0.202,0.5
+Mitochondrial Beta-Oxidation of Medium Chain Saturated Fatty Acids,SMPDB,1,ACSM1,8 (8),0.0507,0.616,0,,25 (25),1,1,0.202,0.5
+Butyrate Metabolism,SMPDB,1,ACSM1,8 (8),0.0507,0.616,0,,19 (19),1,1,0.202,0.5
+Effects of nitric oxide,Wikipathways,1,AOX1,8 (8),0.0507,0.616,0,,7 (7),1,1,0.202,0.5
+C21-steroid hormone biosynthesis and metabolism,EHMN,2,CYP27A1;AKR1D1,57 (57),0.0526,0.635,0,,46 (61),1,1,0.208,0.513
+Regulation of actin cytoskeleton - Homo sapiens (human),KEGG,4,PPP1R12A;EGFR;GSN;MYLK,218 (218),0.053,0.638,0,,2 (5),1,1,0.209,0.515
+Sensory processing of sound,Reactome,2,EPB41L1;GSN,58 (58),0.0543,0.651,0,,6 (7),1,1,0.212,0.516
+ABC transporters in lipid homeostasis,Reactome,0,,18 (18),1,1,1,HMDB0013461,7 (11),0.055,1,0.215,0.516
+COPI-independent Golgi-to-ER retrograde traffic,Reactome,0,,34 (34),1,1,1,HMDB0010404,7 (9),0.055,1,0.215,0.516
+phospho-PLA2 pathway,Reactome,0,,2 (2),1,1,1,HMDB0010404,7 (7),0.055,1,0.215,0.516
+Biosynthesis of maresins,Reactome,0,,8 (8),1,1,1,HMDB0002183,7 (23),0.055,1,0.215,0.516
+EGFR interacts with phospholipase C-gamma,Reactome,1,EGFR,9 (9),0.0568,0.658,0,,2 (2),1,1,0.22,0.516
+glycogenolysis,HumanCyc,1,PYGL,9 (9),0.0568,0.658,0,,6 (7),1,1,0.22,0.516
+Synthesis of 5-eicosatetraenoic acids,Reactome,1,PON1,9 (9),0.0568,0.658,0,,13 (17),1,1,0.22,0.516
+UDP-<i>N</i>-acetyl-D-galactosamine biosynthesis II,HumanCyc,1,GCK,9 (9),0.0568,0.658,0,,13 (16),1,1,0.22,0.516
+EGFR-dependent Endothelin signaling events,PID,1,EGFR,9 (9),0.0568,0.658,0,,3 (3),1,1,0.22,0.516
+Chylomicron assembly,Reactome,1,APOA2,9 (9),0.0568,0.658,0,,3 (4),1,1,0.22,0.516
+Chylomicron remodeling,Reactome,1,APOA2,9 (9),0.0568,0.658,0,,4 (7),1,1,0.22,0.516
+glutathione redox reactions I,HumanCyc,1,GPX7,9 (9),0.0568,0.658,0,,62 (100),1,1,0.22,0.516
+NR1H2 & NR1H3 regulate gene expression linked to lipogenesis,Reactome,1,FASN,9 (9),0.0568,0.658,0,,3 (4),1,1,0.22,0.516
+Clopidogrel Metabolism Pathway,SMPDB,1,PON1,9 (9),0.0568,0.658,0,,9 (9),1,1,0.22,0.516
+Transfer of Acetyl Groups into Mitochondria,SMPDB,1,ME1,9 (9),0.0568,0.658,0,,20 (22),1,1,0.22,0.516
+Nicotine Metabolism Pathway,SMPDB,1,AOX1,9 (9),0.0568,0.658,0,,20 (22),1,1,0.22,0.516
+Clopidogrel Action Pathway,SMPDB,1,PON1,9 (9),0.0568,0.658,0,,9 (9),1,1,0.22,0.516
+Folate-Alcohol and Cancer Pathway Hypotheses,Wikipathways,1,ALDH1L1,9 (9),0.0568,0.658,0,,11 (12),1,1,0.22,0.516
+Non Ketotic Hyperglycinemia,SMPDB,1,GNMT,27 (27),0.161,1,1,HMDB0000128,54 (55),0.356,1,0.221,0.516
+3-Phosphoglycerate dehydrogenase deficiency,SMPDB,1,GNMT,27 (27),0.161,1,1,HMDB0000128,54 (55),0.356,1,0.221,0.516
+Glycine and Serine Metabolism,SMPDB,1,GNMT,27 (27),0.161,1,1,HMDB0000128,54 (55),0.356,1,0.221,0.516
+Dimethylglycine Dehydrogenase Deficiency,SMPDB,1,GNMT,27 (27),0.161,1,1,HMDB0000128,54 (55),0.356,1,0.221,0.516
+Hyperglycinemia_ non-ketotic,SMPDB,1,GNMT,27 (27),0.161,1,1,HMDB0000128,54 (55),0.356,1,0.221,0.516
+Dimethylglycine Dehydrogenase Deficiency,SMPDB,1,GNMT,27 (27),0.161,1,1,HMDB0000128,54 (55),0.356,1,0.221,0.516
+Sarcosinemia,SMPDB,1,GNMT,27 (27),0.161,1,1,HMDB0000128,54 (55),0.356,1,0.221,0.516
+Dihydropyrimidine Dehydrogenase Deficiency (DHPD),SMPDB,1,GNMT,27 (27),0.161,1,1,HMDB0000128,54 (55),0.356,1,0.221,0.516
+Linoleate metabolism,EHMN,1,GPX7,72 (72),0.374,1,1,HMDB0010404,21 (24),0.157,1,0.225,0.523
+Other types of O-glycan biosynthesis - Homo sapiens (human),KEGG,2,OGT;POFUT1,47 (47),0.0371,0.526,0,,0 (0),1,1,0.0371,0.526
+Acrosome Reaction and Sperm:Oocyte Membrane Binding,Reactome,1,CD9,6 (6),0.0382,0.526,0,,0 (0),1,1,0.0382,0.526
+Amino Acid metabolism,Wikipathways,2,HNMT;ALDH7A1,91 (91),0.117,0.967,1,HMDB0000128,92 (108),0.531,1,0.235,0.533
+mRNA decay by 3_ to 5_ exoribonuclease,Reactome,0,,16 (16),1,1,1,HMDB0001107,8 (10),0.0627,1,0.236,0.533
+Deadenylation-dependent mRNA decay,Reactome,0,,56 (56),1,1,1,HMDB0001107,8 (11),0.0627,1,0.236,0.533
+creatine biosynthesis,HumanCyc,0,,2 (2),1,1,1,HMDB0000128,8 (8),0.0627,1,0.236,0.533
+Hyaluronan uptake and degradation,Reactome,1,HEXA,10 (10),0.0629,0.701,0,,5 (7),1,1,0.237,0.533
+TCA cycle in senescence,Wikipathways,1,ME1,10 (10),0.0629,0.701,0,,10 (13),1,1,0.237,0.533
+EGFR Transactivation by Gastrin,Reactome,1,EGFR,10 (10),0.0629,0.701,0,,2 (3),1,1,0.237,0.533
+mevalonate pathway,HumanCyc,1,MVK,10 (10),0.0629,0.701,0,,17 (17),1,1,0.237,0.533
+Neurotransmitter clearance,Reactome,1,COMT,10 (10),0.0629,0.701,0,,31 (33),1,1,0.237,0.533
+nicotine degradation III,HumanCyc,1,AOX1,10 (10),0.0629,0.701,0,,13 (24),1,1,0.237,0.533
+Ketone body metabolism,Reactome,1,AACS,10 (10),0.0629,0.701,0,,15 (16),1,1,0.237,0.533
+Beta Oxidation of Very Long Chain Fatty Acids,SMPDB,1,ACSL1,10 (10),0.0629,0.701,0,,13 (14),1,1,0.237,0.533
+Mitochondrial Beta-Oxidation of Long Chain Saturated Fatty Acids,SMPDB,1,ACSL1,10 (10),0.0629,0.701,0,,26 (26),1,1,0.237,0.533
+Adrenoleukodystrophy_ X-linked,SMPDB,1,ACSL1,10 (10),0.0629,0.701,0,,13 (14),1,1,0.237,0.533
+Carnitine-acylcarnitine translocase deficiency,SMPDB,1,ACSL1,10 (10),0.0629,0.701,0,,13 (14),1,1,0.237,0.533
+Vitamin D Metabolism,Wikipathways,1,CYP27A1,10 (10),0.0629,0.701,0,,9 (9),1,1,0.237,0.533
+Trans-sulfuration pathway,Wikipathways,1,CSAD,10 (10),0.0629,0.701,0,,14 (14),1,1,0.237,0.533
+Lidocaine (Antiarrhythmic) Action Pathway,SMPDB,1,MYLK,63 (63),0.337,1,1,HMDB0009888,26 (26),0.19,1,0.24,0.539
+Programmed Cell Death,Reactome,3,OGT;SEPTIN4;GSN,142 (142),0.0646,0.716,0,,11 (21),1,1,0.241,0.54
+Peroxisomal protein import,Reactome,2,HACL1;NUDT7,64 (64),0.0646,0.716,0,,1 (1),1,1,0.241,0.54
+GPCR downstream signalling,Reactome,1,EGFR,633 (633),0.985,1,3,HMDB0010404;HMDB0034927;HMDB0002183,118 (152),0.0662,1,0.243,0.543
+Association Between Physico-Chemical Features and Toxicity Associated Pathways,Wikipathways,2,EGFR;MYLK,65 (65),0.0663,0.729,0,,9 (9),1,1,0.246,0.547
+Glycolysis and Gluconeogenesis,EHMN,2,ALDH7A1;ME1,66 (67),0.0681,0.729,0,,48 (52),1,1,0.251,0.547
+folate transformations,HumanCyc,1,ALDH1L1,11 (11),0.069,0.729,0,,21 (21),1,1,0.253,0.547
+superoxide radicals degradation,HumanCyc,1,GPX7,11 (11),0.069,0.729,0,,10 (11),1,1,0.253,0.547
+Glycogen synthesis,Reactome,1,GBE1,11 (11),0.069,0.729,0,,9 (10),1,1,0.253,0.547
+Steroidogenesis,SMPDB,1,AKR1D1,11 (11),0.069,0.729,0,,40 (42),1,1,0.253,0.547
+Apparent mineralocorticoid excess syndrome,SMPDB,1,AKR1D1,11 (11),0.069,0.729,0,,40 (42),1,1,0.253,0.547
+3-Beta-Hydroxysteroid Dehydrogenase Deficiency,SMPDB,1,AKR1D1,11 (11),0.069,0.729,0,,40 (42),1,1,0.253,0.547
+21-hydroxylase deficiency (CYP21),SMPDB,1,AKR1D1,11 (11),0.069,0.729,0,,40 (42),1,1,0.253,0.547
+Corticosterone methyl oxidase I deficiency (CMO I),SMPDB,1,AKR1D1,11 (11),0.069,0.729,0,,40 (42),1,1,0.253,0.547
+Corticosterone methyl oxidase II deficiency - CMO II,SMPDB,1,AKR1D1,11 (11),0.069,0.729,0,,40 (42),1,1,0.253,0.547
+Adrenal Hyperplasia Type 5 or Congenital Adrenal Hyperplasia due to 17 Alpha-hydroxylase Deficiency,SMPDB,1,AKR1D1,11 (11),0.069,0.729,0,,40 (42),1,1,0.253,0.547
+Adrenal Hyperplasia Type 3 or Congenital Adrenal Hyperplasia due to 21-hydroxylase Deficiency,SMPDB,1,AKR1D1,11 (11),0.069,0.729,0,,40 (42),1,1,0.253,0.547
+Congenital Lipoid Adrenal Hyperplasia (CLAH) or Lipoid CAH,SMPDB,1,AKR1D1,11 (11),0.069,0.729,0,,40 (42),1,1,0.253,0.547
+17-alpha-hydroxylase deficiency (CYP17),SMPDB,1,AKR1D1,11 (11),0.069,0.729,0,,40 (42),1,1,0.253,0.547
+Lactose Degradation,SMPDB,1,SLC2A2,11 (11),0.069,0.729,0,,8 (9),1,1,0.253,0.547
+Lactose Intolerance,SMPDB,1,SLC2A2,11 (11),0.069,0.729,0,,8 (9),1,1,0.253,0.547
+11-beta-hydroxylase deficiency (CYP11B1),SMPDB,1,AKR1D1,11 (11),0.069,0.729,0,,40 (42),1,1,0.253,0.547
+Golgi-to-ER retrograde transport,Reactome,0,,116 (116),1,1,1,HMDB0010404,9 (11),0.0702,1,0.257,0.55
+Acetylation,Reactome,0,,2 (2),1,1,1,HMDB0001860,9 (14),0.0702,1,0.257,0.55
+Aromatic amines can be N-hydroxylated or N-dealkylated by CYP1A2,Reactome,0,,1 (1),1,1,1,HMDB0001860,9 (10),0.0702,1,0.257,0.55
+pyrimidine deoxyribonucleosides degradation,HumanCyc,0,,4 (4),1,1,1,HMDB0000273,9 (10),0.0702,1,0.257,0.55
+Retinol metabolism - Homo sapiens (human),KEGG,2,AOX1;UGT2A3,68 (68),0.0718,0.755,0,,18 (25),1,1,0.261,0.552
+22q11.2 copy number variation syndrome,Wikipathways,3,COMT;EGFR;SEPTIN5,149 (149),0.0723,0.755,0,,20 (30),1,1,0.262,0.552
+Hyaluronan metabolism,Reactome,1,HEXA,12 (12),0.075,0.755,0,,5 (7),1,1,0.269,0.552
+superpathway of geranylgeranyldiphosphate biosynthesis I (via mevalonate),HumanCyc,1,MVK,12 (12),0.075,0.755,0,,20 (21),1,1,0.269,0.552
+Dimethyl-branched-chain fatty acid mitochondrial beta-oxidation,EHMN,1,ACADSB,12 (12),0.075,0.755,0,,10 (10),1,1,0.269,0.552
+Lysine catabolism,Reactome,1,ALDH7A1,12 (12),0.075,0.755,0,,30 (32),1,1,0.269,0.552
+Ethanol oxidation,Reactome,1,ACSS2,12 (12),0.075,0.755,0,,15 (15),1,1,0.269,0.552
+Eicosanoids,Reactome,1,CYP8B1,12 (12),0.075,0.755,0,,10 (13),1,1,0.269,0.552
+isoleucine degradation,HumanCyc,1,ACADSB,12 (12),0.075,0.755,0,,14 (16),1,1,0.269,0.552
+Aspartate and asparagine metabolism,Reactome,1,ASPG,12 (12),0.075,0.755,0,,23 (24),1,1,0.269,0.552
+Pregnenolone biosynthesis,Reactome,1,FDX1,12 (12),0.075,0.755,0,,11 (13),1,1,0.269,0.552
+Nicotinamide salvaging,Reactome,1,CYP8B1,12 (12),0.075,0.755,0,,30 (37),1,1,0.269,0.552
+lectin induced complement pathway,BioCarta,1,MBL2,12 (12),0.075,0.755,0,,2 (2),1,1,0.269,0.552
+PECAM1 interactions,Reactome,1,INPP5D,12 (12),0.075,0.755,0,,2 (2),1,1,0.269,0.552
+map kinase inactivation of smrt corepressor,BioCarta,1,EGFR,12 (12),0.075,0.755,0,,2 (2),1,1,0.269,0.552
+17-Beta Hydroxysteroid Dehydrogenase III Deficiency,SMPDB,1,AKR1D1,12 (12),0.075,0.755,0,,32 (32),1,1,0.269,0.552
+Mitochondrial iron-sulfur cluster biogenesis,Reactome,1,FDX1,12 (12),0.075,0.755,0,,6 (11),1,1,0.269,0.552
+Androgen and Estrogen Metabolism,SMPDB,1,AKR1D1,12 (12),0.075,0.755,0,,32 (32),1,1,0.269,0.552
+Aromatase deficiency,SMPDB,1,AKR1D1,12 (12),0.075,0.755,0,,32 (32),1,1,0.269,0.552
+Alanine and aspartate metabolism,Wikipathways,1,ABAT,12 (12),0.075,0.755,0,,19 (20),1,1,0.269,0.552
+Prolactin signaling pathway - Homo sapiens (human),KEGG,2,SLC2A2;GCK,70 (70),0.0755,0.758,0,,10 (11),1,1,0.27,0.552
+Signal Transduction,Reactome,9,EGFR;NIPSNAP2;PEA15;HPN;FASN;PPP1R12A;POFUT1;LBR;MYLK,2431 (2432),0.984,1,4,HMDB0010404;HMDB0034927;HMDB0013461;HMDB0002183,206 (290),0.078,1,0.274,0.552
+HDL remodeling,Reactome,0,,9 (9),1,1,1,HMDB0010404,10 (13),0.0777,1,0.276,0.552
+p75 NTR receptor-mediated signalling,Reactome,0,,96 (96),1,1,1,HMDB0013461,10 (11),0.0777,1,0.276,0.552
+Death Receptor Signalling,Reactome,0,,134 (134),1,1,1,HMDB0013461,10 (12),0.0777,1,0.276,0.552
+Intracellular Signalling Through Adenosine Receptor A2b and Adenosine,SMPDB,0,,38 (38),1,1,1,HMDB0009888,10 (10),0.0777,1,0.276,0.552
+Intracellular Signalling Through Adenosine Receptor A2a and Adenosine,SMPDB,0,,38 (38),1,1,1,HMDB0009888,10 (10),0.0777,1,0.276,0.552
+Oxytocin signaling pathway - Homo sapiens (human),KEGG,3,PPP1R12A;EGFR;MYLK,154 (154),0.0781,0.765,0,,11 (12),1,1,0.277,0.552
+Glycolysis,Reactome,2,PKLR;GCK,72 (73),0.0792,0.765,0,,21 (27),1,1,0.28,0.552
+Glycine Serine metabolism,INOH,1,GNMT,40 (40),0.229,1,1,HMDB0000128,53 (68),0.351,1,0.283,0.552
+Dopamine metabolism,Wikipathways,1,COMT,13 (13),0.081,0.765,0,,29 (33),1,1,0.285,0.552
+GRB2 events in EGFR signaling,Reactome,1,EGFR,13 (13),0.081,0.765,0,,2 (2),1,1,0.285,0.552
+Signaling by EGFRvIII in Cancer,Reactome,1,EGFR,13 (13),0.081,0.765,0,,5 (11),1,1,0.285,0.552
+ERBB2 Activates PTK6 Signaling,Reactome,1,EGFR,13 (13),0.081,0.765,0,,2 (2),1,1,0.285,0.552
+valine degradation,HumanCyc,1,ABAT,13 (13),0.081,0.765,0,,19 (20),1,1,0.285,0.552
+UTP and CTP <i>de novo</i> biosynthesis,HumanCyc,1,CTPS1,13 (13),0.081,0.765,0,,11 (11),1,1,0.285,0.552
+stearate biosynthesis,HumanCyc,1,ACSL1,13 (13),0.081,0.765,0,,15 (17),1,1,0.285,0.552
+Galactose metabolism,INOH,1,GCK,13 (13),0.081,0.765,0,,14 (15),1,1,0.285,0.552
+Degradation of cysteine and homocysteine,Reactome,1,CSAD,13 (13),0.081,0.765,0,,31 (40),1,1,0.285,0.552
+noradrenaline and adrenaline degradation,HumanCyc,1,COMT,13 (13),0.081,0.765,0,,20 (20),1,1,0.285,0.552
+Constitutive Signaling by EGFRvIII,Reactome,1,EGFR,13 (13),0.081,0.765,0,,5 (11),1,1,0.285,0.552
+Lysine Degradation,SMPDB,1,ALDH7A1,13 (13),0.081,0.765,0,,26 (27),1,1,0.285,0.552
+Folate malabsorption_ hereditary,SMPDB,1,ALDH1L1,13 (13),0.081,0.765,0,,28 (28),1,1,0.285,0.552
+Hyperlysinemia I_ Familial,SMPDB,1,ALDH7A1,13 (13),0.081,0.765,0,,26 (27),1,1,0.285,0.552
+Galactose Metabolism,SMPDB,1,GCK,13 (13),0.081,0.765,0,,31 (36),1,1,0.285,0.552
+2-aminoadipic 2-oxoadipic aciduria,SMPDB,1,ALDH7A1,13 (13),0.081,0.765,0,,26 (27),1,1,0.285,0.552
+Methylenetetrahydrofolate Reductase Deficiency (MTHFRD),SMPDB,1,ALDH1L1,13 (13),0.081,0.765,0,,28 (28),1,1,0.285,0.552
+Methotrexate Action Pathway,SMPDB,1,ALDH1L1,13 (13),0.081,0.765,0,,29 (29),1,1,0.285,0.552
+Folate Metabolism,SMPDB,1,ALDH1L1,13 (13),0.081,0.765,0,,28 (28),1,1,0.285,0.552
+Pyridoxine dependency with seizures,SMPDB,1,ALDH7A1,13 (13),0.081,0.765,0,,26 (27),1,1,0.285,0.552
+Saccharopinuria/Hyperlysinemia II,SMPDB,1,ALDH7A1,13 (13),0.081,0.765,0,,26 (27),1,1,0.285,0.552
+Gemcitabine Action Pathway,SMPDB,1,CTPS1,13 (13),0.081,0.765,0,,8 (8),1,1,0.285,0.552
+Glutaric Aciduria Type I,SMPDB,1,ALDH7A1,13 (13),0.081,0.765,0,,26 (27),1,1,0.285,0.552
+Galactosemia,SMPDB,1,GCK,13 (13),0.081,0.765,0,,31 (36),1,1,0.285,0.552
+Gemcitabine Metabolism Pathway,SMPDB,1,CTPS1,13 (13),0.081,0.765,0,,8 (8),1,1,0.285,0.552
+Hyperlysinemia II or Saccharopinuria,SMPDB,1,ALDH7A1,13 (13),0.081,0.765,0,,26 (27),1,1,0.285,0.552
+Caffeine and Theobromine metabolism,Wikipathways,0,,4 (4),1,1,1,HMDB0001860,11 (11),0.0852,1,0.295,0.566
+Ca-dependent events,Reactome,0,,39 (39),1,1,1,HMDB0010404,11 (11),0.0852,1,0.295,0.566
+Calcium Regulation in the Cardiac Cell,Wikipathways,0,,151 (151),1,1,1,HMDB0009888,11 (11),0.0852,1,0.295,0.566
+Intra-Golgi and retrograde Golgi-to-ER traffic,Reactome,0,,186 (186),1,1,1,HMDB0010404,11 (13),0.0852,1,0.295,0.566
+SHC1 events in EGFR signaling,Reactome,1,EGFR,14 (14),0.087,0.802,0,,4 (4),1,1,0.299,0.566
+Methylation,Reactome,1,COMT,14 (14),0.087,0.802,0,,30 (38),1,1,0.299,0.566
+Vitamin B5 (pantothenate) metabolism,Reactome,1,FASN,14 (14),0.087,0.802,0,,17 (17),1,1,0.299,0.566
+Nicotinate and Nicotinamide Metabolism,SMPDB,1,AOX1,14 (14),0.087,0.802,0,,34 (35),1,1,0.299,0.566
+Malonyl-coa decarboxylase deficiency,SMPDB,1,ABAT,14 (14),0.087,0.802,0,,35 (38),1,1,0.299,0.566
+Malonic Aciduria,SMPDB,1,ABAT,14 (14),0.087,0.802,0,,35 (38),1,1,0.299,0.566
+Hypoacetylaspartia,SMPDB,1,ABAT,14 (14),0.087,0.802,0,,34 (34),1,1,0.299,0.566
+Propanoate Metabolism,SMPDB,1,ABAT,14 (14),0.087,0.802,0,,35 (38),1,1,0.299,0.566
+Aspartate Metabolism,SMPDB,1,ABAT,14 (14),0.087,0.802,0,,34 (34),1,1,0.299,0.566
+Methylmalonic Aciduria Due to Cobalamin-Related Disorders,SMPDB,1,ABAT,14 (14),0.087,0.802,0,,35 (38),1,1,0.299,0.566
+Canavan Disease,SMPDB,1,ABAT,14 (14),0.087,0.802,0,,34 (34),1,1,0.299,0.566
+Protein localization,Reactome,3,LDHD;HACL1;NUDT7,165 (165),0.0916,0.827,0,,4 (4),1,1,0.311,0.577
+glutaryl-CoA degradation,HumanCyc,0,,4 (4),1,1,1,HMDB0001290,12 (12),0.0926,1,0.313,0.577
+ERK Pathway in Huntington_s Disease,Wikipathways,1,EGFR,15 (15),0.0929,0.827,0,,1 (1),1,1,0.314,0.577
+Airway smooth muscle cell contraction,Wikipathways,1,MYLK,15 (15),0.0929,0.827,0,,4 (7),1,1,0.314,0.577
+Biogenic Amine Synthesis,Wikipathways,1,COMT,15 (15),0.0929,0.827,0,,17 (18),1,1,0.314,0.577
+superpathway of pyrimidine ribonucleotides <i>de novo</i> biosynthesis,HumanCyc,1,CTPS1,15 (15),0.0929,0.827,0,,22 (23),1,1,0.314,0.577
+ERBB2 Regulates Cell Motility,Reactome,1,EGFR,15 (15),0.0929,0.827,0,,1 (1),1,1,0.314,0.577
+Constitutive Signaling by Ligand-Responsive EGFR Cancer Variants,Reactome,1,EGFR,15 (15),0.0929,0.827,0,,6 (19),1,1,0.314,0.577
+Glycosphingolipid biosynthesis - ganglio series - Homo sapiens (human),KEGG,1,HEXA,15 (15),0.0929,0.827,0,,7 (31),1,1,0.314,0.577
+Glycosphingolipid biosynthesis - globo and isoglobo series - Homo sapiens (human),KEGG,1,HEXA,15 (15),0.0929,0.827,0,,3 (23),1,1,0.314,0.577
+D-<i>myo</i>-inositol (1_3_4)-trisphosphate biosynthesis,HumanCyc,1,INPP5D,15 (15),0.0929,0.827,0,,8 (8),1,1,0.314,0.577
+Signaling by Ligand-Responsive EGFR Variants in Cancer,Reactome,1,EGFR,15 (15),0.0929,0.827,0,,6 (19),1,1,0.314,0.577
+Histidine Metabolism,SMPDB,1,HNMT,15 (15),0.0929,0.827,0,,40 (40),1,1,0.314,0.577
+Histidinemia,SMPDB,1,HNMT,15 (15),0.0929,0.827,0,,40 (40),1,1,0.314,0.577
+Mercaptopurine Metabolism Pathway,SMPDB,1,AOX1,15 (15),0.0929,0.827,0,,21 (24),1,1,0.314,0.577
+1D-<i>myo</i>-inositol hexakisphosphate biosynthesis II (mammalian),HumanCyc,1,INPP5D,15 (15),0.0929,0.827,0,,11 (11),1,1,0.314,0.577
+Cholesterol Biosynthesis Pathway,Wikipathways,1,MVK,15 (15),0.0929,0.827,0,,14 (14),1,1,0.314,0.577
+Hepatocellular carcinoma - Homo sapiens (human),KEGG,3,EGFR;GSTM3;GSTM4,168 (168),0.0954,0.848,0,,9 (14),1,1,0.32,0.587
+GRB2 events in ERBB2 signaling,Reactome,1,EGFR,16 (16),0.0988,0.86,0,,2 (2),1,1,0.327,0.593
+PI3K events in ERBB2 signaling,Reactome,1,EGFR,16 (16),0.0988,0.86,0,,3 (4),1,1,0.327,0.593
+Signaling by ERBB2 ECD mutants,Reactome,1,EGFR,16 (16),0.0988,0.86,0,,6 (8),1,1,0.327,0.593
+Synthesis of Prostaglandins (PG) and Thromboxanes (TX),Reactome,1,CYP8B1,16 (16),0.0988,0.86,0,,39 (50),1,1,0.327,0.593
+Omega-3 fatty acid metabolism,EHMN,1,ACSL1,16 (16),0.0988,0.86,0,,15 (16),1,1,0.327,0.593
+Steroids metabolism,INOH,1,MVK,16 (16),0.0988,0.86,0,,27 (31),1,1,0.327,0.593
+RAF-independent MAPK1/3 activation,Reactome,1,PEA15,16 (16),0.0988,0.86,0,,4 (4),1,1,0.327,0.593
+Apoptotic factor-mediated response,Reactome,1,SEPTIN4,16 (16),0.0988,0.86,0,,2 (2),1,1,0.327,0.593
+Cori Cycle,Wikipathways,1,SLC2A2,16 (16),0.0988,0.86,0,,18 (25),1,1,0.327,0.593
+Biosynthesis of electrophilic ?-3 PUFA oxo-derivatives,Reactome,0,,2 (2),1,1,1,HMDB0002183,13 (28),0.0999,1,0.33,0.596
+Heroin Action Pathway,SMPDB,0,,32 (32),1,1,1,HMDB0041812,13 (14),0.0999,1,0.33,0.596
+Signaling by GPCR,Reactome,1,EGFR,706 (706),0.991,1,3,HMDB0010404;HMDB0034927;HMDB0002183,142 (190),0.102,1,0.334,0.602
+Mitochondrial LC-Fatty Acid Beta-Oxidation,Wikipathways,1,ACSL1,17 (17),0.105,0.894,0,,2 (6),1,1,0.341,0.607
+Glycosaminoglycan degradation,Wikipathways,1,HEXA,17 (17),0.105,0.894,0,,3 (5),1,1,0.341,0.607
+Glycogen breakdown (glycogenolysis),Reactome,1,PYGL,17 (17),0.105,0.894,0,,9 (11),1,1,0.341,0.607
+Selenocompound metabolism - Homo sapiens (human),KEGG,1,INMT,17 (17),0.105,0.894,0,,16 (27),1,1,0.341,0.607
+Metabolism of folate and pterines,Reactome,1,ALDH1L1,17 (17),0.105,0.894,0,,20 (25),1,1,0.341,0.607
+Heme degradation,Reactome,1,SLCO2B1,17 (17),0.105,0.894,0,,18 (19),1,1,0.341,0.607
+Plasma lipoprotein assembly,Reactome,1,APOA2,17 (17),0.105,0.894,0,,10 (11),1,1,0.341,0.607
+GAB1 signalosome,Reactome,1,EGFR,17 (17),0.105,0.894,0,,5 (6),1,1,0.341,0.607
+Insulin secretion - Homo sapiens (human),KEGG,2,SLC2A2;GCK,86 (86),0.107,0.912,0,,10 (12),1,1,0.346,0.615
+Digestion of dietary lipid,Reactome,0,,7 (7),1,1,1,HMDB0000036,14 (17),0.107,1,0.347,0.615
+Inhibition of Signaling by Overexpressed EGFR,Reactome,1,EGFR,8 (8),0.0507,0.616,0,,0 (4),1,1,0.0507,0.616
+Signaling by Overexpressed Wild-Type EGFR in Cancer,Reactome,1,EGFR,8 (8),0.0507,0.616,0,,0 (4),1,1,0.0507,0.616
+SMAC_ XIAP-regulated apoptotic response,Reactome,1,SEPTIN4,8 (8),0.0507,0.616,0,,0 (0),1,1,0.0507,0.616
+Phase I biotransformations_ non P450,Wikipathways,1,PON1,8 (8),0.0507,0.616,0,,0 (4),1,1,0.0507,0.616
+Arginine and proline metabolism - Homo sapiens (human),KEGG,1,ALDH7A1,50 (51),0.278,1,1,HMDB0000128,60 (78),0.388,1,0.348,0.616
+EGF-Ncore,Signalink,2,PEA15;INPP5D,56 (56),0.051,0.618,0,,0 (0),1,1,0.051,0.618
+Fatty acid transporters,Wikipathways,1,ACSL1,18 (18),0.11,0.921,0,,1 (2),1,1,0.354,0.618
+Estrogen metabolism,Wikipathways,1,COMT,18 (18),0.11,0.921,0,,19 (23),1,1,0.354,0.618
+Formation of ATP by chemiosmotic coupling,Reactome,1,ATP5MC2,18 (18),0.11,0.921,0,,5 (5),1,1,0.354,0.618
+Glycosphingolipid biosynthesis - globoseries,EHMN,1,HEXA,18 (18),0.11,0.921,0,,14 (22),1,1,0.354,0.618
+MFAP5 effect on permeability and motility of endothelial cells via cytoskeleton rearrangement,Wikipathways,1,MYLK,18 (18),0.11,0.921,0,,1 (1),1,1,0.354,0.618
+RHO GTPases Activate ROCKs,Reactome,1,PPP1R12A,18 (18),0.11,0.921,0,,5 (5),1,1,0.354,0.618
+Fructose intolerance_ hereditary,SMPDB,1,KHK,18 (18),0.11,0.921,0,,28 (31),1,1,0.354,0.618
+Fructose and Mannose Degradation,SMPDB,1,KHK,18 (18),0.11,0.921,0,,28 (31),1,1,0.354,0.618
+Fructosuria,SMPDB,1,KHK,18 (18),0.11,0.921,0,,28 (31),1,1,0.354,0.618
+Ebola Virus Pathway on Host,Wikipathways,3,MBL2;EGFR;GSN,130 (130),0.0522,0.631,0,,0 (0),1,1,0.0522,0.631
+Creatine metabolism,Reactome,0,,11 (11),1,1,1,HMDB0000128,15 (15),0.114,1,0.362,0.633
+Gastrin-CREB signalling pathway via PKC and MAPK,Reactome,1,EGFR,19 (19),0.116,0.958,0,,4 (5),1,1,0.366,0.634
+GABA synthesis_ release_ reuptake and degradation,Reactome,1,ABAT,19 (19),0.116,0.958,0,,15 (17),1,1,0.366,0.634
+fatty acid &beta;-oxidation (peroxisome),HumanCyc,1,ACSL1,19 (19),0.116,0.958,0,,61 (85),1,1,0.366,0.634
+fatty acid &beta;-oxidation,HumanCyc,1,ACSL1,19 (19),0.116,0.958,0,,60 (84),1,1,0.366,0.634
+Initiation of Nuclear Envelope (NE) Reformation,Reactome,1,LBR,19 (19),0.116,0.958,0,,6 (9),1,1,0.366,0.634
+Glycosaminoglycan degradation - Homo sapiens (human),KEGG,1,HEXA,19 (19),0.116,0.958,0,,5 (27),1,1,0.366,0.634
+Glucose metabolism,Reactome,2,PKLR;GCK,92 (93),0.12,0.982,0,,32 (39),1,1,0.374,0.645
+PLC beta mediated events,Reactome,0,,50 (50),1,1,1,HMDB0010404,16 (17),0.122,1,0.378,0.645
+G-protein mediated events,Reactome,0,,55 (55),1,1,1,HMDB0010404,16 (17),0.122,1,0.378,0.645
+3-phosphoinositide degradation,HumanCyc,1,INPP5D,20 (20),0.122,0.988,0,,2 (5),1,1,0.379,0.645
+One carbon pool by folate - Homo sapiens (human),KEGG,1,ALDH1L1,20 (20),0.122,0.988,0,,9 (9),1,1,0.379,0.645
+Cellular hexose transport,Reactome,1,SLC2A2,20 (20),0.122,0.988,0,,4 (7),1,1,0.379,0.645
+egf signaling pathway,BioCarta,1,EGFR,20 (20),0.122,0.988,0,,1 (1),1,1,0.379,0.645
+sprouty regulation of tyrosine kinase signals,BioCarta,1,EGFR,20 (20),0.122,0.988,0,,3 (4),1,1,0.379,0.645
+superpathway of D-<i>myo</i>-inositol (1_4_5)-trisphosphate metabolism,HumanCyc,1,INPP5D,20 (20),0.122,0.988,0,,11 (11),1,1,0.379,0.645
+Mitochondrial Electron Transport Chain,SMPDB,1,ATP5MC2,20 (20),0.122,0.988,0,,17 (18),1,1,0.379,0.645
+G alpha (i) signalling events,Reactome,0,,316 (316),1,1,2,HMDB0010404;HMDB0034927,77 (106),0.126,1,0.387,0.656
+Fructose and mannose metabolism,EHMN,1,SLC2A2,21 (21),0.128,1,0,,28 (34),1,1,0.39,0.656
+Glycosphingolipid biosynthesis - ganglioseries,EHMN,1,HEXA,21 (21),0.128,1,0,,18 (38),1,1,0.39,0.656
+Branched-chain amino acid catabolism,Reactome,1,ACADSB,21 (21),0.128,1,0,,34 (39),1,1,0.39,0.656
+E-cadherin signaling in keratinocytes,PID,1,EGFR,21 (21),0.128,1,0,,4 (4),1,1,0.39,0.656
+Signaling by EGFR in Cancer,Reactome,1,EGFR,21 (21),0.128,1,0,,6 (19),1,1,0.39,0.656
+pkc-catalyzed phosphorylation of inhibitory phosphoprotein of myosin phosphatase,BioCarta,1,MYLK,21 (21),0.128,1,0,,1 (3),1,1,0.39,0.656
+Fc gamma R-mediated phagocytosis - Homo sapiens (human),KEGG,2,INPP5D;GSN,96 (97),0.128,1,0,,7 (8),1,1,0.392,0.656
+16p11.2 proximal deletion syndrome,Wikipathways,0,,79 (79),1,1,1,HMDB0010404,17 (40),0.129,1,0.393,0.656
+ABC transporters - Homo sapiens (human),KEGG,1,ABCB10,45 (45),0.254,1,1,HMDB0039721,88 (138),0.515,1,0.397,0.656
+Arachidonic acid metabolism,EHMN,2,GPX7;SLC27A5,98 (98),0.133,1,0,,47 (53),1,1,0.4,0.656
+Lysine degradation,INOH,1,ALDH7A1,22 (22),0.133,1,0,,33 (36),1,1,0.402,0.656
+PKC-gamma calcium signaling pathway in ataxia,Wikipathways,1,CA8,22 (22),0.133,1,0,,4 (4),1,1,0.402,0.656
+SHC1 events in ERBB2 signaling,Reactome,1,EGFR,22 (22),0.133,1,0,,7 (8),1,1,0.402,0.656
+Signaling by ERBB2 TMD/JMD mutants,Reactome,1,EGFR,22 (22),0.133,1,0,,5 (6),1,1,0.402,0.656
+Tryptophan metabolism,EHMN,1,ALDH7A1,22 (22),0.133,1,0,,72 (78),1,1,0.402,0.656
+superpathway of pyrimidine deoxyribonucleotides <i>de novo</i> biosynthesis,HumanCyc,1,CTPS1,22 (22),0.133,1,0,,33 (34),1,1,0.402,0.656
+Signal transduction by L1,Reactome,1,EGFR,22 (22),0.133,1,0,,4 (4),1,1,0.402,0.656
+Terpenoid backbone biosynthesis - Homo sapiens (human),KEGG,1,MVK,22 (22),0.133,1,0,,20 (45),1,1,0.402,0.656
+Regulation of necroptotic cell death,Reactome,1,OGT,22 (22),0.133,1,0,,6 (10),1,1,0.402,0.656
+RIPK1-mediated regulated necrosis,Reactome,1,OGT,22 (22),0.133,1,0,,8 (14),1,1,0.402,0.656
+Gluconeogenesis,SMPDB,1,SLC2A2,22 (22),0.133,1,0,,29 (34),1,1,0.402,0.656
+Glycogenosis_ Type IA. Von gierke disease,SMPDB,1,SLC2A2,22 (22),0.133,1,0,,29 (34),1,1,0.402,0.656
+Glycogenosis_ Type IC,SMPDB,1,SLC2A2,22 (22),0.133,1,0,,29 (34),1,1,0.402,0.656
+Glycogen Storage Disease Type 1A (GSD1A) or Von Gierke Disease,SMPDB,1,SLC2A2,22 (22),0.133,1,0,,29 (34),1,1,0.402,0.656
+Triosephosphate isomerase,SMPDB,1,SLC2A2,22 (22),0.133,1,0,,29 (34),1,1,0.402,0.656
+Fructose-1_6-diphosphatase deficiency,SMPDB,1,SLC2A2,22 (22),0.133,1,0,,29 (34),1,1,0.402,0.656
+Phosphoenolpyruvate carboxykinase deficiency 1 (PEPCK1),SMPDB,1,SLC2A2,22 (22),0.133,1,0,,29 (34),1,1,0.402,0.656
+Glycogenosis_ Type IB,SMPDB,1,SLC2A2,22 (22),0.133,1,0,,29 (34),1,1,0.402,0.656
+Type II diabetes mellitus,Wikipathways,1,SLC2A2,22 (22),0.133,1,0,,4 (4),1,1,0.402,0.656
+Membrane Trafficking,Reactome,2,EGFR;RAB32,578 (578),0.894,1,1,HMDB0010404,20 (31),0.15,1,0.403,0.657
+Caffeine metabolism - Homo sapiens (human),KEGG,0,,6 (6),1,1,1,HMDB0001860,18 (22),0.136,1,0.407,0.661
+Alpha Linolenic Acid and Linoleic Acid Metabolism,SMPDB,0,,6 (6),1,1,1,HMDB0002183,18 (18),0.136,1,0.407,0.661
+Di-unsaturated fatty acid beta-oxidation,EHMN,1,ACSL1,23 (23),0.139,1,0,,19 (19),1,1,0.413,0.668
+Uptake and actions of bacterial toxins,Reactome,1,CD9,23 (23),0.139,1,0,,9 (11),1,1,0.413,0.668
+Response of Mtb to phagocytosis,Reactome,1,RNF213,23 (23),0.139,1,0,,7 (11),1,1,0.413,0.668
+UCH proteinases,Reactome,2,OGT;PSMB10,102 (102),0.141,1,0,,1 (3),1,1,0.418,0.673
+Leukotriene metabolism,EHMN,2,ACSL1;ALDH7A1,102 (102),0.141,1,0,,25 (27),1,1,0.418,0.673
+L1CAM interactions,Reactome,2,SHTN1;EGFR,102 (102),0.141,1,0,,7 (10),1,1,0.418,0.673
+Focal adhesion - Homo sapiens (human),KEGG,3,PPP1R12A;EGFR;MYLK,201 (201),0.142,1,0,,1 (2),1,1,0.418,0.673
+Synthesis of very long-chain fatty acyl-CoAs,Reactome,1,ACSL1,24 (24),0.144,1,0,,20 (27),1,1,0.424,0.68
+Nicotinate metabolism,Reactome,1,CYP8B1,24 (24),0.144,1,0,,40 (50),1,1,0.424,0.68
+SLC-mediated transmembrane transport,Reactome,2,SLC2A2;SLCO2B1,243 (243),0.469,1,2,HMDB0000036;HMDB0000273,139 (164),0.309,1,0.425,0.68
+Urea cycle and metabolism of arginine_ proline_ glutamate_ aspartate and asparagine,EHMN,2,ABAT;ALDH7A1,105 (105),0.148,1,0,,93 (125),1,1,0.431,0.689
+Opioid Signalling,Reactome,0,,91 (91),1,1,1,HMDB0010404,20 (23),0.15,1,0.434,0.689
+Relationship between inflammation_ COX-2 and EGFR,Wikipathways,1,EGFR,25 (25),0.15,1,0,,1 (2),1,1,0.435,0.689
+Saturated fatty acids beta-oxidation,EHMN,1,ACADSB,25 (25),0.15,1,0,,43 (43),1,1,0.435,0.689
+NOTCH3 Activation and Transmission of Signal to the Nucleus,Reactome,1,EGFR,25 (25),0.15,1,0,,3 (3),1,1,0.435,0.689
+Signaling by ERBB2 KD Mutants,Reactome,1,EGFR,25 (25),0.15,1,0,,6 (10),1,1,0.435,0.689
+Glucuronidation,Reactome,1,UGT2A3,25 (25),0.15,1,0,,28 (31),1,1,0.435,0.689
+Signaling by ERBB2 in Cancer,Reactome,1,EGFR,25 (25),0.15,1,0,,6 (10),1,1,0.435,0.689
+Liver X receptor pathway,Wikipathways,1,FASN,10 (10),0.0629,0.701,0,,0 (1),1,1,0.0629,0.701
+Glucuronidation,Wikipathways,1,UGT2A3,26 (26),0.156,1,0,,14 (14),1,1,0.445,0.703
+Fertilization,Reactome,1,CD9,26 (26),0.156,1,0,,5 (5),1,1,0.445,0.703
+retinol biosynthesis,HumanCyc,0,,19 (19),1,1,1,HMDB0002183,21 (37),0.157,1,0.447,0.704
+Transport of nucleosides and free purine and pyrimidine bases across the plasma membrane,Reactome,0,,12 (12),1,1,1,HMDB0000273,21 (21),0.157,1,0.447,0.704
+Transcriptional activation of mitochondrial biogenesis,Reactome,1,ACSS2,27 (27),0.161,1,0,,6 (7),1,1,0.455,0.713
+Vitamin D3 (cholecalciferol) metabolism,EHMN,1,CYP27A1,27 (27),0.161,1,0,,12 (12),1,1,0.455,0.713
+Sulfur amino acid metabolism,Reactome,1,CSAD,27 (27),0.161,1,0,,49 (67),1,1,0.455,0.713
+Infection with Mycobacterium tuberculosis,Reactome,1,RNF213,27 (27),0.161,1,0,,30 (55),1,1,0.455,0.713
+Selenium Micronutrient Network,Wikipathways,0,,86 (86),1,1,2,HMDB0001904;HMDB0002183,91 (107),0.165,1,0.462,0.722
+One-carbon metabolism,Wikipathways,1,ALDH1L1,28 (28),0.166,1,0,,22 (25),1,1,0.465,0.722
+Omega-6 fatty acid metabolism,EHMN,1,ACSL1,28 (28),0.166,1,0,,20 (23),1,1,0.465,0.722
+FOXO-mediated transcription of oxidative stress_ metabolic and neuronal genes,Reactome,1,GCK,28 (28),0.166,1,0,,4 (4),1,1,0.465,0.722
+Recycling pathway of L1,Reactome,1,SHTN1,28 (28),0.166,1,0,,5 (7),1,1,0.465,0.722
+EGF,INOH,1,EGFR,28 (28),0.166,1,0,,2 (2),1,1,0.465,0.722
+role of erbb2 in signal transduction and oncology,BioCarta,1,EGFR,28 (28),0.166,1,0,,2 (2),1,1,0.465,0.722
+Free fatty acid receptors,Reactome,0,,5 (5),1,1,1,HMDB0002183,23 (24),0.17,1,0.472,0.728
+Kynurenine Pathway and links to Cellular Senescence,Wikipathways,0,,3 (3),1,1,1,HMDB0001290,23 (25),0.17,1,0.472,0.728
+Pyrimidine salvage,Reactome,0,,11 (11),1,1,1,HMDB0000273,23 (23),0.17,1,0.472,0.728
+Caffeine Metabolism,SMPDB,0,,7 (7),1,1,1,HMDB0001860,23 (24),0.17,1,0.472,0.728
+Synthesis of IP3 and IP4 in the cytosol,Reactome,1,INPP5D,29 (29),0.172,1,0,,11 (14),1,1,0.475,0.728
+Downregulation of ERBB2 signaling,Reactome,1,EGFR,29 (29),0.172,1,0,,4 (4),1,1,0.475,0.728
+Metabolism of porphyrins,Reactome,1,SLCO2B1,29 (29),0.172,1,0,,34 (43),1,1,0.475,0.728
+Regulated Necrosis,Reactome,1,OGT,29 (29),0.172,1,0,,8 (16),1,1,0.475,0.728
+Pyruvate metabolism,Reactome,1,ME1,29 (29),0.172,1,0,,24 (25),1,1,0.475,0.728
+HIF-1-alpha transcription factor network,PID,2,GCK;ENG,66 (66),0.0681,0.729,0,,0 (0),1,1,0.0681,0.729
+Dissolution of Fibrin Clot,Reactome,1,SERPINB6,11 (11),0.069,0.729,0,,0 (1),1,1,0.069,0.729
+alpha-Linolenic acid metabolism - Homo sapiens (human),KEGG,0,,25 (25),1,1,1,HMDB0060376,24 (44),0.177,1,0.483,0.736
+EGFR downregulation,Reactome,1,EGFR,30 (30),0.177,1,0,,5 (6),1,1,0.484,0.736
+Pentose phosphate pathway - Homo sapiens (human),KEGG,1,RGN,30 (30),0.177,1,0,,25 (35),1,1,0.484,0.736
+Trafficking of AMPA receptors,Reactome,1,EPB41L1,30 (30),0.177,1,0,,5 (6),1,1,0.484,0.736
+Glutamate binding_ activation of AMPA receptors and synaptic plasticity,Reactome,1,EPB41L1,30 (30),0.177,1,0,,7 (8),1,1,0.484,0.736
+Glyoxylate and dicarboxylate metabolism - Homo sapiens (human),KEGG,1,ACSS2,30 (30),0.177,1,0,,46 (62),1,1,0.484,0.736
+Glycine_ serine_ alanine and threonine metabolism,EHMN,1,LDHD,78 (78),0.398,1,1,HMDB0000128,73 (88),0.45,1,0.488,0.741
+Ethanol effects on histone modifications,Wikipathways,1,ACSS2,31 (31),0.183,1,0,,16 (21),1,1,0.493,0.746
+Statin inhibition of cholesterol production,Wikipathways,1,APOA2,31 (31),0.183,1,0,,8 (17),1,1,0.493,0.746
+Galactose metabolism - Homo sapiens (human),KEGG,1,GCK,31 (31),0.183,1,0,,30 (46),1,1,0.493,0.746
+Metabolism of steroid hormones,Reactome,1,FDX1,31 (31),0.183,1,0,,33 (35),1,1,0.493,0.746
+Glycerophospholipid metabolism - Homo sapiens (human),KEGG,0,,98 (98),1,1,1,HMDB0010404,25 (55),0.184,1,0.495,0.747
+Valine Leucine Isoleucine degradation,INOH,1,ALDH7A1,32 (32),0.188,1,0,,36 (40),1,1,0.502,0.753
+Interconversion of nucleotide di- and triphosphates,Reactome,1,CTPS1,32 (32),0.188,1,0,,44 (52),1,1,0.502,0.753
+Osteopontin-mediated events,PID,1,GSN,32 (32),0.188,1,0,,4 (4),1,1,0.502,0.753
+Citrate cycle,INOH,1,PKLR,32 (32),0.188,1,0,,35 (35),1,1,0.502,0.753
+Glyoxylate metabolism and glycine degradation,Reactome,1,GNMT,32 (32),0.188,1,0,,32 (42),1,1,0.502,0.753
+Caspase-mediated cleavage of cytoskeletal proteins,Reactome,1,GSN,12 (12),0.075,0.755,0,,0 (0),1,1,0.075,0.755
+Platelet activation - Homo sapiens (human),KEGG,2,PPP1R12A;MYLK,124 (124),0.192,1,0,,14 (14),1,1,0.508,0.757
+Mammary gland development pathway - Pregnancy and lactation (Stage 3 of 4),Wikipathways,1,EGFR,33 (33),0.193,1,0,,2 (3),1,1,0.511,0.757
+Keratan sulfate/keratin metabolism,Reactome,1,HEXA,33 (33),0.193,1,0,,12 (19),1,1,0.511,0.757
+Tyrosine metabolism,INOH,1,COMT,33 (33),0.193,1,0,,43 (44),1,1,0.511,0.757
+EPO signaling pathway,PID,1,INPP5D,33 (33),0.193,1,0,,3 (3),1,1,0.511,0.757
+Fructose and mannose metabolism - Homo sapiens (human),KEGG,1,KHK,33 (33),0.193,1,0,,31 (54),1,1,0.511,0.757
+bioactive peptide induced signaling pathway,BioCarta,1,MYLK,33 (33),0.193,1,0,,3 (3),1,1,0.511,0.757
+role of egf receptor transactivation by gpcrs in cardiac hypertrophy,BioCarta,1,EGFR,33 (33),0.193,1,0,,3 (3),1,1,0.511,0.757
+Sialic acid metabolism,Reactome,1,NPL,33 (33),0.193,1,0,,18 (27),1,1,0.511,0.757
+Regulation of MECP2 expression and activity,Reactome,1,LBR,34 (34),0.198,1,0,,3 (3),1,1,0.519,0.769
+Apoptosis,Reactome,2,SEPTIN4;GSN,127 (127),0.199,1,0,,5 (8),1,1,0.52,0.769
+Purine metabolism - Homo sapiens (human),KEGG,2,PKLR;URAD,129 (130),0.203,1,0,,78 (95),1,1,0.527,0.772
+Vesicle-mediated transport,Reactome,2,EGFR;RAB32,617 (617),0.914,1,1,HMDB0010404,31 (66),0.223,1,0.527,0.772
+Nuclear Receptors in Lipid Metabolism and Toxicity,Wikipathways,1,CYP8B1,35 (35),0.204,1,0,,6 (12),1,1,0.528,0.772
+Vitamin D-sensitive calcium signaling in depression,Wikipathways,1,CYP27A1,35 (35),0.204,1,0,,13 (15),1,1,0.528,0.772
+Nicotinate and nicotinamide metabolism - Homo sapiens (human),KEGG,1,AOX1,35 (35),0.204,1,0,,32 (55),1,1,0.528,0.772
+Detoxification of Reactive Oxygen Species,Reactome,1,GPX7,35 (35),0.204,1,0,,20 (24),1,1,0.528,0.772
+Arf6 signaling events,PID,1,EGFR,35 (35),0.204,1,0,,4 (4),1,1,0.528,0.772
+angiotensin ii mediated activation of jnk pathway via pyk2 dependent signaling,BioCarta,1,EGFR,35 (35),0.204,1,0,,3 (3),1,1,0.528,0.772
+N-cadherin signaling events,PID,1,GSN,36 (36),0.209,1,0,,5 (5),1,1,0.536,0.779
+Trk receptor signaling mediated by PI3K and PLC-gamma,PID,1,EPB41L1,36 (36),0.209,1,0,,3 (3),1,1,0.536,0.779
+African trypanosomiasis - Homo sapiens (human),KEGG,1,IDO2,36 (37),0.209,1,0,,8 (8),1,1,0.536,0.779
+Citalopram Action Pathway,SMPDB,1,AOX1,36 (36),0.209,1,0,,26 (27),1,1,0.536,0.779
+Nicotine Action Pathway,SMPDB,1,AOX1,36 (36),0.209,1,0,,29 (31),1,1,0.536,0.779
+Vascular smooth muscle contraction - Homo sapiens (human),KEGG,2,PPP1R12A;MYLK,133 (133),0.213,1,0,,15 (16),1,1,0.542,0.786
+GMCSF-mediated signaling events,PID,1,INPP5D,37 (37),0.214,1,0,,2 (2),1,1,0.544,0.786
+trefoil factors initiate mucosal healing,BioCarta,1,EGFR,37 (37),0.214,1,0,,2 (2),1,1,0.544,0.786
+RHOH GTPase cycle,Reactome,1,NIPSNAP2,37 (37),0.214,1,0,,1 (1),1,1,0.544,0.786
+Glutaminolysis and Cancer,SMPDB,1,ME1,37 (37),0.214,1,0,,42 (44),1,1,0.544,0.786
+B cell receptor signaling,INOH,2,PSMB10;IGHM,134 (134),0.215,1,0,,6 (7),1,1,0.546,0.788
+Transmission across Chemical Synapses,Reactome,3,COMT;ABAT;EPB41L1,249 (249),0.219,1,0,,69 (78),1,1,0.551,0.794
+Signaling events mediated by TCPTP,PID,1,EGFR,38 (38),0.219,1,0,,1 (1),1,1,0.552,0.794
+sphingomyelin metabolism/ceramide salvage,HumanCyc,0,,8 (8),1,1,1,HMDB0002183,31 (55),0.223,1,0.557,0.797
+superpathway of pyrimidine deoxyribonucleoside salvage,HumanCyc,0,,17 (17),1,1,1,HMDB0000273,31 (31),0.223,1,0.557,0.797
+triacylglycerol degradation,HumanCyc,0,,15 (15),1,1,1,HMDB0002183,31 (54),0.223,1,0.557,0.797
+pyrimidine deoxyribonucleosides salvage,HumanCyc,0,,5 (5),1,1,1,HMDB0000273,31 (31),0.223,1,0.557,0.797
+phospholipases,HumanCyc,0,,41 (41),1,1,1,HMDB0002183,31 (55),0.223,1,0.557,0.797
+Internalization of ErbB1,PID,1,EGFR,39 (39),0.224,1,0,,2 (2),1,1,0.559,0.798
+Smooth Muscle Contraction,Reactome,1,MYLK,39 (39),0.224,1,0,,9 (9),1,1,0.559,0.798
+Omega-3-Omega-6 FA synthesis,Wikipathways,1,ACSL1,14 (14),0.087,0.802,0,,0 (1),1,1,0.087,0.802
+Fluid shear stress and atherosclerosis - Homo sapiens (human),KEGG,2,GSTM3;GSTM4,139 (139),0.227,1,0,,8 (8),1,1,0.564,0.804
+Digestion,Reactome,0,,22 (22),1,1,1,HMDB0000036,32 (42),0.229,1,0.567,0.805
+Ferroptosis,Wikipathways,1,ACSL1,40 (40),0.229,1,0,,19 (29),1,1,0.567,0.805
+Interleukin-2 family signaling,Reactome,1,INPP5D,40 (40),0.229,1,0,,2 (2),1,1,0.567,0.805
+Glycerophospholipid metabolism,EHMN,1,ALDH7A1,136 (136),0.589,1,1,HMDB0010404,62 (95),0.398,1,0.574,0.812
+Aurora B signaling,PID,1,MYLK,41 (41),0.234,1,0,,2 (2),1,1,0.574,0.812
+Ferroptosis - Homo sapiens (human),KEGG,1,ACSL1,41 (41),0.234,1,0,,21 (31),1,1,0.574,0.812
+Metabolic reprogramming in colon cancer,Wikipathways,1,FASN,42 (42),0.239,1,0,,29 (35),1,1,0.581,0.819
+Porphyrin and chlorophyll metabolism - Homo sapiens (human),KEGG,1,UGT2A3,42 (42),0.239,1,0,,41 (143),1,1,0.581,0.819
+Stabilization and expansion of the E-cadherin adherens junction,PID,1,EGFR,42 (42),0.239,1,0,,3 (3),1,1,0.581,0.819
+Fc Epsilon Receptor I Signaling in Mast Cells,SMPDB,1,INPP5D,42 (42),0.239,1,0,,13 (13),1,1,0.581,0.819
+Class C/3 (Metabotropic glutamate/pheromone receptors),Reactome,0,,40 (40),1,1,1,HMDB0034927,34 (54),0.242,1,0.585,0.822
+p73 transcription factor network,PID,2,FASN;PEA15,79 (79),0.0928,0.827,0,,0 (0),1,1,0.0928,0.827
+ErbB receptor signaling network,PID,1,EGFR,15 (15),0.0929,0.827,0,,0 (0),1,1,0.0929,0.827
+Metabolism of RNA,Reactome,0,,583 (584),1,1,1,HMDB0001107,35 (77),0.248,1,0.593,0.83
+the visual cycle I (vertebrates),HumanCyc,0,,16 (16),1,1,1,HMDB0002183,35 (58),0.248,1,0.593,0.83
+Galactose metabolism,EHMN,1,SLC2A2,44 (44),0.249,1,0,,43 (47),1,1,0.595,0.83
+Signaling by NOTCH3,Reactome,1,EGFR,44 (44),0.249,1,0,,3 (3),1,1,0.595,0.83
+Interleukin-3_ Interleukin-5 and GM-CSF signaling,Reactome,1,INPP5D,44 (44),0.249,1,0,,2 (3),1,1,0.595,0.83
+PLK1 signaling events,PID,1,PPP1R12A,44 (44),0.249,1,0,,1 (1),1,1,0.595,0.83
+Urokinase-type plasminogen activator (uPA) and uPAR-mediated signaling,PID,1,EGFR,44 (44),0.249,1,0,,2 (2),1,1,0.595,0.83
+Phospholipid metabolism,Reactome,1,INPP5D,213 (213),0.752,1,1,HMDB0010404,50 (104),0.335,1,0.599,0.834
+Class I PI3K signaling events,PID,1,INPP5D,45 (45),0.254,1,0,,4 (4),1,1,0.602,0.834
+Integrin-linked kinase signaling,PID,1,PPP1R12A,45 (45),0.254,1,0,,3 (3),1,1,0.602,0.834
+RhoA signaling pathway,PID,1,PPP1R12A,45 (45),0.254,1,0,,1 (1),1,1,0.602,0.834
+Retinoid metabolism and transport,Reactome,1,APOA2,45 (45),0.254,1,0,,24 (37),1,1,0.602,0.834
+ATM Signaling Network in Development and Disease,Wikipathways,1,LBR,46 (46),0.259,1,0,,1 (1),1,1,0.609,0.841
+Signaling by MET,Reactome,1,HPN,46 (46),0.259,1,0,,7 (9),1,1,0.609,0.841
+Insulin Pathway,PID,1,INPP5D,46 (46),0.259,1,0,,5 (5),1,1,0.609,0.841
+sphingosine and sphingosine-1-phosphate metabolism,HumanCyc,0,,9 (9),1,1,1,HMDB0002183,37 (59),0.26,1,0.61,0.842
+Carbohydrate digestion and absorption - Homo sapiens (human),KEGG,1,SLC2A2,47 (47),0.264,1,0,,19 (27),1,1,0.615,0.842
+agrin in postsynaptic differentiation,BioCarta,1,EGFR,47 (47),0.264,1,0,,2 (2),1,1,0.615,0.842
+Mercaptopurine Action Pathway,SMPDB,1,AOX1,47 (47),0.264,1,0,,78 (84),1,1,0.615,0.842
+Azathioprine Action Pathway,SMPDB,1,AOX1,47 (47),0.264,1,0,,80 (86),1,1,0.615,0.842
+NR1H2 and NR1H3-mediated signaling,Reactome,1,FASN,47 (47),0.264,1,0,,3 (4),1,1,0.615,0.842
+Thioguanine Action Pathway,SMPDB,1,AOX1,47 (47),0.264,1,0,,79 (85),1,1,0.615,0.842
+GPCR ligand binding,Reactome,0,,476 (476),1,1,2,HMDB0034927;HMDB0002183,125 (168),0.266,1,0.619,0.846
+Signaling by EGFR,Reactome,1,EGFR,48 (48),0.268,1,0,,8 (9),1,1,0.621,0.849
+Phosphatidylinositol phosphate metabolism,EHMN,0,,93 (93),1,1,1,HMDB0011668,39 (48),0.272,1,0.626,0.853
+Biosynthesis of unsaturated fatty acids - Homo sapiens (human),KEGG,0,,27 (27),1,1,1,HMDB0002183,39 (74),0.272,1,0.626,0.853
+Xenobiotics,Reactome,0,,21 (21),1,1,1,HMDB0001860,39 (51),0.272,1,0.626,0.853
+Metabolism of fat-soluble vitamins,Reactome,1,APOA2,49 (49),0.273,1,0,,31 (49),1,1,0.628,0.853
+Asparagine N-linked glycosylation,Reactome,3,NPL;GFPT1;AMDHD2,283 (283),0.278,1,0,,65 (121),1,1,0.633,0.858
+Signaling by ERBB2,Reactome,1,EGFR,50 (50),0.278,1,0,,11 (15),1,1,0.634,0.858
+Chondroitin sulfate/dermatan sulfate metabolism,Reactome,1,HEXA,50 (50),0.278,1,0,,12 (24),1,1,0.634,0.858
+Neurotransmitter release cycle,Reactome,1,ABAT,50 (50),0.278,1,0,,41 (45),1,1,0.634,0.858
+TFAP2 (AP-2) family regulates transcription of growth factors and their receptors,Reactome,1,EGFR,16 (16),0.0988,0.86,0,,0 (0),1,1,0.0988,0.86
+G alpha (q) signalling events,Reactome,1,EGFR,221 (221),0.765,1,1,HMDB0002183,56 (64),0.367,1,0.637,0.862
+The citric acid (TCA) cycle and respiratory electron transport,Reactome,2,ATP5MC2;ME1,162 (162),0.282,1,0,,46 (59),1,1,0.64,0.862
+Inositol phosphate metabolism,Reactome,1,INPP5D,51 (51),0.282,1,0,,31 (44),1,1,0.64,0.862
+RHOD GTPase cycle,Reactome,1,LBR,51 (51),0.282,1,0,,4 (4),1,1,0.64,0.862
+Intrinsic Pathway for Apoptosis,Reactome,1,SEPTIN4,52 (52),0.287,1,0,,4 (5),1,1,0.645,0.866
+Signaling events mediated by PTP1B,PID,1,EGFR,52 (52),0.287,1,0,,1 (1),1,1,0.645,0.866
+Apoptotic execution phase,Reactome,1,GSN,52 (52),0.287,1,0,,2 (5),1,1,0.645,0.866
+Downstream TCR signaling,Reactome,1,INPP5D,52 (52),0.287,1,0,,6 (9),1,1,0.645,0.866
+Sensory processing of sound by inner hair cells of the cochlea,Reactome,1,EPB41L1,53 (53),0.292,1,0,,5 (6),1,1,0.651,0.868
+Posttranslational regulation of adherens junction stability and dissassembly,PID,1,EGFR,53 (53),0.292,1,0,,3 (3),1,1,0.651,0.868
+Synthesis of PIPs at the plasma membrane,Reactome,1,INPP5D,53 (53),0.292,1,0,,9 (17),1,1,0.651,0.868
+keratinocyte differentiation,BioCarta,1,EGFR,53 (53),0.292,1,0,,3 (3),1,1,0.651,0.868
+Pyruvate metabolism and Citric Acid (TCA) cycle,Reactome,1,ME1,53 (53),0.292,1,0,,38 (44),1,1,0.651,0.868
+cGMP-PKG signaling pathway - Homo sapiens (human),KEGG,2,PPP1R12A;MYLK,167 (167),0.294,1,0,,10 (10),1,1,0.654,0.872
+Signaling by PTK6,Reactome,1,EGFR,54 (54),0.296,1,0,,10 (10),1,1,0.657,0.873
+Signaling by Non-Receptor Tyrosine Kinases,Reactome,1,EGFR,54 (54),0.296,1,0,,10 (10),1,1,0.657,0.873
+Nucleotide salvage,Reactome,0,,23 (23),1,1,1,HMDB0000273,44 (45),0.301,1,0.663,0.879
+Thromboxane A2 receptor signaling,PID,1,EGFR,56 (56),0.306,1,0,,12 (12),1,1,0.668,0.884
+RHOJ GTPase cycle,Reactome,1,NIPSNAP2,56 (56),0.306,1,0,,4 (4),1,1,0.668,0.884
+Proximal tubule transport,Wikipathways,1,SLC2A2,57 (57),0.31,1,0,,16 (28),1,1,0.673,0.889
+Caspase Cascade in Apoptosis,PID,1,GSN,57 (57),0.31,1,0,,1 (2),1,1,0.673,0.889
+Signaling by ERBB4,Reactome,1,EGFR,58 (58),0.315,1,0,,7 (9),1,1,0.678,0.894
+Endometrial cancer - Homo sapiens (human),KEGG,1,EGFR,58 (58),0.315,1,0,,1 (1),1,1,0.678,0.894
+Glycerophospholipid biosynthesis,Reactome,0,,130 (130),1,1,1,HMDB0010404,47 (94),0.318,1,0.683,0.899
+SHP2 signaling,PID,1,EGFR,59 (59),0.319,1,0,,6 (6),1,1,0.683,0.899
+Lysine metabolism,EHMN,1,ALDH7A1,60 (60),0.323,1,0,,42 (53),1,1,0.688,0.904
+Oxidative phosphorylation,Wikipathways,1,ATP5MC2,61 (61),0.328,1,0,,5 (5),1,1,0.693,0.907
+Arachidonic acid metabolism - Homo sapiens (human),KEGG,1,GPX7,61 (61),0.328,1,0,,66 (75),1,1,0.693,0.907
+Coregulation of Androgen receptor activity,PID,1,GSN,61 (61),0.328,1,0,,2 (2),1,1,0.693,0.907
+Glycerolipid metabolism - Homo sapiens (human),KEGG,1,ALDH7A1,61 (61),0.328,1,0,,13 (38),1,1,0.693,0.907
+FOXO-mediated transcription,Reactome,1,GCK,62 (62),0.332,1,0,,10 (12),1,1,0.698,0.907
+TLR JNK,INOH,1,PSMB10,62 (62),0.332,1,0,,1 (1),1,1,0.698,0.907
+Fc-epsilon receptor I signaling in mast cells,PID,1,INPP5D,62 (62),0.332,1,0,,6 (8),1,1,0.698,0.907
+Endometrial cancer,Wikipathways,1,EGFR,63 (63),0.337,1,0,,1 (4),1,1,0.703,0.907
+Lysine degradation - Homo sapiens (human),KEGG,1,ALDH7A1,63 (63),0.337,1,0,,40 (50),1,1,0.703,0.907
+TLR p38,INOH,1,PSMB10,63 (63),0.337,1,0,,1 (1),1,1,0.703,0.907
+LPA receptor mediated events,PID,1,EGFR,63 (63),0.337,1,0,,5 (5),1,1,0.703,0.907
+Integrins in angiogenesis,PID,1,COL5A2,63 (63),0.337,1,0,,2 (2),1,1,0.703,0.907
+Vitamin B12 metabolism,Wikipathways,0,,51 (51),1,1,1,HMDB0001904,51 (61),0.34,1,0.707,0.907
+Transcriptional Regulation by MECP2,Reactome,1,LBR,64 (64),0.341,1,0,,3 (4),1,1,0.708,0.907
+Proteasome Degradation,Wikipathways,1,PSMB10,64 (64),0.341,1,0,,1 (1),1,1,0.708,0.907
+RAB geranylgeranylation,Reactome,1,RAB32,65 (65),0.345,1,0,,3 (3),1,1,0.712,0.907
+Mitochondrial protein import,Reactome,1,LDHD,65 (65),0.345,1,0,,4 (4),1,1,0.712,0.907
+Hyperprolinemia Type II,SMPDB,0,,20 (20),1,1,1,HMDB0000128,52 (52),0.346,1,0.713,0.907
+Ornithine Aminotransferase Deficiency (OAT Deficiency),SMPDB,0,,20 (20),1,1,1,HMDB0000128,52 (52),0.346,1,0.713,0.907
+Creatine deficiency_ guanidinoacetate methyltransferase deficiency,SMPDB,0,,20 (20),1,1,1,HMDB0000128,52 (52),0.346,1,0.713,0.907
+Prolidase Deficiency (PD),SMPDB,0,,20 (20),1,1,1,HMDB0000128,52 (52),0.346,1,0.713,0.907
+Arginine and Proline Metabolism,SMPDB,0,,20 (20),1,1,1,HMDB0000128,52 (52),0.346,1,0.713,0.907
+Arginine: Glycine Amidinotransferase Deficiency (AGAT Deficiency),SMPDB,0,,20 (20),1,1,1,HMDB0000128,52 (52),0.346,1,0.713,0.907
+Hyperornithinemia with gyrate atrophy (HOGA),SMPDB,0,,20 (20),1,1,1,HMDB0000128,52 (52),0.346,1,0.713,0.907
+L-arginine:glycine amidinotransferase deficiency,SMPDB,0,,20 (20),1,1,1,HMDB0000128,52 (52),0.346,1,0.713,0.907
+Hyperornithinemia-hyperammonemia-homocitrullinuria [HHH-syndrome],SMPDB,0,,20 (20),1,1,1,HMDB0000128,52 (52),0.346,1,0.713,0.907
+Guanidinoacetate Methyltransferase Deficiency (GAMT Deficiency),SMPDB,0,,20 (20),1,1,1,HMDB0000128,52 (52),0.346,1,0.713,0.907
+Prolinemia Type II,SMPDB,0,,20 (20),1,1,1,HMDB0000128,52 (52),0.346,1,0.713,0.907
+Hyperprolinemia Type I,SMPDB,0,,20 (20),1,1,1,HMDB0000128,52 (52),0.346,1,0.713,0.907
+Signaling by NOTCH,Reactome,2,EGFR;POFUT1,189 (190),0.347,1,0,,12 (13),1,1,0.714,0.907
+Collagen biosynthesis and modifying enzymes,Reactome,1,COL5A2,67 (67),0.354,1,0,,8 (10),1,1,0.721,0.912
+TCR signaling in na&#xef;ve CD4+ T cells,PID,1,INPP5D,67 (67),0.354,1,0,,4 (4),1,1,0.721,0.912
+Fc epsilon RI signaling pathway - Homo sapiens (human),KEGG,1,INPP5D,67 (68),0.354,1,0,,11 (11),1,1,0.721,0.912
+Regulation of insulin secretion,Reactome,1,SLC2A2,67 (67),0.354,1,0,,22 (26),1,1,0.721,0.912
+RAC1-PAK1-p38-MMP2 Pathway,Wikipathways,1,EGFR,68 (68),0.358,1,0,,1 (1),1,1,0.726,0.914
+BCR signaling pathway,PID,1,INPP5D,68 (68),0.358,1,0,,4 (4),1,1,0.726,0.914
+AMP-activated protein kinase (AMPK) signaling,Wikipathways,1,FASN,68 (68),0.358,1,0,,7 (7),1,1,0.726,0.914
+Sterol regulatory element-binding proteins (SREBP) signaling,Wikipathways,1,FASN,68 (68),0.358,1,0,,3 (5),1,1,0.726,0.914
+TLR NFkB,INOH,1,PSMB10,69 (69),0.362,1,0,,1 (1),1,1,0.73,0.917
+Adipocytokine signaling pathway - Homo sapiens (human),KEGG,1,ACSL1,69 (69),0.362,1,0,,3 (7),1,1,0.73,0.917
+superpathway of inositol phosphate compounds,HumanCyc,1,INPP5D,70 (70),0.366,1,0,,18 (26),1,1,0.734,0.919
+CD22 mediated BCR regulation,Reactome,1,IGHM,70 (70),0.366,1,0,,2 (3),1,1,0.734,0.919
+Epithelial cell signaling in Helicobacter pylori infection - Homo sapiens (human),KEGG,1,EGFR,70 (70),0.366,1,0,,5 (7),1,1,0.734,0.919
+Folate Metabolism,Wikipathways,0,,69 (69),1,1,1,HMDB0001904,56 (66),0.367,1,0.735,0.919
+Parkinson_s disease pathway,Wikipathways,1,SEPTIN5,71 (71),0.37,1,0,,3 (4),1,1,0.738,0.919
+Non-small cell lung cancer,Wikipathways,1,EGFR,72 (72),0.374,1,0,,5 (7),1,1,0.742,0.919
+Non-small cell lung cancer - Homo sapiens (human),KEGG,1,EGFR,72 (72),0.374,1,0,,6 (6),1,1,0.742,0.919
+Melanoma - Homo sapiens (human),KEGG,1,EGFR,72 (72),0.374,1,0,,1 (1),1,1,0.742,0.919
+Extra-nuclear estrogen signaling,Reactome,1,EGFR,73 (73),0.378,1,0,,22 (24),1,1,0.746,0.919
+Inositol phosphate metabolism - Homo sapiens (human),KEGG,1,INPP5D,73 (73),0.378,1,0,,25 (47),1,1,0.746,0.919
+TCR signaling,Reactome,1,INPP5D,73 (73),0.378,1,0,,7 (10),1,1,0.746,0.919
+Diabetic cardiomyopathy - Homo sapiens (human),KEGG,2,GFPT1;ATP5MC2,203 (203),0.38,1,0,,26 (39),1,1,0.747,0.919
+Head and Neck Squamous Cell Carcinoma,Wikipathways,1,EGFR,74 (74),0.383,1,0,,2 (4),1,1,0.75,0.919
+RHOC GTPase cycle,Reactome,1,LBR,74 (74),0.383,1,0,,4 (4),1,1,0.75,0.919
+RHOG GTPase cycle,Reactome,1,LBR,74 (74),0.383,1,0,,4 (4),1,1,0.75,0.919
+Proteoglycans in cancer - Homo sapiens (human),KEGG,2,PPP1R12A;EGFR,205 (205),0.384,1,0,,5 (7),1,1,0.752,0.919
+Glioma - Homo sapiens (human),KEGG,1,EGFR,75 (75),0.387,1,0,,4 (4),1,1,0.754,0.919
+Thyroid hormone synthesis - Homo sapiens (human),KEGG,1,GPX7,75 (75),0.387,1,0,,20 (21),1,1,0.754,0.919
+Gastric acid secretion - Homo sapiens (human),KEGG,1,MYLK,76 (76),0.391,1,0,,13 (14),1,1,0.758,0.919
+Pancreatic cancer - Homo sapiens (human),KEGG,1,EGFR,76 (76),0.391,1,0,,2 (2),1,1,0.758,0.919
+Nuclear Envelope (NE) Reassembly,Reactome,1,LBR,78 (78),0.398,1,0,,9 (12),1,1,0.765,0.919
+Constitutive Signaling by Aberrant PI3K in Cancer,Reactome,1,EGFR,79 (79),0.402,1,0,,5 (18),1,1,0.769,0.919
+B cell receptor signaling pathway - Homo sapiens (human),KEGG,1,INPP5D,80 (82),0.406,1,0,,4 (4),1,1,0.772,0.919
+Potential therapeutics for SARS,Reactome,1,COMT,80 (80),0.406,1,0,,1 (2),1,1,0.772,0.919
+Cell surface interactions at the vascular wall,Reactome,2,INPP5D;IGHM,215 (215),0.407,1,0,,9 (13),1,1,0.773,0.919
+Signaling events mediated by Hepatocyte Growth Factor Receptor (c-Met),PID,1,INPP5D,81 (81),0.41,1,0,,4 (4),1,1,0.776,0.919
+Rofecoxib Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,66 (72),0.417,1,0.782,0.919
+Lumiracoxib Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,66 (72),0.417,1,0.782,0.919
+Salicylate-sodium Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,66 (72),0.417,1,0.782,0.919
+Valdecoxib Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,66 (72),0.417,1,0.782,0.919
+Nabumetone Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,66 (72),0.417,1,0.782,0.919
+Bromfenac Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,66 (72),0.417,1,0.782,0.919
+Arachidonic Acid Metabolism,SMPDB,0,,30 (30),1,1,1,HMDB0010404,66 (71),0.417,1,0.782,0.919
+Leukotriene C4 Synthesis Deficiency,SMPDB,0,,30 (30),1,1,1,HMDB0010404,66 (71),0.417,1,0.782,0.919
+Flurbiprofen Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,66 (72),0.417,1,0.782,0.919
+Trisalicylate-choline Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,66 (71),0.417,1,0.782,0.919
+Nepafenac Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,66 (72),0.417,1,0.782,0.919
+Salsalate Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,66 (72),0.417,1,0.782,0.919
+Tiaprofenic Acid Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,66 (72),0.417,1,0.782,0.919
+Glioblastoma signaling pathways,Wikipathways,1,EGFR,83 (83),0.418,1,0,,1 (3),1,1,0.782,0.919
+EGFR Tyrosine Kinase Inhibitor Resistance,Wikipathways,1,EGFR,84 (84),0.422,1,0,,3 (5),1,1,0.786,0.919
+PI Metabolism,Reactome,1,INPP5D,84 (84),0.422,1,0,,15 (29),1,1,0.786,0.919
+Phenylbutazone Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,67 (72),0.422,1,0.786,0.919
+Piroxicam Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,67 (72),0.422,1,0.786,0.919
+Tenoxicam Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,67 (72),0.422,1,0.786,0.919
+Diclofenac Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,67 (72),0.422,1,0.786,0.919
+Antipyrine Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,67 (72),0.422,1,0.786,0.919
+Etodolac Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,67 (72),0.422,1,0.786,0.919
+Ketoprofen Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,67 (72),0.422,1,0.786,0.919
+Acetylsalicylic Acid Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,67 (72),0.422,1,0.786,0.919
+Diflunisal Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,67 (72),0.422,1,0.786,0.919
+Acetaminophen  Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,67 (72),0.422,1,0.786,0.919
+Sulindac Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,67 (72),0.422,1,0.786,0.919
+Ketorolac Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,67 (72),0.422,1,0.786,0.919
+Naproxen Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,67 (72),0.422,1,0.786,0.919
+Etoricoxib Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,67 (72),0.422,1,0.786,0.919
+Carprofen Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,67 (72),0.422,1,0.786,0.919
+Fenoprofen Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,67 (72),0.422,1,0.786,0.919
+Antrafenine Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,67 (72),0.422,1,0.786,0.919
+Magnesium salicylate Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,67 (72),0.422,1,0.786,0.919
+Lornoxicam Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,67 (72),0.422,1,0.786,0.919
+Tolmetin Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,67 (72),0.422,1,0.786,0.919
+Salicylic Acid Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,67 (72),0.422,1,0.786,0.919
+Oxaprozin Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,67 (72),0.422,1,0.786,0.919
+Indomethacin Action Pathway,SMPDB,0,,31 (31),1,1,1,HMDB0010404,67 (72),0.422,1,0.786,0.919
+Meloxicam Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,67 (72),0.422,1,0.786,0.919
+Suprofen Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,67 (72),0.422,1,0.786,0.919
+Mefenamic Acid Action Pathway,SMPDB,0,,30 (30),1,1,1,HMDB0010404,67 (72),0.422,1,0.786,0.919
+ErbB signaling pathway - Homo sapiens (human),KEGG,1,EGFR,85 (85),0.425,1,0,,4 (4),1,1,0.789,0.921
+RAC2 GTPase cycle,Reactome,1,LBR,85 (85),0.425,1,0,,4 (4),1,1,0.789,0.921
+Cristae formation,Reactome,1,ATP5MC2,18 (18),0.11,0.921,0,,0 (0),1,1,0.11,0.921
+Other glycan degradation - Homo sapiens (human),KEGG,1,HEXA,18 (18),0.11,0.921,0,,0 (0),1,1,0.11,0.921
+SREBF and miR33 in cholesterol and lipid homeostasis,Wikipathways,1,FASN,18 (18),0.11,0.921,0,,0 (0),1,1,0.11,0.921
+CXCR4-mediated signaling events,PID,1,INPP5D,86 (86),0.429,1,0,,4 (4),1,1,0.792,0.923
+Colorectal cancer - Homo sapiens (human),KEGG,1,EGFR,86 (86),0.429,1,0,,1 (1),1,1,0.792,0.923
+Pyrimidine metabolism,EHMN,0,,135 (135),1,1,1,HMDB0000273,69 (77),0.432,1,0.794,0.924
+Celecoxib Action Pathway,SMPDB,0,,36 (36),1,1,1,HMDB0010404,70 (76),0.436,1,0.798,0.925
+Protein-protein interactions at synapses,Reactome,1,EPB41L1,88 (88),0.437,1,0,,2 (2),1,1,0.798,0.925
+Regulation of PLK1 Activity at G2/M Transition,Reactome,1,PPP1R12A,88 (88),0.437,1,0,,5 (5),1,1,0.798,0.925
+Gap junction - Homo sapiens (human),KEGG,1,EGFR,88 (88),0.437,1,0,,10 (11),1,1,0.798,0.925
+Pancreatic adenocarcinoma pathway,Wikipathways,1,EGFR,89 (89),0.44,1,0,,1 (2),1,1,0.801,0.926
+PD-L1 expression and PD-1 checkpoint pathway in cancer - Homo sapiens (human),KEGG,1,EGFR,89 (89),0.44,1,0,,4 (4),1,1,0.801,0.926
+GABAergic synapse - Homo sapiens (human),KEGG,1,ABAT,89 (89),0.44,1,0,,9 (9),1,1,0.801,0.926
+Organelle biogenesis and maintenance,Reactome,2,ATP5MC2;ACSS2,231 (231),0.443,1,0,,13 (16),1,1,0.804,0.926
+Coronavirus disease - COVID-19 - Homo sapiens (human),KEGG,2,MBL2;EGFR,231 (232),0.443,1,0,,6 (10),1,1,0.804,0.926
+RAB GEFs exchange GTP for GDP on RABs,Reactome,1,RAB32,90 (90),0.444,1,0,,4 (4),1,1,0.804,0.926
+Thermogenesis - Homo sapiens (human),KEGG,2,ACSL1;ATP5MC2,232 (232),0.445,1,0,,19 (23),1,1,0.805,0.926
+Integration of energy metabolism,Reactome,1,SLC2A2,91 (91),0.447,1,0,,29 (34),1,1,0.807,0.926
+Collagen formation,Reactome,1,COL5A2,91 (91),0.447,1,0,,13 (16),1,1,0.807,0.926
+ErbB signaling pathway,Wikipathways,1,EGFR,92 (92),0.451,1,0,,4 (5),1,1,0.81,0.926
+Apoptosis Modulation and Signaling,Wikipathways,1,PEA15,92 (92),0.451,1,0,,1 (1),1,1,0.81,0.926
+RAF/MAP kinase cascade,Reactome,2,PEA15;EGFR,235 (235),0.452,1,0,,22 (36),1,1,0.811,0.926
+MAPK1/MAPK3 signaling,Reactome,2,PEA15;EGFR,236 (236),0.454,1,0,,22 (36),1,1,0.812,0.926
+Complement system,Wikipathways,1,MBL2,93 (93),0.455,1,0,,2 (5),1,1,0.813,0.926
+GnRH signaling pathway - Homo sapiens (human),KEGG,1,EGFR,93 (93),0.455,1,0,,6 (6),1,1,0.813,0.926
+TNF-alpha signaling pathway,Wikipathways,1,PYGL,93 (93),0.455,1,0,,2 (3),1,1,0.813,0.926
+Ibuprofen Action Pathway,SMPDB,0,,50 (50),1,1,1,HMDB0010404,74 (79),0.455,1,0.813,0.926
+Antigen activates B Cell Receptor (BCR) leading to generation of second messengers,Reactome,1,IGHM,94 (94),0.458,1,0,,5 (8),1,1,0.816,0.928
+RAC3 GTPase cycle,Reactome,1,LBR,94 (94),0.458,1,0,,6 (6),1,1,0.816,0.928
+Xenobiotics metabolism,EHMN,0,,51 (51),1,1,1,HMDB0060326,75 (93),0.459,1,0.817,0.928
+Calcium signaling pathway - Homo sapiens (human),KEGG,2,EGFR;MYLK,239 (240),0.46,1,0,,8 (11),1,1,0.817,0.928
+Creation of C4 and C2 activators,Reactome,1,MBL2,95 (95),0.462,1,0,,3 (10),1,1,0.819,0.928
+RHO GTPases activate PKNs,Reactome,1,PPP1R12A,96 (97),0.465,1,0,,14 (15),1,1,0.821,0.93
+Neuronal System,Reactome,3,COMT;ABAT;EPB41L1,391 (391),0.467,1,0,,69 (78),1,1,0.822,0.931
+Phosphatidylinositol signaling system - Homo sapiens (human),KEGG,1,INPP5D,97 (97),0.469,1,0,,19 (29),1,1,0.824,0.931
+Prostate cancer - Homo sapiens (human),KEGG,1,EGFR,97 (97),0.469,1,0,,11 (11),1,1,0.824,0.931
+Cellular response to chemical stress,Reactome,1,GPX7,99 (99),0.476,1,0,,33 (41),1,1,0.829,0.935
+CD4 T cell receptor signaling-NFkB cascade,INOH,1,PSMB10,99 (99),0.476,1,0,,3 (4),1,1,0.829,0.935
+PI5P_ PP2A and IER3 Regulate PI3K/AKT Signaling,Reactome,1,EGFR,100 (100),0.479,1,0,,7 (12),1,1,0.832,0.936
+Parkinson disease - Homo sapiens (human),KEGG,2,ATP5MC2;SEPTIN5,249 (249),0.482,1,0,,19 (21),1,1,0.833,0.937
+Amoebiasis - Homo sapiens (human),KEGG,1,SERPINB6,101 (102),0.482,1,0,,11 (13),1,1,0.834,0.937
+Initial triggering of complement,Reactome,1,MBL2,102 (102),0.486,1,0,,4 (11),1,1,0.837,0.939
+Protein digestion and absorption - Homo sapiens (human),KEGG,1,COL5A2,103 (103),0.489,1,0,,44 (47),1,1,0.839,0.939
+Visual phototransduction,Reactome,1,APOA2,103 (103),0.489,1,0,,48 (68),1,1,0.839,0.939
+Electron Transport Chain (OXPHOS system in mitochondria),Wikipathways,1,ATP5MC2,103 (103),0.489,1,0,,10 (12),1,1,0.839,0.939
+MicroRNAs in cardiomyocyte hypertrophy,Wikipathways,1,MYLK,104 (104),0.493,1,0,,3 (3),1,1,0.841,0.94
+Reproduction,Reactome,1,CD9,105 (106),0.496,1,0,,9 (11),1,1,0.844,0.94
+Cargo recognition for clathrin-mediated endocytosis,Reactome,1,EGFR,105 (105),0.496,1,0,,8 (10),1,1,0.844,0.94
+PI3K/AKT Signaling in Cancer,Reactome,1,EGFR,106 (106),0.499,1,0,,5 (21),1,1,0.846,0.94
+ErbB1 downstream signaling,PID,1,EGFR,106 (106),0.499,1,0,,7 (7),1,1,0.846,0.94
+Parathyroid hormone synthesis_ secretion and action - Homo sapiens (human),KEGG,1,EGFR,106 (106),0.499,1,0,,9 (10),1,1,0.846,0.94
+Post-translational protein phosphorylation,Reactome,1,APOA2,107 (107),0.502,1,0,,2 (2),1,1,0.848,0.94
+Pre-NOTCH Expression and Processing,Reactome,1,POFUT1,107 (108),0.502,1,0,,11 (12),1,1,0.848,0.94
+Purine nucleotides nucleosides metabolism,INOH,1,PKLR,107 (107),0.502,1,0,,77 (80),1,1,0.848,0.94
+Negative regulation of the PI3K/AKT network,Reactome,1,EGFR,107 (107),0.502,1,0,,8 (14),1,1,0.848,0.94
+Thermogenesis,Wikipathways,1,ACSL1,108 (108),0.506,1,0,,17 (25),1,1,0.85,0.942
+HIF-1 signaling pathway - Homo sapiens (human),KEGG,1,EGFR,109 (109),0.509,1,0,,13 (15),1,1,0.853,0.944
+SARS-CoV Infections,Reactome,1,COMT,111 (111),0.515,1,0,,13 (26),1,1,0.857,0.947
+Respiratory electron transport_ ATP synthesis by chemiosmotic coupling_ and heat production by uncoupling proteins.,Reactome,1,ATP5MC2,113 (113),0.522,1,0,,17 (25),1,1,0.861,0.951
+Class A/1 (Rhodopsin-like receptors),Reactome,0,,346 (346),1,1,1,HMDB0002183,90 (113),0.523,1,0.862,0.951
+MAPK family signaling cascades,Reactome,2,PEA15;EGFR,270 (270),0.525,1,0,,22 (36),1,1,0.863,0.951
+ESC Pluripotency Pathways,Wikipathways,1,EGFR,116 (116),0.531,1,0,,4 (5),1,1,0.867,0.954
+Rab regulation of trafficking,Reactome,1,RAB32,116 (116),0.531,1,0,,6 (6),1,1,0.867,0.954
+Spinal Cord Injury,Wikipathways,1,EGFR,117 (117),0.534,1,0,,5 (9),1,1,0.869,0.955
+Glycosaminoglycan metabolism,Reactome,1,HEXA,119 (119),0.54,1,0,,30 (60),1,1,0.873,0.958
+Fragile X Syndrome,Wikipathways,1,ABAT,119 (119),0.54,1,0,,3 (6),1,1,0.873,0.958
+AMPK signaling pathway - Homo sapiens (human),KEGG,1,FASN,120 (120),0.543,1,0,,17 (23),1,1,0.875,0.959
+Integrin,INOH,1,COL5A2,124 (124),0.555,1,0,,2 (2),1,1,0.882,0.965
+Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs),Reactome,1,APOA2,124 (124),0.555,1,0,,3 (3),1,1,0.882,0.965
+Signaling by the B Cell Receptor (BCR),Reactome,1,IGHM,126 (126),0.561,1,0,,10 (14),1,1,0.885,0.967
+Deubiquitination,Reactome,2,OGT;PSMB10,290 (290),0.564,1,0,,3 (10),1,1,0.887,0.968
+Lysosome - Homo sapiens (human),KEGG,1,HEXA,128 (128),0.566,1,0,,3 (4),1,1,0.888,0.969
+Relaxin signaling pathway - Homo sapiens (human),KEGG,1,EGFR,129 (129),0.569,1,0,,6 (6),1,1,0.89,0.97
+Signaling by Nuclear Receptors,Reactome,2,FASN;EGFR,294 (295),0.571,1,0,,42 (49),1,1,0.891,0.97
+Angiopoietin Like Protein 8 Regulatory Pathway,Wikipathways,1,FASN,131 (131),0.575,1,0,,5 (9),1,1,0.893,0.97
+Platelet degranulation ,Reactome,1,CD9,131 (131),0.575,1,0,,9 (9),1,1,0.893,0.97
+FoxO signaling pathway - Homo sapiens (human),KEGG,1,EGFR,131 (131),0.575,1,0,,4 (5),1,1,0.893,0.97
+CD4 T cell receptor signaling,INOH,1,PSMB10,132 (132),0.578,1,0,,6 (7),1,1,0.895,0.97
+Dopaminergic synapse - Homo sapiens (human),KEGG,1,COMT,132 (132),0.578,1,0,,12 (12),1,1,0.895,0.97
+Oxidative phosphorylation - Homo sapiens (human),KEGG,1,ATP5MC2,133 (133),0.58,1,0,,14 (16),1,1,0.896,0.97
+Response to elevated platelet cytosolic Ca2+,Reactome,1,CD9,136 (136),0.589,1,0,,10 (11),1,1,0.901,0.972
+Apoptosis - Homo sapiens (human),KEGG,1,SEPTIN4,136 (136),0.589,1,0,,4 (4),1,1,0.901,0.972
+Complement cascade,Reactome,1,MBL2,137 (137),0.591,1,0,,4 (12),1,1,0.902,0.972
+Apelin signaling pathway - Homo sapiens (human),KEGG,1,MYLK,137 (137),0.591,1,0,,8 (9),1,1,0.902,0.972
+Estrogen signaling pathway - Homo sapiens (human),KEGG,1,EGFR,137 (138),0.591,1,0,,8 (8),1,1,0.902,0.972
+Huntington disease - Homo sapiens (human),KEGG,2,GPX7;ATP5MC2,306 (306),0.593,1,0,,5 (6),1,1,0.903,0.972
+G2/M Transition,Reactome,1,PPP1R12A,138 (138),0.594,1,0,,8 (9),1,1,0.903,0.972
+Pathways of neurodegeneration - multiple diseases - Homo sapiens (human),KEGG,3,GPX7;ATP5MC2;SEPTIN5,475 (475),0.599,1,0,,20 (32),1,1,0.906,0.972
+Mitotic G2-G2/M phases,Reactome,1,PPP1R12A,140 (140),0.599,1,0,,8 (9),1,1,0.906,0.972
+JAK STAT pathway and regulation,INOH,2,PSMB10;EGFR,310 (310),0.6,1,0,,2 (2),1,1,0.907,0.972
+Clathrin-mediated endocytosis,Reactome,1,EGFR,142 (142),0.604,1,0,,12 (17),1,1,0.909,0.972
+Direct p53 effectors,PID,1,EGFR,142 (142),0.604,1,0,,1 (1),1,1,0.909,0.972
+HATs acetylate histones,Reactome,1,OGT,142 (142),0.604,1,0,,2 (2),1,1,0.909,0.972
+RHO GTPase Effectors,Reactome,2,PPP1R12A;MYLK,313 (314),0.605,1,0,,24 (29),1,1,0.909,0.972
+Male infertility,Wikipathways,1,PON1,145 (145),0.612,1,0,,4 (4),1,1,0.913,0.974
+Breast cancer - Homo sapiens (human),KEGG,1,EGFR,147 (147),0.617,1,0,,3 (3),1,1,0.915,0.975
+Phospholipase D signaling pathway - Homo sapiens (human),KEGG,1,EGFR,147 (148),0.617,1,0,,9 (11),1,1,0.915,0.975
+Gastric cancer - Homo sapiens (human),KEGG,1,EGFR,149 (149),0.622,1,0,,3 (4),1,1,0.917,0.976
+RHOA GTPase cycle,Reactome,1,LBR,149 (149),0.622,1,0,,4 (4),1,1,0.917,0.976
+Hepatitis B infection,Wikipathways,1,SLC10A1,152 (152),0.63,1,0,,1 (1),1,1,0.921,0.979
+Breast cancer pathway,Wikipathways,1,EGFR,154 (154),0.634,1,0,,4 (4),1,1,0.923,0.98
+Cushing syndrome - Homo sapiens (human),KEGG,1,EGFR,155 (155),0.637,1,0,,12 (13),1,1,0.924,0.98
+Hepatitis C - Homo sapiens (human),KEGG,1,EGFR,157 (157),0.642,1,0,,1 (2),1,1,0.926,0.982
+Hemostasis,Reactome,4,CD9;INPP5D;IGHM;SERPINB6,677 (677),0.645,1,0,,42 (67),1,1,0.928,0.982
+Sudden Infant Death Syndrome (SIDS) Susceptibility Pathways,Wikipathways,1,GCK,159 (159),0.646,1,0,,13 (15),1,1,0.928,0.982
+CDC42 GTPase cycle,Reactome,1,LBR,160 (160),0.649,1,0,,4 (4),1,1,0.929,0.982
+Hepatitis B - Homo sapiens (human),KEGG,1,SLC10A1,162 (162),0.653,1,0,,1 (1),1,1,0.931,0.983
+Signaling by Rho GTPases,Reactome,4,LBR;PPP1R12A;MYLK;NIPSNAP2,688 (689),0.658,1,0,,24 (29),1,1,0.933,0.984
+BMP Signaling Pathway in Eyelid Development,Wikipathways,1,EGFR,20 (20),0.122,0.988,0,,0 (0),1,1,0.122,0.988
+Protein processing in endoplasmic reticulum - Homo sapiens (human),KEGG,1,DNAJC10,170 (171),0.671,1,0,,1 (6),1,1,0.939,0.989
+Pathways in cancer - Homo sapiens (human),KEGG,3,EGFR;GSTM3;GSTM4,531 (531),0.674,1,0,,26 (31),1,1,0.94,0.989
+Signaling by Rho GTPases_ Miro GTPases and RHOBTB3,Reactome,4,LBR;PPP1R12A;MYLK;NIPSNAP2,704 (705),0.675,1,0,,24 (29),1,1,0.94,0.989
+Axon guidance,Reactome,2,SHTN1;EGFR,356 (356),0.675,1,0,,11 (17),1,1,0.94,0.989
+Muscle contraction,Reactome,1,MYLK,174 (174),0.68,1,0,,15 (16),1,1,0.942,0.989
+Amyotrophic lateral sclerosis - Homo sapiens (human),KEGG,2,GPX7;ATP5MC2,364 (364),0.687,1,0,,10 (14),1,1,0.945,0.991
+Ras signaling,Wikipathways,1,EGFR,184 (184),0.7,1,0,,7 (7),1,1,0.95,0.994
+Neurotransmitter receptors and postsynaptic signal transmission,Reactome,1,EPB41L1,185 (185),0.702,1,0,,21 (24),1,1,0.95,0.994
+RAC1 GTPase cycle,Reactome,1,LBR,185 (185),0.702,1,0,,6 (6),1,1,0.95,0.994
+VEGF,INOH,1,EGFR,188 (188),0.708,1,0,,3 (4),1,1,0.952,0.995
+Nervous system development,Reactome,2,SHTN1;EGFR,379 (379),0.709,1,0,,11 (17),1,1,0.953,0.995
+Mitotic Anaphase,Reactome,1,LBR,195 (195),0.721,1,0,,11 (14),1,1,0.957,0.997
+Mitotic Metaphase and Anaphase,Reactome,1,LBR,196 (196),0.723,1,0,,11 (14),1,1,0.957,0.997
+Infectious disease,Reactome,4,CD9;COMT;RNF213;EGFR,750 (750),0.723,1,0,,75 (127),1,1,0.958,0.997
+Sensory Perception,Reactome,3,APOA2;EPB41L1;GSN,585 (585),0.737,1,0,,49 (69),1,1,0.962,1
+Rap1 signaling pathway - Homo sapiens (human),KEGG,1,EGFR,210 (210),0.747,1,0,,5 (5),1,1,0.965,1
+Ub-specific processing proteases,Reactome,1,PSMB10,214 (214),0.754,1,0,,1 (2),1,1,0.967,1
+ESR-mediated signaling,Reactome,1,EGFR,216 (217),0.757,1,0,,27 (30),1,1,0.968,1
+cAMP signaling pathway - Homo sapiens (human),KEGG,1,PPP1R12A,216 (216),0.757,1,0,,22 (25),1,1,0.968,1
+PIP3 activates AKT signaling,Reactome,1,EGFR,218 (218),0.76,1,0,,15 (21),1,1,0.969,1
+Purine metabolism,EHMN,1,ATP5MC2,222 (222),0.766,1,0,,86 (94),1,1,0.97,1
+Human cytomegalovirus infection - Homo sapiens (human),KEGG,1,EGFR,225 (225),0.771,1,0,,5 (6),1,1,0.972,1
+Ras signaling pathway - Homo sapiens (human),KEGG,1,EGFR,232 (232),0.781,1,0,,7 (7),1,1,0.974,1
+RHO GTPase cycle,Reactome,2,LBR;NIPSNAP2,442 (442),0.785,1,0,,6 (6),1,1,0.975,1
+Neddylation,Reactome,1,PSMB10,236 (236),0.787,1,0,,4 (4),1,1,0.976,1
+Signaling by Interleukins,Reactome,1,INPP5D,240 (240),0.793,1,0,,4 (7),1,1,0.977,1
+MAPK Signaling Pathway,Wikipathways,1,EGFR,246 (246),0.801,1,0,,5 (5),1,1,0.979,1
+Shigellosis - Homo sapiens (human),KEGG,1,EGFR,246 (246),0.801,1,0,,9 (14),1,1,0.979,1
+Signaling by Receptor Tyrosine Kinases,Reactome,2,HPN;EGFR,464 (464),0.808,1,0,,35 (53),1,1,0.98,1
+Endocytosis - Homo sapiens (human),KEGG,1,EGFR,252 (252),0.808,1,0,,3 (6),1,1,0.98,1
+Intracellular signaling by second messengers,Reactome,1,EGFR,259 (259),0.817,1,0,,22 (28),1,1,0.982,1
+Platelet activation_ signaling and aggregation,Reactome,1,CD9,263 (263),0.822,1,0,,22 (28),1,1,0.983,1
+Antigen processing: Ubiquitination & Proteasome degradation,Reactome,1,RNF213,265 (265),0.824,1,0,,4 (5),1,1,0.984,1
+Innate Immune System,Reactome,5,MBL2;PYGL;VAT1;GSN;SERPINB6,1064 (1065),0.829,1,0,,57 (119),1,1,0.984,1
+Post-translational protein modification,Reactome,7,NPL;PSMB10;RAB32;APOA2;GFPT1;OGT;AMDHD2,1425 (1425),0.829,1,0,,96 (182),1,1,0.985,1
+Chromatin modifying enzymes,Reactome,1,OGT,271 (271),0.831,1,0,,15 (17),1,1,0.985,1
+Chromatin organization,Reactome,1,OGT,271 (271),0.831,1,0,,15 (17),1,1,0.985,1
+Prion disease - Homo sapiens (human),KEGG,1,ATP5MC2,273 (273),0.833,1,0,,5 (5),1,1,0.985,1
+Diseases of signal transduction by growth factor receptors and second messengers,Reactome,1,EGFR,274 (274),0.834,1,0,,18 (71),1,1,0.985,1
+Extracellular matrix organization,Reactome,1,COL5A2,287 (287),0.848,1,0,,21 (30),1,1,0.988,1
+Adaptive Immune System,Reactome,3,INPP5D;RNF213;IGHM,719 (719),0.852,1,0,,27 (51),1,1,0.988,1
+MAPK signaling pathway - Homo sapiens (human),KEGG,1,EGFR,294 (294),0.855,1,0,,5 (5),1,1,0.989,1
+Cell Cycle_ Mitotic,Reactome,2,LBR;PPP1R12A,523 (524),0.858,1,0,,34 (40),1,1,0.989,1
+Class I MHC mediated antigen processing & presentation,Reactome,1,RNF213,316 (316),0.875,1,0,,14 (21),1,1,0.992,1
+Human papillomavirus infection - Homo sapiens (human),KEGG,1,EGFR,331 (331),0.887,1,0,,3 (3),1,1,0.993,1
+PI3K-Akt signaling pathway,Wikipathways,1,EGFR,339 (340),0.893,1,0,,3 (4),1,1,0.994,1
+PI3K-Akt signaling pathway - Homo sapiens (human),KEGG,1,EGFR,353 (354),0.902,1,0,,3 (4),1,1,0.995,1
+Disease,Reactome,4,CD9;COMT;RNF213;EGFR,1029 (1029),0.909,1,0,,91 (198),1,1,0.996,1
+Alzheimer disease - Homo sapiens (human),KEGG,1,ATP5MC2,369 (369),0.912,1,0,,9 (16),1,1,0.996,1
+Cell Cycle,Reactome,2,LBR;PPP1R12A,621 (622),0.916,1,0,,35 (44),1,1,0.996,1
+Immune System,Reactome,8,RNF213;PYGL;IGHM;INPP5D;SERPINB6;GSN;MBL2;VAT1,1827 (1828),0.919,1,0,,65 (147),1,1,0.997,1
+M Phase,Reactome,1,LBR,382 (383),0.919,1,0,,22 (26),1,1,0.997,1
+Developmental Biology,Reactome,2,SHTN1;EGFR,676 (676),0.938,1,0,,20 (30),1,1,0.998,1
+Cytokine Signaling in Immune system,Reactome,1,INPP5D,471 (471),0.956,1,0,,9 (21),1,1,0.999,1
+Cellular responses to stress,Reactome,1,GPX7,553 (554),0.975,1,0,,55 (74),1,1,1,1
+Metabolism of proteins,Reactome,7,NPL;PSMB10;RAB32;APOA2;GFPT1;OGT;AMDHD2,1934 (1935),0.975,1,0,,131 (288),1,1,1,1
+Cellular responses to external stimuli,Reactome,1,GPX7,568 (569),0.977,1,0,,57 (76),1,1,1,1
+Generic Transcription Pathway,Reactome,3,LBR;EGFR;GCK,1177 (1178),0.985,1,0,,41 (55),1,1,1,1
+RNA Polymerase II Transcription,Reactome,3,LBR;EGFR;GCK,1306 (1307),0.993,1,0,,44 (62),1,1,1,1
+Gene expression (Transcription),Reactome,3,LBR;EGFR;GCK,1438 (1439),0.997,1,0,,49 (74),1,1,1,1
+Phosphatidylcholine catabolism,Wikipathways,0,,0 (0),1,1,2,HMDB0010404;HMDB0013461,6 (9),0.000907,1,0.000907,1
+Oligodendrocyte specification and differentiation_ leading to myelin components for CNS,Wikipathways,0,,0 (0),1,1,1,HMDB0013461,8 (11),0.0627,1,0.0627,1
+Pyrimidine metabolism and related diseases,Wikipathways,0,,0 (0),1,1,1,HMDB0000273,14 (37),0.107,1,0.107,1
+Biomarkers for pyrimidine metabolism disorders,Wikipathways,0,,0 (0),1,1,1,HMDB0000273,15 (34),0.114,1,0.114,1
+Hypothesized Pathways in Pathogenesis of Cardiovascular Disease,Wikipathways,1,ENG,25 (25),0.15,1,0,,0 (0),1,1,0.15,1
+Syndecan-3-mediated signaling events,PID,1,EGFR,26 (26),0.156,1,0,,0 (1),1,1,0.156,1
+ALK1 signaling events,PID,1,ENG,26 (26),0.156,1,0,,0 (0),1,1,0.156,1
+Interleukin receptor SHC signaling,Reactome,1,INPP5D,27 (27),0.161,1,0,,0 (0),1,1,0.161,1
+IL3-mediated signaling events,PID,1,INPP5D,28 (28),0.166,1,0,,0 (0),1,1,0.166,1
+NOTCH-Ncore,Signalink,1,POFUT1,28 (28),0.166,1,0,,0 (0),1,1,0.166,1
+Extracellular vesicle-mediated signaling in recipient cells,Wikipathways,1,EGFR,30 (30),0.177,1,0,,0 (0),1,1,0.177,1
+Hippo-Merlin Signaling Dysregulation,Wikipathways,2,PPP1R12A;EGFR,120 (120),0.182,1,0,,0 (0),1,1,0.182,1
+Apoptosis - multiple species - Homo sapiens (human),KEGG,1,SEPTIN4,32 (32),0.188,1,0,,0 (0),1,1,0.188,1
+Regulation of Glucokinase by Glucokinase Regulatory Protein,Reactome,1,GCK,32 (32),0.188,1,0,,0 (0),1,1,0.188,1
+Inflammatory Response Pathway,Wikipathways,1,IGHM,33 (33),0.193,1,0,,0 (0),1,1,0.193,1
+Urea cycle and metabolism of amino groups,Wikipathways,0,,0 (0),1,1,1,HMDB0000128,28 (32),0.203,1,0.203,1
+rac1 cell motility signaling pathway,BioCarta,1,MYLK,36 (36),0.209,1,0,,0 (0),1,1,0.209,1
+Apoptotic cleavage of cellular proteins,Reactome,1,GSN,38 (38),0.219,1,0,,0 (0),1,1,0.219,1
+Various types of N-glycan biosynthesis - Homo sapiens (human),KEGG,1,HEXA,39 (39),0.224,1,0,,0 (31),1,1,0.224,1
+Signaling events mediated by HDAC Class III,PID,1,ACSS2,39 (39),0.224,1,0,,0 (0),1,1,0.224,1
+Bladder cancer,Wikipathways,1,EGFR,40 (40),0.229,1,0,,0 (0),1,1,0.229,1
+Gastrin,NetPath,1,EGFR,41 (41),0.234,1,0,,0 (0),1,1,0.234,1
+Bladder cancer - Homo sapiens (human),KEGG,1,EGFR,41 (41),0.234,1,0,,0 (0),1,1,0.234,1
+Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors,Reactome,1,EGFR,41 (41),0.234,1,0,,0 (0),1,1,0.234,1
+Ectoderm Differentiation,Wikipathways,2,OGT;SERPINB6,142 (142),0.234,1,0,,0 (0),1,1,0.234,1
+AndrogenReceptor,NetPath,2,EGFR;GSN,142 (142),0.234,1,0,,0 (0),1,1,0.234,1
+miRNA targets in ECM and membrane receptors,Wikipathways,1,COL5A2,43 (43),0.244,1,0,,0 (0),1,1,0.244,1
+Syndecan-1-mediated signaling events,PID,1,COL5A2,43 (43),0.244,1,0,,0 (1),1,1,0.244,1
+Collagen chain trimerization,Reactome,1,COL5A2,44 (44),0.249,1,0,,0 (0),1,1,0.249,1
+RAGE,NetPath,1,EGFR,45 (45),0.254,1,0,,0 (0),1,1,0.254,1
+Aryl Hydrocarbon Receptor Netpath,Wikipathways,1,EGFR,46 (46),0.259,1,0,,0 (2),1,1,0.259,1
+Aryl Hydrocarbon Receptor Pathway,Wikipathways,1,EGFR,46 (46),0.259,1,0,,0 (1),1,1,0.259,1
+Envelope proteins and their potential roles in EDMD physiopathology,Wikipathways,1,LBR,46 (46),0.259,1,0,,0 (0),1,1,0.259,1
+Proteasome - Homo sapiens (human),KEGG,1,PSMB10,46 (46),0.259,1,0,,0 (0),1,1,0.259,1
+Validated transcriptional targets of deltaNp63 isoforms,PID,1,FASN,47 (47),0.264,1,0,,0 (0),1,1,0.264,1
+Exercise-induced Circadian Regulation,Wikipathways,1,GSTM3,48 (48),0.268,1,0,,0 (0),1,1,0.268,1
+IL-3 signaling pathway,Wikipathways,1,INPP5D,49 (49),0.273,1,0,,0 (0),1,1,0.273,1
+EGF-EGFR signaling pathway,Wikipathways,2,INPP5D;EGFR,162 (162),0.282,1,0,,0 (0),1,1,0.282,1
+JAK-STAT signaling pathway - Homo sapiens (human),KEGG,2,EGFR;AOX1,162 (162),0.282,1,0,,0 (0),1,1,0.282,1
+IL3,NetPath,1,INPP5D,51 (51),0.282,1,0,,0 (0),1,1,0.282,1
+Netrin-UNC5B signaling pathway,Wikipathways,1,INPP5D,52 (52),0.287,1,0,,0 (0),1,1,0.287,1
+hiv-1 nef: negative effector of fas and tnf,BioCarta,1,GSN,53 (53),0.292,1,0,,0 (0),1,1,0.292,1
+IL-4 signaling pathway,Wikipathways,1,INPP5D,54 (54),0.296,1,0,,0 (0),1,1,0.296,1
+TGF-beta Receptor Signaling,Wikipathways,1,ENG,55 (55),0.301,1,0,,0 (0),1,1,0.301,1
+Neurexins and neuroligins,Reactome,1,EPB41L1,57 (57),0.31,1,0,,0 (0),1,1,0.31,1
+mapkinase signaling pathway,BioCarta,1,GCK,57 (57),0.31,1,0,,0 (0),1,1,0.31,1
+Focal Adhesion-PI3K-Akt-mTOR-signaling pathway,Wikipathways,3,COL5A2;EGFR;SLC2A2,302 (302),0.311,1,0,,0 (2),1,1,0.311,1
+Notch,NetPath,1,POFUT1,58 (58),0.315,1,0,,0 (0),1,1,0.315,1
+TGF-beta receptor signaling in skeletal dysplasias,Wikipathways,1,ENG,59 (59),0.319,1,0,,0 (0),1,1,0.319,1
+Kit receptor signaling pathway,Wikipathways,1,INPP5D,59 (59),0.319,1,0,,0 (0),1,1,0.319,1
+IL-1 JNK,INOH,1,PSMB10,62 (62),0.332,1,0,,0 (0),1,1,0.332,1
+Leptin,NetPath,1,EGFR,62 (62),0.332,1,0,,0 (0),1,1,0.332,1
+IL4,NetPath,1,INPP5D,63 (63),0.337,1,0,,0 (0),1,1,0.337,1
+IL-1 NFkB,INOH,1,PSMB10,64 (64),0.341,1,0,,0 (0),1,1,0.341,1
+DroToll-like,INOH,1,PSMB10,65 (65),0.345,1,0,,0 (1),1,1,0.345,1
+IL4-mediated signaling events,PID,1,INPP5D,65 (65),0.345,1,0,,0 (0),1,1,0.345,1
+IL-1 p38,INOH,1,PSMB10,66 (66),0.349,1,0,,0 (0),1,1,0.349,1
+Beta1 integrin cell surface interactions,PID,1,COL5A2,66 (66),0.349,1,0,,0 (0),1,1,0.349,1
+AGE-RAGE pathway,Wikipathways,1,EGFR,66 (66),0.349,1,0,,0 (0),1,1,0.349,1
+TNF,INOH,1,PSMB10,67 (67),0.354,1,0,,0 (0),1,1,0.354,1
+Regulation of Telomerase,PID,1,EGFR,68 (68),0.358,1,0,,0 (0),1,1,0.358,1
+Prolactin,NetPath,1,EGFR,70 (70),0.366,1,0,,0 (0),1,1,0.366,1
+KitReceptor,NetPath,1,INPP5D,70 (70),0.366,1,0,,0 (0),1,1,0.366,1
+Adherens junction - Homo sapiens (human),KEGG,1,EGFR,71 (71),0.37,1,0,,0 (0),1,1,0.37,1
+Alpha6Beta4Integrin,NetPath,1,EGFR,71 (71),0.37,1,0,,0 (0),1,1,0.37,1
+Hedgehog,INOH,1,PSMB10,72 (72),0.374,1,0,,0 (0),1,1,0.374,1
+Parkin-Ubiquitin Proteasomal System pathway,Wikipathways,1,SEPTIN5,73 (73),0.378,1,0,,0 (0),1,1,0.378,1
+Viral carcinogenesis - Homo sapiens (human),KEGG,2,HPN;GSN,203 (204),0.38,1,0,,0 (0),1,1,0.38,1
+Neutrophil degranulation,Reactome,4,PYGL;VAT1;GSN;SERPINB6,486 (487),0.386,1,0,,0 (0),1,1,0.386,1
+Regulatory circuits of the STAT3 signaling pathway,Wikipathways,1,EGFR,78 (78),0.398,1,0,,0 (0),1,1,0.398,1
+Notch,INOH,1,PSMB10,78 (78),0.398,1,0,,0 (0),1,1,0.398,1
+Complement and coagulation cascades - Homo sapiens (human),KEGG,1,MBL2,85 (85),0.425,1,0,,0 (1),1,1,0.425,1
+Androgen receptor signaling pathway,Wikipathways,1,EGFR,89 (89),0.44,1,0,,0 (0),1,1,0.44,1
+TNFalpha,NetPath,2,PPP1R12A;EGFR,234 (234),0.449,1,0,,0 (0),1,1,0.449,1
+Staphylococcus aureus infection - Homo sapiens (human),KEGG,1,MBL2,94 (96),0.458,1,0,,0 (2),1,1,0.458,1
+Pathways Regulating Hippo Signaling,Wikipathways,1,EGFR,98 (98),0.472,1,0,,0 (0),1,1,0.472,1
+Hematopoietic cell lineage - Homo sapiens (human),KEGG,1,CD9,98 (99),0.472,1,0,,0 (0),1,1,0.472,1
+B Cell Receptor Signaling Pathway,Wikipathways,1,INPP5D,98 (98),0.472,1,0,,0 (0),1,1,0.472,1
+JAK-STAT-Core,Signalink,1,EGFR,104 (104),0.493,1,0,,0 (0),1,1,0.493,1
+EGF-Core,Signalink,1,EGFR,105 (105),0.496,1,0,,0 (0),1,1,0.496,1
+HCMV Early Events,Reactome,1,EGFR,109 (109),0.509,1,0,,0 (2),1,1,0.509,1
+HCMV Infection,Reactome,1,EGFR,113 (113),0.522,1,0,,0 (3),1,1,0.522,1
+Gastrin signaling pathway,Wikipathways,1,EGFR,114 (114),0.525,1,0,,0 (0),1,1,0.525,1
+TGF-beta super family signaling pathway canonical,INOH,1,PSMB10,115 (115),0.528,1,0,,0 (0),1,1,0.528,1
+Biochemical Pathways Part I,Wikipathways,0,,0 (0),1,1,4,HMDB0000036;HMDB0000128;HMDB0000273;HMDB0001290,465 (469),0.53,1,0.53,1
+Wnt Canonical,INOH,1,PSMB10,120 (120),0.543,1,0,,0 (0),1,1,0.543,1
+Wnt Mammals,INOH,1,PSMB10,120 (120),0.543,1,0,,0 (0),1,1,0.543,1
+BCR,NetPath,1,IGHM,129 (129),0.569,1,0,,0 (0),1,1,0.569,1
+Regulation of toll-like receptor signaling pathway,Wikipathways,1,MBL2,145 (145),0.612,1,0,,0 (2),1,1,0.612,1
+Non-alcoholic fatty liver disease - Homo sapiens (human),KEGG,1,PKLR,150 (150),0.625,1,0,,0 (2),1,1,0.625,1
+Phagosome - Homo sapiens (human),KEGG,1,MBL2,151 (152),0.627,1,0,,0 (1),1,1,0.627,1
+Nonalcoholic fatty liver disease,Wikipathways,1,PKLR,155 (155),0.637,1,0,,0 (4),1,1,0.637,1
+TGF_beta_Receptor,NetPath,1,ENG,173 (173),0.677,1,0,,0 (0),1,1,0.677,1
+Vitamin D Receptor Pathway,Wikipathways,1,CD9,184 (184),0.7,1,0,,0 (1),1,1,0.7,1
+IL-7 signaling,INOH,1,EGFR,185 (185),0.702,1,0,,0 (0),1,1,0.702,1
+EPO signaling,INOH,1,EGFR,186 (186),0.704,1,0,,0 (0),1,1,0.704,1
+TCR,NetPath,1,INPP5D,243 (244),0.797,1,0,,0 (0),1,1,0.797,1
+EGFR1,NetPath,2,EGFR;GSN,454 (455),0.798,1,0,,0 (0),1,1,0.798,1
+MicroRNAs in cancer - Homo sapiens (human),KEGG,1,EGFR,310 (310),0.87,1,0,,0 (0),1,1,0.87,1
+VEGFA-VEGFR2 Signaling Pathway,Wikipathways,1,ENG,433 (433),0.943,1,0,,0 (0),1,1,0.943,1
