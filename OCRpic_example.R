@@ -7,9 +7,9 @@ rm(list=ls())
 
 # devtools::load_all()
 
-pic_dir="dataset/hmdb_400 pic"
+pic_dir="D:/Desktop/LXRapp_shiny 2025-1-4/dataset/hmdb_400 pic"
 
-hmdb_id_name <- "dataset/nmr/Chenomx_hmdb_id.xlsx"
+hmdb_id_name <- "D:/Desktop/LXRapp_shiny 2025-1-4/dataset/nmr/Chenomx_hmdb_id.xlsx"
 
 OCRpic(pic_dir,hmdb_id_name)
 
