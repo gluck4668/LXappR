@@ -1,7 +1,7 @@
 Package: LXappR
 Type: Package
 Title: LXappR
-Version: 2.03
+Version: 2.10
 Author: Dr.Lin
 Maintainer: Dr.LIN <gluck4668@sina.com>
 Description: LXappR can be used for nmr analysis.

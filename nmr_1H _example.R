@@ -12,7 +12,7 @@ rm(list=ls())
 
 test_file <- "dataset/nmr/SAR.xlsx"
 
-lib_file <- c("Chenomx_400M","Chenomx_500M","Chenomx_600M")
+lib_file <- c("Chenomx_400M","hmdb_400M")
 
 # lib_file <- c("dataset/nmr/lib.xlsx","dataset/nmr/nmr_400M.rds")
 
