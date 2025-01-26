@@ -14,7 +14,7 @@ test_file <- "dataset/nmr/SAR.xlsx"
 
 lib_file <- c("Chenomx_400M","hmdb_400M")
 
-# lib_file <- c("dataset/nmr/lib.xlsx","dataset/nmr/nmr_400M.rds")
+# lib_file <- c("dataset/nmr/lib.xlsx")
 
 lib_select <- "standard"
 
